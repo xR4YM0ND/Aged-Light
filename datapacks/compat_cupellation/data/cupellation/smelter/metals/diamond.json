@@ -1,0 +1,23 @@
+{
+  "id": "cupellation:diamond",
+  "name": "metal.cupellation.diamond",
+  "required_temp": 1500,
+  "color": "20C3B3",
+  "cooled_color": "117179",
+  "texture": "cupellation:fluid/molten_netherite",
+  "density": 120,
+  "grades": {
+    "low": {
+      "min": 1500,
+      "max": 1650
+    },
+    "mid": {
+      "min": 1650,
+      "max": 1800
+    },
+    "high": {
+      "min": 1800,
+      "max": 1950
+    }
+  }
+}

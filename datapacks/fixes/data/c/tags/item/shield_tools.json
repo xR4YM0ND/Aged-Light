@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:shield",
+    "earlystage:wooden_shield",
+    "earth-and-water:spiked_shield"
+  ]
+}

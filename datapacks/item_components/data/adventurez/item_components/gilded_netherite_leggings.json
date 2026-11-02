@@ -1,0 +1,29 @@
+{
+  "targets": "environmentz:gilded_netherite_leggings",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "amount": 10.0,
+        "id": "minecraft:gilded_netherite_leggings_armor",
+        "operation": "add_value",
+        "slot": "legs"
+      },
+      {
+        "type": "minecraft:generic.armor_toughness",
+        "amount": 4.0,
+        "id": "minecraft:gilded_netherite_leggings_armor_toughness",
+        "operation": "add_value",
+        "slot": "legs"
+      },
+      {
+        "type": "minecraft:generic.knockback_resistance",
+        "amount": 2.0,
+        "id": "minecraft:gilded_netherite_leggings_knockback_resistance",
+        "operation": "add_value",
+        "slot": "legs"
+      }
+    ],
+    "minecraft:max_damage": 700
+  }
+}

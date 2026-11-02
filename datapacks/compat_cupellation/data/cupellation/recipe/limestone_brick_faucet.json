@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "d": {
+      "item": "meadow:limestone_brick_slab"
+    }
+  },
+  "pattern": [
+    "d d",
+    "ddd"
+  ],
+  "result": {
+    "count": 4,
+    "id": "cupellation:limestone_brick_faucet"
+  }
+}

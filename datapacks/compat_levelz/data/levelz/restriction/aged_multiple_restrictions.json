@@ -1,0 +1,243 @@
+{
+  "defense_magic_20": {
+    "replace": false,
+    "skills": {
+      "defense": 20,
+      "magic": 20
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "adventurez:gilded_netherite_helmet",
+      "adventurez:gilded_netherite_chestplate",
+      "adventurez:gilded_netherite_leggings",
+      "adventurez:gilded_netherite_boots"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "farming_magic_20": {
+    "replace": false,
+    "skills": {
+      "farming": 20,
+      "magic": 20
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "tide:midas_fishing_rod"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "farming_bartering_20": {
+    "replace": false,
+    "skills": {
+      "farming": 20,
+      "bartering": 20
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "tide:village_fishing_rod"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "farming_smithing_20": {
+    "replace": false,
+    "skills": {
+      "farming": 20,
+      "smithing": 20
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "tide:blazing_fishing_rod"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "farming_agility_20_15": {
+    "replace": false,
+    "skills": {
+      "farming": 20,
+      "agility": 15
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "tide:prismarine_fishing_rod"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "farming_technology_20_15": {
+    "replace": false,
+    "skills": {
+      "farming": 20,
+      "technology": 15
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "tide:echo_fishing_rod"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "farming_melee_6": {
+    "replace": false,
+    "skills": {
+      "farming": 6,
+      "melee": 6
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "farm_and_charm:pitchfork"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "farming_technology_10_6": {
+    "replace": false,
+    "skills": {
+      "farming": 10,
+      "technology": 6
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "farm_and_charm:supply_cart",
+      "farm_and_charm:plow",
+      "farm_and_charm:seeder"
+    ],
+    "entities": [
+      "farm_and_charm:cart",
+      "farm_and_charm:plow",
+      "farm_and_charm:seeder"
+    ],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "farming_technology_10": {
+    "replace": false,
+    "skills": {
+      "farming": 10,
+      "technology": 10
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "tide:twilight_hook",
+      "tide:fiery_hook",
+      "tide:permafrost_hook"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "farming_archery_5_8": {
+    "replace": false,
+    "skills": {
+      "farming": 5,
+      "archery": 8
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "lilis_lucky_lures:fishing_net"
+    ],
+    "entities": [],
+    "items": [
+      "lilis_lucky_lures:fishing_net"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "farming_magic_10": {
+    "replace": false,
+    "skills": {
+      "farming": 10,
+      "magic": 10
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "tide:void_hook"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "farming_smithing_10": {
+    "replace": false,
+    "skills": {
+      "farming": 10,
+      "smithing": 10
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "tide:lavaproof_hook"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "bartering_magic_20": {
+    "replace": false,
+    "skills": {
+      "bartering": 20,
+      "magic": 20
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "candlelight:gold_ring"
+    ],
+    "entities": [],
+    "items": [
+      "candlelight:gold_ring"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "bartering_technology_10": {
+    "replace": false,
+    "skills": {
+      "bartering": 10,
+      "technology": 10
+    },
+    "enchantments": {},
+    "blocks": [
+      "earlystage:redstone_sieve"
+    ],
+    "crafting": [
+      "earlystage:redstone_sieve"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "cupellation:quartz",
+  "name": "metal.cupellation.quartz",
+  "required_temp": 800,
+  "color": "E7E2DB",
+  "cooled_color": "877A72",
+  "texture": "cupellation:fluid/molten_copper",
+  "density": 25,
+  "grades": {
+    "low": {
+      "min": 800,
+      "max": 950
+    },
+    "mid": {
+      "min": 950,
+      "max": 1100
+    },
+    "high": {
+      "min": 1100,
+      "max": 1250
+    }
+  }
+}

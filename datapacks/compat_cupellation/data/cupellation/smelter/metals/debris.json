@@ -1,0 +1,24 @@
+{
+  "replace": true,
+  "id": "cupellation:debris",
+  "name": "metal.cupellation.debris",
+  "required_temp": 2000,
+  "color": "331810",
+  "cooled_color": "5D342C",
+  "texture": "cupellation:fluid/molten_debris",
+  "density": 220,
+  "grades": {
+    "low": {
+      "min": 2000,
+      "max": 2150
+    },
+    "mid": {
+      "min": 2150,
+      "max": 2300
+    },
+    "high": {
+      "min": 2300,
+      "max": 2450
+    }
+  }
+}

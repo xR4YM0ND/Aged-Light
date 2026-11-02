@@ -1,0 +1,12 @@
+{
+  "item": "cupellation:calcite_powder",
+  "from": {
+    "metal": "cupellation:amethyst",
+    "state": "slag"
+  },
+  "to": {
+    "metal": "cupellation:amethyst",
+    "state": "metal"
+  },
+  "amount_per_item": 50
+}

@@ -1,0 +1,2141 @@
+{
+  "constitution_3": {
+    "replace": false,
+    "skills": {
+      "constitution": 3
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "inmis:frayed_backpack",
+      "tide:fish_satchel"
+    ],
+    "entities": [],
+    "items": [
+      "inmis:frayed_backpack",
+      "tide:fish_satchel"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "constitution_6": {
+    "replace": false,
+    "skills": {
+      "constitution": 6
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "inmis:plated_backpack"
+    ],
+    "entities": [],
+    "items": [
+      "inmis:plated_backpack"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "constitution_9": {
+    "replace": false,
+    "skills": {
+      "constitution": 9
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "inmis:gilded_backpack"
+    ],
+    "entities": [],
+    "items": [
+      "inmis:gilded_backpack"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "constitution_12": {
+    "replace": false,
+    "skills": {
+      "constitution": 12
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "inmis:bejeweled_backpack"
+    ],
+    "entities": [],
+    "items": [
+      "inmis:bejeweled_backpack"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "constitution_15": {
+    "replace": false,
+    "skills": {
+      "constitution": 15
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "inmis:blazing_backpack"
+    ],
+    "entities": [],
+    "items": [
+      "inmis:blazing_backpack"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "constitution_18": {
+    "replace": false,
+    "skills": {
+      "constitution": 18
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "inmis:withered_backpack"
+    ],
+    "entities": [],
+    "items": [
+      "inmis:withered_backpack"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "constitution_20": {
+    "replace": false,
+    "skills": {
+      "constitution": 20
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "inmis:endless_backpack"
+    ],
+    "entities": [],
+    "items": [
+      "inmis:endless_backpack"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "melee_2": {
+    "replace": false,
+    "skills": {
+      "melee": 2
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "minecraft:stone_sword"
+    ],
+    "entities": [],
+    "items": [
+      "minecraft:stone_sword"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "melee_3": {
+    "replace": false,
+    "skills": {
+      "melee": 3
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "agedaddition:copper_sword"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "melee_6": {
+    "replace": false,
+    "skills": {
+      "melee": 6
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "minecraft:iron_sword"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "melee_9": {
+    "replace": false,
+    "skills": {
+      "melee": 9
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "earlystage:steel_sword"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "melee_12": {
+    "replace": false,
+    "skills": {
+      "melee": 12
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "minecraft:diamond_sword"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "melee_15": {
+    "replace": false,
+    "skills": {
+      "melee": 15
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "earlystage:damascus_steel_sword"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "melee_18": {
+    "replace": false,
+    "skills": {
+      "melee": 18
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "minecraft:netherite_sword"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "melee_20": {
+    "replace": false,
+    "skills": {
+      "melee": 20
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "minecraft:mace",
+      "earth-and-water:battle_axe",
+      "adventurez:gilded_netherite_sword"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "defense_1": {
+    "replace": false,
+    "skills": {
+      "defense": 1
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "minecraft:leather_helmet",
+      "minecraft:leather_chestplate",
+      "minecraft:leather_leggings",
+      "minecraft:leather_boots",
+      "minecraft:turtle_helmet"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "defense_3": {
+    "replace": false,
+    "skills": {
+      "defense": 3
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "agedaddition:copper_helmet",
+      "agedaddition:copper_chestplate",
+      "agedaddition:copper_leggings",
+      "agedaddition:copper_boots"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "defense_6": {
+    "replace": false,
+    "skills": {
+      "defense": 6
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "minecraft:iron_helmet",
+      "minecraft:iron_chestplate",
+      "minecraft:iron_leggings",
+      "minecraft:iron_boots",
+      "minecraft:chainmail_helmet",
+      "minecraft:chainmail_chestplate",
+      "minecraft:chainmail_leggings",
+      "minecraft:chainmail_boots",
+      "minecraft:shield"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "defense_9": {
+    "replace": false,
+    "skills": {
+      "defense": 9
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "earlystage:steel_helmet",
+      "earlystage:steel_chestplate",
+      "earlystage:steel_leggings",
+      "earlystage:steel_boots"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "defense_12": {
+    "replace": false,
+    "skills": {
+      "defense": 12
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "minecraft:diamond_helmet",
+      "minecraft:diamond_chestplate",
+      "minecraft:diamond_leggings",
+      "minecraft:diamond_boots"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "defense_15": {
+    "replace": false,
+    "skills": {
+      "defense": 15
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "earlystage:damascus_steel_helmet",
+      "earlystage:damascus_steel_chestplate",
+      "earlystage:damascus_steel_leggings",
+      "earlystage:damascus_steel_boots"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "defense_18": {
+    "replace": false,
+    "skills": {
+      "defense": 18
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "minecraft:netherite_helmet",
+      "minecraft:netherite_chestplate",
+      "minecraft:netherite_leggings",
+      "minecraft:netherite_boots"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "defense_19": {
+    "replace": false,
+    "skills": {
+      "defense": 19
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "earth-and-water:spiked_shield"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "archery_3": {
+    "replace": false,
+    "skills": {
+      "archery": 3
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "minecraft:bow"
+    ],
+    "entities": [],
+    "items": [
+      "minecraft:bow"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "archery_5": {
+    "replace": false,
+    "skills": {
+      "archery": 5
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "minecraft:crossbow"
+    ],
+    "entities": [],
+    "items": [
+      "minecraft:crossbow"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "archery_8": {
+    "replace": false,
+    "skills": {
+      "archery": 8
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "earth-and-water:whip"
+    ],
+    "entities": [],
+    "items": [
+      "earth-and-water:whip"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "archery_10": {
+    "replace": false,
+    "skills": {
+      "archery": 10
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "lilis_lucky_lures:spear"
+    ],
+    "entities": [],
+    "items": [
+      "lilis_lucky_lures:spear"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "archery_12": {
+    "replace": false,
+    "skills": {
+      "archery": 12
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "immersive_aircraft:heavy_crossbow"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "archery_15": {
+    "replace": false,
+    "skills": {
+      "archery": 15
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "tide:starlight_bow"
+    ],
+    "entities": [],
+    "items": [
+      "tide:starlight_bow"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "archery_18": {
+    "replace": false,
+    "skills": {
+      "archery": 18
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "minecraft:trident"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "archery_20": {
+    "replace": false,
+    "skills": {
+      "archery": 20
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "wildernature:blunderbuss"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "agility_4": {
+    "replace": false,
+    "skills": {
+      "agility": 4
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "dehydration:leather_flask"
+    ],
+    "entities": [],
+    "items": [
+      "dehydration:leather_flask"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "agility_8": {
+    "replace": false,
+    "skills": {
+      "agility": 8
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "dehydration:iron_leather_flask",
+      "yo_hooks:iron_grappling_hook"
+    ],
+    "entities": [],
+    "items": [
+      "dehydration:iron_leather_flask",
+      "yo_hooks:iron_grappling_hook"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "agility_12": {
+    "replace": false,
+    "skills": {
+      "agility": 12
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "dehydration:golden_leather_flask",
+      "yo_hooks:gold_grappling_hook"
+    ],
+    "entities": [],
+    "items": [
+      "dehydration:golden_leather_flask",
+      "yo_hooks:gold_grappling_hook"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "agility_16": {
+    "replace": false,
+    "skills": {
+      "agility": 16
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "dehydration:diamond_leather_flask",
+      "yo_hooks:diamond_grappling_hook"
+    ],
+    "entities": [],
+    "items": [
+      "dehydration:diamond_leather_flask",
+      "yo_hooks:diamond_grappling_hook"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "agility_20": {
+    "replace": false,
+    "skills": {
+      "agility": 20
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "dehydration:netherite_leather_flask",
+      "yo_hooks:netherite_grappling_hook"
+    ],
+    "entities": [],
+    "items": [
+      "dehydration:netherite_leather_flask",
+      "yo_hooks:netherite_grappling_hook"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "magic_1": {
+    "replace": false,
+    "skills": {
+      "magic": 1
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "tide:lucky_bait"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "magic_3": {
+    "replace": false,
+    "skills": {
+      "magic": 3
+    },
+    "enchantments": {},
+    "blocks": [
+      "minecraft:brewing_stand"
+    ],
+    "crafting": [
+      "minecraft:brewing_stand"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "magic_5": {
+    "replace": false,
+    "skills": {
+      "magic": 5
+    },
+    "enchantments": {},
+    "blocks": [
+      "herbalbrews:cauldron"
+    ],
+    "crafting": [
+      "herbalbrews:cauldron"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "magic_8": {
+    "replace": false,
+    "skills": {
+      "magic": 8
+    },
+    "enchantments": {},
+    "blocks": [
+      "minecraft:enchanting_table"
+    ],
+    "crafting": [
+      "minecraft:enchanting_table"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "magic_10": {
+    "replace": false,
+    "skills": {
+      "magic": 10
+    },
+    "enchantments": {},
+    "blocks": [
+      "minecraft:lodestone"
+    ],
+    "crafting": [
+      "minecraft:conduit",
+      "minecraft:lodestone"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "magic_12": {
+    "replace": false,
+    "skills": {
+      "magic": 12
+    },
+    "enchantments": {},
+    "blocks": [
+      "minecraft:ender_chest"
+    ],
+    "crafting": [
+      "minecraft:ender_chest",
+      "inmis:ender_pouch"
+    ],
+    "entities": [],
+    "items": [
+      "inmis:ender_pouch"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "magic_14": {
+    "replace": false,
+    "skills": {
+      "magic": 14
+    },
+    "enchantments": {},
+    "blocks": [
+      "additionz:chunk_loader",
+      "minecraft:respawn_anchor"
+    ],
+    "crafting": [
+      "additionz:chunk_loader",
+      "minecraft:respawn_anchor"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "magic_16": {
+    "replace": false,
+    "skills": {
+      "magic": 16
+    },
+    "enchantments": {},
+    "blocks": [
+      "lilis_lucky_lures:redstone_coil"
+    ],
+    "crafting": [
+      "lilis_lucky_lures:redstone_coil"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "magic_18": {
+    "replace": false,
+    "skills": {
+      "magic": 18
+    },
+    "enchantments": {},
+    "blocks": [
+      "minecraft:beacon"
+    ],
+    "crafting": [
+      "minecraft:beacon",
+      "minecraft:end_crystal"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "magic_20": {
+    "replace": false,
+    "skills": {
+      "magic": 20
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "tide:enchanted_pocket_watch",
+      "tide:dragonfin_boots"
+    ],
+    "entities": [],
+    "items": [
+      "tide:enchanted_pocket_watch",
+      "tide:dragonfin_boots"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "mining_1": {
+    "replace": false,
+    "skills": {
+      "mining": 1
+    },
+    "enchantments": {},
+    "blocks": [
+      "minecraft:stonecutter"
+    ],
+    "crafting": [
+      "minecraft:stone_pickaxe",
+      "agedaddition:stone_prospector_pick",
+      "minecraft:stone_shovel",
+      "minecraft:stonecutter"
+    ],
+    "entities": [],
+    "items": [
+      "minecraft:stone_pickaxe",
+      "agedaddition:stone_prospector_pick",
+      "minecraft:stone_shovel"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "mining_3": {
+    "replace": false,
+    "skills": {
+      "mining": 3
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "agedaddition:copper_pickaxe",
+      "miningz:copper_prospector_pick",
+      "agedaddition:copper_shovel"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "mining_6": {
+    "replace": false,
+    "skills": {
+      "mining": 6
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "minecraft:iron_pickaxe",
+      "miningz:iron_prospector_pick",
+      "minecraft:iron_shovel"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "mining_9": {
+    "replace": false,
+    "skills": {
+      "mining": 9
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "earlystage:steel_pickaxe",
+      "agedaddition:steel_prospector_pick",
+      "earlystage:steel_shovel"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "mining_12": {
+    "replace": false,
+    "skills": {
+      "mining": 12
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "minecraft:diamond_pickaxe",
+      "miningz:diamond_prospector_pick",
+      "minecraft:diamond_shovel"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "mining_15": {
+    "replace": false,
+    "skills": {
+      "mining": 15
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "earlystage:damascus_steel_pickaxe",
+      "agedaddition:damascus_steel_prospector_pick",
+      "earlystage:damascus_steel_shovel"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "mining_18": {
+    "replace": false,
+    "skills": {
+      "mining": 18
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "minecraft:netherite_pickaxe",
+      "miningz:netherite_prospector_pick",
+      "minecraft:netherite_shovel"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "mining_20": {
+    "replace": false,
+    "skills": {
+      "mining": 20
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "adventurez:gilded_netherite_pickaxe",
+      "agedaddition:gilded_netherite_prospector_pick",
+      "adventurez:gilded_netherite_shovel"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "smithing_1": {
+    "replace": false,
+    "skills": {
+      "smithing": 1
+    },
+    "enchantments": {},
+    "blocks": [
+      "minecraft:furnace"
+    ],
+    "crafting": [
+      "wildernature:flint_ammunition",
+      "minecraft:furnace"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "smithing_2": {
+    "replace": false,
+    "skills": {
+      "smithing": 2
+    },
+    "enchantments": {},
+    "blocks": [
+      "minecraft:blast_furnace"
+    ],
+    "crafting": [
+      "minecraft:blast_furnace"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "smithing_3": {
+    "replace": false,
+    "skills": {
+      "smithing": 3
+    },
+    "enchantments": {},
+    "blocks": [
+      "cupellation:white_brick_smelter"
+    ],
+    "crafting": [
+      "agedaddition:copper_sword",
+      "agedaddition:copper_pickaxe",
+      "miningz:copper_prospector_pick",
+      "agedaddition:copper_shovel",
+      "agedaddition:copper_axe",
+      "agedaddition:copper_hoe",
+      "farmz:copper_watering_can",
+      "brewery:copper_brewingstation",
+      "farm_and_charm:silo_copper"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "smithing_6": {
+    "replace": false,
+    "skills": {
+      "smithing": 6
+    },
+    "enchantments": {},
+    "blocks": [
+      "cupellation:limestone_brick_smelter"
+    ],
+    "crafting": [
+      "minecraft:iron_sword",
+      "minecraft:iron_pickaxe",
+      "miningz:iron_prospector_pick",
+      "minecraft:iron_shovel",
+      "minecraft:iron_axe",
+      "minecraft:iron_hoe",
+      "tide:iron_fishing_rod",
+      "farmz:iron_watering_can",
+      "farm_and_charm:pitchfork"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "smithing_9": {
+    "replace": false,
+    "skills": {
+      "smithing": 9
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "immersive_machinery:iron_drill",
+      "earlystage:steel_sword",
+      "earlystage:steel_pickaxe",
+      "agedaddition:steel_prospector_pick",
+      "earlystage:steel_shovel",
+      "earlystage:steel_axe",
+      "earlystage:steel_hoe",
+      "tide:golden_fishing_rod",
+      "farmz:golden_watering_can"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "smithing_12": {
+    "replace": false,
+    "skills": {
+      "smithing": 12
+    },
+    "enchantments": {},
+    "blocks": [
+      "cupellation:deepslate_brick_smelter"
+    ],
+    "crafting": [
+      "immersive_machinery:diamond_drill",
+      "wildernature:diamond_ammunition",
+      "minecraft:diamond_sword",
+      "minecraft:diamond_pickaxe",
+      "miningz:diamond_prospector_pick",
+      "minecraft:diamond_shovel",
+      "minecraft:diamond_axe",
+      "minecraft:diamond_hoe",
+      "tide:diamond_fishing_rod",
+      "farmz:diamond_watering_can"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "smithing_15": {
+    "replace": false,
+    "skills": {
+      "smithing": 15
+    },
+    "enchantments": {},
+    "blocks": [
+      "cupellation:red_nether_brick_smelter"
+    ],
+    "crafting": [
+      "earlystage:damascus_steel_sword",
+      "earlystage:damascus_steel_pickaxe",
+      "agedaddition:damascus_steel_prospector_pick",
+      "earlystage:damascus_steel_shovel",
+      "earlystage:damascus_steel_axe",
+      "earlystage:damascus_steel_hoe",
+      "tide:crystal_fishing_rod"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "smithing_18": {
+    "replace": false,
+    "skills": {
+      "smithing": 18
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "immersive_machinery:netherite_drill",
+      "minecraft:netherite_sword",
+      "minecraft:netherite_pickaxe",
+      "miningz:netherite_prospector_pick",
+      "minecraft:netherite_shovel",
+      "minecraft:netherite_axe",
+      "minecraft:netherite_hoe",
+      "tide:netherite_fishing_rod",
+      "farmz:netherite_watering_can",
+      "brewery:netherite_brewingstation"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "smithing_20": {
+    "replace": false,
+    "skills": {
+      "smithing": 20
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "minecraft:mace",
+      "earth-and-water:battle_axe",
+      "tide:midas_fishing_rod",
+      "adventurez:gilded_netherite_sword",
+      "adventurez:gilded_netherite_axe",
+      "adventurez:gilded_netherite_pickaxe",
+      "adventurez:gilded_netherite_shovel",
+      "adventurez:gilded_netherite_hoe",
+      "agedaddition:gilded_netherite_prospector_pick"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "farming_1": {
+    "replace": false,
+    "skills": {
+      "farming": 1
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "minecraft:stone_axe",
+      "minecraft:stone_hoe",
+      "tide:stone_fishing_rod",
+      "tide:fishing_line",
+      "tide:fishing_hook"
+    ],
+    "entities": [],
+    "items": [
+      "minecraft:stone_axe",
+      "minecraft:stone_hoe",
+      "tide:stone_fishing_rod"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "farming_2": {
+    "replace": false,
+    "skills": {
+      "farming": 2
+    },
+    "enchantments": {},
+    "blocks": [
+      "tide:angling_table"
+    ],
+    "crafting": [
+      "tide:angling_table",
+      "vinery:grapevine_pot"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "farming_3": {
+    "replace": false,
+    "skills": {
+      "farming": 3
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "tide:copper_line"
+    ],
+    "entities": [],
+    "items": [
+      "agedaddition:copper_axe",
+      "agedaddition:copper_hoe",
+      "farmz:copper_watering_can"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "farming_4": {
+    "replace": false,
+    "skills": {
+      "farming": 4
+    },
+    "enchantments": {},
+    "blocks": [
+      "brewery:wooden_brewingstation",
+      "brewery:barrel_main",
+      "farm_and_charm:silo_wood",
+      "vinery:apple_press"
+    ],
+    "crafting": [
+      "brewery:barrel_main",
+      "farm_and_charm:silo_wood",
+      "vinery:apple_press",
+      "farm_and_charm:feeding_trough"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "farming_6": {
+    "replace": false,
+    "skills": {
+      "farming": 6
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "tide:iron_line"
+    ],
+    "entities": [],
+    "items": [
+      "minecraft:iron_axe",
+      "minecraft:iron_hoe",
+      "tide:iron_fishing_rod",
+      "farmz:iron_watering_can"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "farming_8": {
+    "replace": false,
+    "skills": {
+      "farming": 8
+    },
+    "enchantments": {},
+    "blocks": [
+      "vinery:fermentation_barrel"
+    ],
+    "crafting": [
+      "tide:bait",
+      "tide:incandescent_bait",
+      "tide:abyss_bait",
+      "vinery:fermentation_barrel",
+      "farm_and_charm:chicken_coop"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "farming_9": {
+    "replace": false,
+    "skills": {
+      "farming": 9
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "tide:golden_line"
+    ],
+    "entities": [],
+    "items": [
+      "earlystage:steel_axe",
+      "earlystage:steel_hoe",
+      "tide:golden_fishing_rod",
+      "farmz:golden_watering_can"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "farming_10": {
+    "replace": false,
+    "skills": {
+      "farming": 10
+    },
+    "enchantments": {},
+    "blocks": [
+      "meadow:cheese_form"
+    ],
+    "crafting": [
+      "farmz:sprinkler",
+      "meadow:cheese_form"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "farming_11": {
+    "replace": false,
+    "skills": {
+      "farming": 11
+    },
+    "enchantments": {},
+    "blocks": [
+      "brewery:copper_brewingstation",
+      "farm_and_charm:silo_copper"
+    ],
+    "crafting": [
+      "farm_and_charm:cattlegrid"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "farming_12": {
+    "replace": false,
+    "skills": {
+      "farming": 12
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "tide:diamond_line"
+    ],
+    "entities": [],
+    "items": [
+      "minecraft:diamond_axe",
+      "minecraft:diamond_hoe",
+      "tide:diamond_fishing_rod",
+      "farmz:diamond_watering_can"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "farming_15": {
+    "replace": false,
+    "skills": {
+      "farming": 15
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "earlystage:damascus_steel_axe",
+      "earlystage:damascus_steel_hoe",
+      "tide:crystal_fishing_rod"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "farming_16": {
+    "replace": false,
+    "skills": {
+      "farming": 16
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "farm_and_charm:water_sprinkler"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "farming_18": {
+    "replace": false,
+    "skills": {
+      "farming": 18
+    },
+    "enchantments": {},
+    "blocks": [
+      "brewery:netherite_brewingstation"
+    ],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "minecraft:netherite_axe",
+      "minecraft:netherite_hoe",
+      "tide:netherite_fishing_rod",
+      "farmz:netherite_watering_can"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "farming_20": {
+    "replace": false,
+    "skills": {
+      "farming": 18
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "adventurez:gilded_netherite_axe",
+      "adventurez:gilded_netherite_hoe"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "cooking_1": {
+    "replace": false,
+    "skills": {
+      "cooking": 1
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "bakery:rolling_pin",
+      "farm_and_charm:cutting_board"
+    ],
+    "entities": [],
+    "items": [
+      "bakery:rolling_pin"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "cooking_2": {
+    "replace": false,
+    "skills": {
+      "cooking": 2
+    },
+    "enchantments": {},
+    "blocks": [
+      "farm_and_charm:crafting_bowl"
+    ],
+    "crafting": [
+      "farm_and_charm:crafting_bowl"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "cooking_3": {
+    "replace": false,
+    "skills": {
+      "cooking": 2
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "dehydration:copper_cauldron",
+      "dehydration:campfire_cauldron"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "cooking_4": {
+    "replace": false,
+    "skills": {
+      "cooking": 4
+    },
+    "enchantments": {},
+    "blocks": [
+      "farm_and_charm:mincer"
+    ],
+    "crafting": [
+      "farm_and_charm:mincer"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "cooking_5": {
+    "replace": false,
+    "skills": {
+      "cooking": 5
+    },
+    "enchantments": {},
+    "blocks": [
+      "environmentz:copper_heater"
+    ],
+    "crafting": [
+      "environmentz:copper_heater"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "cooking_6": {
+    "replace": false,
+    "skills": {
+      "cooking": 6
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "farm_and_charm:iron_cleaver",
+      "bakery:bread_knife"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "cooking_7": {
+    "replace": false,
+    "skills": {
+      "cooking": 7
+    },
+    "enchantments": {},
+    "blocks": [
+      "herbalbrews:copper_tea_kettle"
+    ],
+    "crafting": [
+      "herbalbrews:copper_tea_kettle"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "cooking_8": {
+    "replace": false,
+    "skills": {
+      "cooking": 8
+    },
+    "enchantments": {},
+    "blocks": [
+      "bakery:small_cooking_pot"
+    ],
+    "crafting": [
+      "bakery:small_cooking_pot"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "cooking_9": {
+    "replace": false,
+    "skills": {
+      "cooking": 9
+    },
+    "enchantments": {},
+    "blocks": [
+      "meadow:cookpot",
+      "meadow:cooking_frame"
+    ],
+    "crafting": [
+      "meadow:cookpot",
+      "meadow:cooking_frame"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "cooking_10": {
+    "replace": false,
+    "skills": {
+      "cooking": 10
+    },
+    "enchantments": {},
+    "blocks": [
+      "farm_and_charm:cooking_pot"
+    ],
+    "crafting": [
+      "farm_and_charm:cooking_pot"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "cooking_12": {
+    "replace": false,
+    "skills": {
+      "cooking": 12
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "farm_and_charm:diamond_cleaver"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "cooking_13": {
+    "replace": false,
+    "skills": {
+      "cooking": 13
+    },
+    "enchantments": {},
+    "blocks": [
+      "herbalbrews:tea_kettle"
+    ],
+    "crafting": [
+      "herbalbrews:tea_kettle"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "cooking_14": {
+    "replace": false,
+    "skills": {
+      "cooking": 14
+    },
+    "enchantments": {},
+    "blocks": [
+      "meadow:fondue_pot",
+      "candlelight:cooking_pot",
+      "candlelight:cooking_pan"
+    ],
+    "crafting": [
+      "meadow:fondue_pot",
+      "candlelight:cooking_pot",
+      "candlelight:cooking_pan"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "cooking_15": {
+    "replace": false,
+    "skills": {
+      "cooking": 15
+    },
+    "enchantments": {},
+    "blocks": [
+      "farm_and_charm:roaster"
+    ],
+    "crafting": [
+      "farm_and_charm:roaster"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "cooking_18": {
+    "replace": false,
+    "skills": {
+      "cooking": 18
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [],
+    "entities": [],
+    "items": [
+      "farm_and_charm:netherite_cleaver"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "bartering_1": {
+    "replace": false,
+    "skills": {
+      "bartering": 1
+    },
+    "enchantments": {},
+    "blocks": [
+      "earlystage:sieve"
+    ],
+    "crafting": [
+      "earlystage:sieve"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "bartering_3": {
+    "replace": false,
+    "skills": {
+      "bartering": 3
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "minecraft:brush"
+    ],
+    "entities": [],
+    "items": [
+      "minecraft:brush"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "bartering_5": {
+    "replace": false,
+    "skills": {
+      "bartering": 5
+    },
+    "enchantments": {},
+    "blocks": [
+      "betterarcheology:archeology_table"
+    ],
+    "crafting": [
+      "betterarcheology:archeology_table"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "bartering_6": {
+    "replace": false,
+    "skills": {
+      "bartering": 6
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "betterarcheology:iron_brush"
+    ],
+    "entities": [],
+    "items": [
+      "betterarcheology:iron_brush"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "bartering_10": {
+    "replace": false,
+    "skills": {
+      "bartering": 10
+    },
+    "enchantments": {},
+    "blocks": [
+      "wildernature:bounty_board"
+    ],
+    "crafting": [
+      "wildernature:bounty_board"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "bartering_12": {
+    "replace": false,
+    "skills": {
+      "bartering": 12
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "betterarcheology:diamond_brush"
+    ],
+    "entities": [],
+    "items": [
+      "betterarcheology:diamond_brush"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "bartering_18": {
+    "replace": false,
+    "skills": {
+      "bartering": 18
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "betterarcheology:netherite_brush"
+    ],
+    "entities": [],
+    "items": [
+      "betterarcheology:netherite_brush"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "technology_1": {
+    "replace": false,
+    "skills": {
+      "technology": 1
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "minecraft:repeater",
+      "minecraft:comparator",
+      "immersive_aircraft:sail",
+      "smallships:cotton_sails",
+      "dehydration:rainwater_collector"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "technology_2": {
+    "replace": false,
+    "skills": {
+      "technology": 2
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "build_tools:trowel",
+      "build_tools:wrench",
+      "smallships:copper_plating"
+    ],
+    "entities": [],
+    "items": [
+      "build_tools:trowel",
+      "build_tools:wrench"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "technology_3": {
+    "replace": false,
+    "skills": {
+      "technology": 3
+    },
+    "enchantments": {},
+    "blocks": [
+      "minecraft:hopper"
+    ],
+    "crafting": [
+      "minecraft:hopper",
+      "immersive_aircraft:hull",
+      "smallships:iron_scantlings"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "technology_4": {
+    "replace": false,
+    "skills": {
+      "technology": 4
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "immersive_aircraft:industrial_gears",
+      "minecraft:target",
+      "immersive_machinery:redstone_mechanism"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "technology_5": {
+    "replace": false,
+    "skills": {
+      "technology": 5
+    },
+    "enchantments": {},
+    "blocks": [
+      "dehydration:bamboo_pump",
+      "minecraft:dropper",
+      "minecraft:dispenser"
+    ],
+    "crafting": [
+      "dehydration:bamboo_pump",
+      "minecraft:dropper",
+      "minecraft:dispenser",
+      "minecraft:piston",
+      "minecraft:sticky_piston",
+      "minecraft:spyglass"
+    ],
+    "entities": [],
+    "items": [
+      "minecraft:spyglass"
+    ],
+    "mining": [],
+    "components": {}
+  },
+  "technology_7": {
+    "replace": false,
+    "skills": {
+      "technology": 7
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "minecraft:rail",
+      "minecraft:detector_rail",
+      "minecraft:activator_rail",
+      "minecraft:powered_rail",
+      "minecraft:minecart",
+      "minecraft:chest_minecart",
+      "minecraft:furnace_minecart",
+      "minecraft:hopper_minecart",
+      "minecraft:tnt_minecart",
+      "minecraft:tnt",
+      "lilis_lucky_lures:dynamite"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "technology_8": {
+    "replace": false,
+    "skills": {
+      "technology": 8
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "immersive_aircraft:propeller",
+      "immersive_aircraft:sturdy_pipes",
+      "immersive_aircraft:boiler",
+      "immersive_aircraft:gyrodyne"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "technology_9": {
+    "replace": false,
+    "skills": {
+      "technology": 9
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "tide:pocket_watch",
+      "immersive_aircraft:gyroscope",
+      "tide:lunar_calendar",
+      "immersive_aircraft:telescope",
+      "tide:climate_gauge"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "technology_10": {
+    "replace": false,
+    "skills": {
+      "technology": 10
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "minecraft:observer",
+      "immersive_aircraft:quadrocopter",
+      "immersive_aircraft:airship",
+      "immersive_aircraft:engine",
+      "immersive_aircraft:improved_landing_gear"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "technology_11": {
+    "replace": false,
+    "skills": {
+      "technology": 11
+    },
+    "enchantments": {},
+    "blocks": [
+      "minecraft:crafter"
+    ],
+    "crafting": [
+      "minecraft:crafter",
+      "immersive_machinery:redstone_sheep"
+    ],
+    "entities": [
+      "immersive_machinery:redstone_sheep"
+    ],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "technology_12": {
+    "replace": false,
+    "skills": {
+      "technology": 12
+    },
+    "enchantments": {},
+    "blocks": [
+      "smallships:dockyard"
+    ],
+    "crafting": [
+      "smallships:dockyard"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "technology_13": {
+    "replace": false,
+    "skills": {
+      "technology": 13
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "immersive_aircraft:gyroscope_hud",
+      "immersive_aircraft:gyroscope_dials",
+      "tide:weather_radio"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "technology_14": {
+    "replace": false,
+    "skills": {
+      "technology": 14
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "immersive_aircraft:biplane",
+      "immersive_machinery:bamboo_bee",
+      "immersive_aircraft:hull_reinforcement"
+    ],
+    "entities": [
+      "immersive_machinery:bamboo_bee"
+    ],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "technology_15": {
+    "replace": false,
+    "skills": {
+      "technology": 15
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "immersive_machinery:copperfin",
+      "immersive_aircraft:enhanced_propeller",
+      "immersive_aircraft:steel_boiler"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "technology_16": {
+    "replace": false,
+    "skills": {
+      "technology": 16
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "immersive_aircraft:bomb_bay",
+      "immersive_aircraft:rotary_cannon",
+      "tide:magnetic_bait",
+      "tide:depth_meter"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "technology_17": {
+    "replace": false,
+    "skills": {
+      "technology": 17
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "immersive_aircraft:bamboo_hopper",
+      "immersive_aircraft:cargo_airship"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "technology_18": {
+    "replace": false,
+    "skills": {
+      "technology": 18
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "immersive_machinery:tunnel_digger",
+      "man_of_many_planes:economy_plane",
+      "immersive_aircraft:eco_engine"
+    ],
+    "entities": [
+      "immersive_machinery:tunnel_digger"
+    ],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "technology_19": {
+    "replace": false,
+    "skills": {
+      "technology": 19
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "immersive_aircraft:nether_engine"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
+  "technology_20": {
+    "replace": false,
+    "skills": {
+      "technology": 20
+    },
+    "enchantments": {},
+    "blocks": [],
+    "crafting": [
+      "man_of_many_planes:scarlet_biplane",
+      "immersive_aircraft:warship",
+      "tide:fish_finder"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  }
+}

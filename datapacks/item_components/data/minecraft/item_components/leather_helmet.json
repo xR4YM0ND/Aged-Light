@@ -4,7 +4,7 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:generic.armor",
-        "amount": 3.0,
+        "amount": 1.0,
         "id": "minecraft:leather_helmet_armor",
         "operation": "add_value",
         "slot": "head"
@@ -17,6 +17,6 @@
         "slot": "head"
       }
     ],
-    "minecraft:max_damage": 200
+    "minecraft:max_damage": 250
   }
 }

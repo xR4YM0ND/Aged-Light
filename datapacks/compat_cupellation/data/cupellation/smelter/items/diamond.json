@@ -1,0 +1,6 @@
+{
+  "item": "minecraft:diamond",
+  "metal_type": "cupellation:diamond",
+  "smelt_time": 200,
+  "yield": 144
+}

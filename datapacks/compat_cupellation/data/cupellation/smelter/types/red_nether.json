@@ -1,0 +1,27 @@
+{
+  "replace": true,
+  "id": "cupellation:nether_smelter",
+  "max_temperature": 2500,
+  "blocks": [
+    "minecraft:red_nether_bricks",
+    "cupellation:red_nether_brick_smelter",
+    "cupellation:red_nether_brick_glass",
+    "cupellation:red_nether_brick_drain"
+  ],
+  "allowed_metals": [
+    "cupellation:gold",
+    "cupellation:copper",
+    "cupellation:lapis",
+    "cupellation:quartz",
+    "cupellation:iron",
+    "cupellation:steel",
+    "cupellation:amethyst",
+    "cupellation:diamond",
+    "cupellation:emerald",
+    "cupellation:damascus",
+    "cupellation:damascus_base_melt",
+    "cupellation:netherite",
+    "cupellation:debris",
+    "cupellation:gilded_netherite"
+  ]
+}

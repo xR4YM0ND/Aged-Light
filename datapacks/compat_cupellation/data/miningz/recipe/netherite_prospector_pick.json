@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "agedaddition:netherite_prospector_head"
+  },
+  "base": {
+    "item": "agedaddition:damascus_steel_prospector_pick"
+  },
+  "result": {
+    "count": 1,
+    "id": "miningz:netherite_prospector_pick"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

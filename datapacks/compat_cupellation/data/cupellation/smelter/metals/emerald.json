@@ -1,0 +1,24 @@
+{
+  "id": "cupellation:emerald",
+  "name": "metal.cupellation.emerald",
+  "required_temp": 1600,
+  "color": "17DA61",
+  "cooled_color": "007A18",
+  "texture": "cupellation:fluid/molten_copper",
+  "block": "minecraft:emerald_block",
+  "density": 43,
+  "grades": {
+    "low": {
+      "min": 1600,
+      "max": 1750
+    },
+    "mid": {
+      "min": 1750,
+      "max": 1900
+    },
+    "high": {
+      "min": 1900,
+      "max": 2050
+    }
+  }
+}

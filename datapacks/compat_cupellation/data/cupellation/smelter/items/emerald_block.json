@@ -1,0 +1,6 @@
+{
+  "item": "minecraft:emerald_block",
+  "metal_type": "cupellation:emerald",
+  "smelt_time": 1800,
+  "yield": 1296
+}

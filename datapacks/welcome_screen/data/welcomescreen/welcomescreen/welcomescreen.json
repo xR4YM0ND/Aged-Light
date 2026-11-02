@@ -1,0 +1,154 @@
+{
+  "background": {
+    "texture": "minecraft:textures/block/andesite.png",
+    "brightness": 0.5
+  },
+  "elements": [
+    {
+      "scale": 1.8,
+      "shadow": true,
+      "anchor": "top_center",
+      "pivot": "top_center",
+      "y": 20,
+      "lines": [
+        "Welcome to the Aged Modpack!"
+      ],
+      "type": "text"
+    },
+    {
+      "action": "open_url",
+      "url": "https://discord.gg/WXdSYn4yHB",
+      "anchor": "bottom_left",
+      "pivot": "bottom_left",
+      "x": 10,
+      "y": -10,
+      "label": "Join our Discord",
+      "type": "button"
+    },
+    {
+      "shadow": true,
+      "anchor": "center",
+      "pivot": "center",
+      "x": 61,
+      "lines": [
+        {
+          "text": "First Steps:",
+          "underlined": true,
+          "bold": true
+        },
+        "",
+        {
+          "text": "",
+          "extra": [
+            "Pick up ",
+            {
+              "text": "rocks",
+              "color": "gray"
+            },
+            " & ",
+            {
+              "text": "flint",
+              "color": "gray"
+            },
+            " from the ground."
+          ]
+        },
+        {
+          "text": "",
+          "extra": [
+            "Combine 2 rocks to get a ",
+            {
+              "text": "crafting rock",
+              "color": "gray"
+            },
+            "."
+          ]
+        },
+        {
+          "text": "",
+          "extra": [
+            "Break ",
+            {
+              "text": "leaves",
+              "color": "gray"
+            },
+            " to get sticks."
+          ]
+        },
+        "",
+        {
+          "text": "",
+          "extra": [
+            "Place the ",
+            {
+              "text": "flint tool",
+              "color": "gray"
+            },
+            " recipes in the crafting rock"
+          ]
+        },
+        {
+          "text": "",
+          "extra": [
+            "and ",
+            {
+              "text": " hit it with a rock several times",
+              "color": "yellow"
+            },
+            "."
+          ]
+        },
+        "",
+        {
+          "text": "",
+          "extra": [
+            "Combine a seed or sapling with a book to get the ",
+            {
+              "text": "guide book",
+              "color": "light_purple"
+            },
+            "."
+          ]
+        },
+        "",
+        "Have fun playing and feel free to share your builds",
+        {
+          "text": "",
+          "extra": [
+            "at our ",
+            {
+              "text": "Discord",
+              "color": "dark_purple"
+            },
+            "!"
+          ]
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "anchor": "center",
+      "pivot": "center",
+      "x": -148,
+      "texture": "aged:textures/pack.png",
+      "width": 128,
+      "height": 128,
+      "type": "image"
+    },
+    {
+      "anchor": "center",
+      "pivot": "center",
+      "x": 60,
+      "y": 105,
+      "label": "Start",
+      "width": 60,
+      "type": "button"
+    }
+  ],
+  "commands": [
+    "item replace entity @s hotbar.0 with minecraft:bread 4",
+    "item replace entity @s hotbar.1 with minecraft:apple 4",
+    "item replace entity @s hotbar.4 with agedaddition:guide_book",
+    "item replace entity @s hotbar.8 with minecraft:campfire"
+  ]
+}

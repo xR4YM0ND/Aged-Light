@@ -1,0 +1,12 @@
+{
+  "item": "natures_spirit:chalk_powder",
+  "from": {
+    "metal": "cupellation:lapis",
+    "state": "slag"
+  },
+  "to": {
+    "metal": "cupellation:lapis",
+    "state": "metal"
+  },
+  "amount_per_item": 50
+}

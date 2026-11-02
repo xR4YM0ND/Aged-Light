@@ -1,0 +1,63 @@
+{
+	"icons": {
+		// client only
+		"carbohydrateItemId": "minecraft:sugar",
+		// client only
+		"proteinItemId": "minecraft:chicken",
+		// client only
+		"fatItemId": "minecraft:porkchop",
+		// client only
+		"vitaminItemId": "farm_and_charm:lettuce",
+		// client only
+		"mineralItemId": "meadow:alpine_salt"
+	},
+	"maxNutrition": 300,
+	"negativeNutrition": 30,
+	"positiveNutrition": 270,
+	// client only
+	"posX": 162,
+	// client only
+	"posY": 5,
+	"minecraftDefaultCompat": true,
+	"fd": {
+		"fdFarmersdelightDefaultCompat": false,
+		"fdMoredelightDefaultCompat": false,
+		"fdNaturesdelightDefaultCompat": false,
+		"fdOceansdelightDefaultCompat": false,
+		"fdUbesdelightDefaultCompat": false
+	},
+	"letsdo": {
+		"letsdoAlpineWhispersDefaultCompat": true,
+		"letsdoBakeryDefaultCompat": true,
+		"letsdoBeachpartyDefaultCompat": true,
+		"letsdoBreweryDefaultCompat": true,
+		"letsdoCandlelightDefaultCompat": true,
+		"letsdoCornexpansionDefaultCompat": false,
+		"letsdoFarmcharmDefaultCompat": true,
+		"letsdoHerbalbrewsDefaultCompat": true,
+		"letsdoLllDefaultCompat": true,
+		"letsdoMeadowDefaultCompat": true,
+		"letsdoVineryDefaultCompat": true,
+		"letsdoWildernatureDefaultCompat": true
+	},
+	"misc": {
+		"adventurezDefaultCompat": true,
+		"betterendDefaultCompat": false,
+		"betternetherDefaultCompat": false,
+		"croptopiaDefaultCompat": false,
+		"dehydrationDefaultCompat": true,
+		"dehydrationmeadowDefaultCompat": true,
+		"dehydrationvineryDefaultCompat": true,
+		"farmzDefaultCompat": true,
+		"farmzfarmcharmDefaultCompat": true,
+		"fishofthievesDefaultCompat": false,
+		"livingthingsDefaultCompat": false,
+		"naturesspiritDefaultCompat": true,
+		"rosegoldequipmentDefaultCompat": false,
+		"thebumblezoneDefaultCompat": false,
+		"tideDefaultCompat": true,
+		"untamedDefaultCompat": true,
+		"wilderwildDefaultCompat": false,
+		"yungsCaveBiomesDefaultCompat": true
+	}
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "cupellation:netherite_axe_head"
+  },
+  "base": {
+    "item": "earlystage:damascus_steel_axe"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:netherite_axe"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

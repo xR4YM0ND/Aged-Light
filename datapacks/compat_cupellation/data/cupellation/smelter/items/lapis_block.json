@@ -1,0 +1,6 @@
+{
+  "item": "minecraft:lapis_block",
+  "metal_type": "cupellation:lapis",
+  "smelt_time": 1800,
+  "yield": 1296
+}

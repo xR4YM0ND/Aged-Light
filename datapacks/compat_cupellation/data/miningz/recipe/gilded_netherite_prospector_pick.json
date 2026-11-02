@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "agedaddition:gilded_netherite_prospector_head"
+  },
+  "base": {
+    "item": "miningz:netherite_prospector_pick"
+  },
+  "result": {
+    "count": 1,
+    "id": "agedaddition:gilded_netherite_prospector_pick"
+  },
+  "template": {
+    "item": "adventurez:gilded_upgrade_smithing_template"
+  }
+}

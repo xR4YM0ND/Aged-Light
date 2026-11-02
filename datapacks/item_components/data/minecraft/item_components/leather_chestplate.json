@@ -17,6 +17,6 @@
         "slot": "chest"
       }
     ],
-    "minecraft:max_damage": 240
+    "minecraft:max_damage": 400
   }
 }

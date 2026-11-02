@@ -5,7 +5,7 @@
       {
         "type": "minecraft:player.mining_efficiency",
         "id": "minecraft:wooden_pickaxe_mining_efficiency",
-        "amount": 4.0,
+        "amount": 1.0,
         "operation": "add_value",
         "slot": "mainhand"
       },

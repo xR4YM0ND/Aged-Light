@@ -1,0 +1,40 @@
+{
+  "keys": {
+    "b": "minecraft:deepslate_bricks",
+    "s": "cupellation:deepslate_brick_smelter[facing=south]",
+    "d": "cupellation:deepslate_brick_drain",
+    "f": "cupellation:deepslate_brick_faucet[facing=east]",
+    "l": "cupellation:deepslate_brick_lever[facing=south]",
+    "t": "cupellation:deepslate_brick_casting_table",
+    "x": "cupellation:deepslate_brick_casting_basin"
+  },
+  "layers": [
+    [
+      "       ",
+      " bbbbb ",
+      " bbbbb ",
+      " bbbbbx",
+      " bbbbbt",
+      " bbbbb ",
+      "       "
+    ],
+    [
+      "       ",
+      " bbbbb ",
+      " b   b ",
+      " b   df",
+      " b   df",
+      " bbsbb ",
+      "    l  "
+    ],
+    [
+      "       ",
+      " bbbbb ",
+      " b   b ",
+      " b   b ",
+      " b   b ",
+      " bbbbb ",
+      "       "
+    ]
+  ]
+}

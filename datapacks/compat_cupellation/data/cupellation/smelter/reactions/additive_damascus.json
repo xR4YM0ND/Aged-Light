@@ -1,0 +1,16 @@
+{
+  "item": "agedaddition:coal_coke",
+  "from": {
+    "metal": "cupellation:damascus_base_melt",
+    "state": "metal"
+  },
+  "to": {
+    "metal": "cupellation:damascus_steel",
+    "state": "metal"
+  },
+  "amount_per_item": 36,
+  "min_temperature": 1700,
+  "smelter_types": [
+    "cupellation:deepslate_smelter"
+  ]
+}

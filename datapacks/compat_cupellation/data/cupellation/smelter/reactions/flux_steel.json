@@ -1,0 +1,12 @@
+{
+  "item": "minecraft:fire_charge",
+  "from": {
+    "metal": "cupellation:steel",
+    "state": "slag"
+  },
+  "to": {
+    "metal": "cupellation:steel",
+    "state": "metal"
+  },
+  "amount_per_item": 50
+}

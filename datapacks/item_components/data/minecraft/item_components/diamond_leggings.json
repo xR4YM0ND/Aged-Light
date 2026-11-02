@@ -4,7 +4,7 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:generic.armor",
-        "amount": 5.0,
+        "amount": 7.0,
         "id": "minecraft:diamond_leggings_armor",
         "operation": "add_value",
         "slot": "legs"
@@ -17,6 +17,6 @@
         "slot": "legs"
       }
     ],
-    "minecraft:max_damage": 1100
+    "minecraft:max_damage": 560
   }
 }

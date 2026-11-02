@@ -1,0 +1,23 @@
+{
+  "id": "cupellation:gilded_netherite",
+  "name": "metal.cupellation.gilded_netherite",
+  "required_temp": 2200,
+  "color": "8A5A12",
+  "cooled_color": "241B12",
+  "texture": "cupellation:fluid/molten_debris",
+  "density": 280,
+  "grades": {
+    "low": {
+      "min": 2200,
+      "max": 2350
+    },
+    "mid": {
+      "min": 2350,
+      "max": 2500
+    },
+    "high": {
+      "min": 2500,
+      "max": 2650
+    }
+  }
+}

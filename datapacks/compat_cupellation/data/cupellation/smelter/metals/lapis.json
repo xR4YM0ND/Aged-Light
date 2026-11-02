@@ -1,0 +1,24 @@
+{
+  "id": "cupellation:lapis",
+  "name": "metal.cupellation.lapis",
+  "required_temp": 750,
+  "color": "496F8F",
+  "cooled_color": "1A3D8F",
+  "texture": "cupellation:fluid/molten_gold",
+  "block": "minecraft:lapis_block",
+  "density": 70,
+  "grades": {
+    "low": {
+      "min": 750,
+      "max": 900
+    },
+    "mid": {
+      "min": 900,
+      "max": 1050
+    },
+    "high": {
+      "min": 1050,
+      "max": 1200
+    }
+  }
+}

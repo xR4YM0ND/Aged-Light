@@ -1,0 +1,6 @@
+{
+  "item": "minecraft:redstone",
+  "metal_type": "cupellation:redstone",
+  "smelt_time": 200,
+  "yield": 144
+}

@@ -1,0 +1,9 @@
+{
+  "infoTooltips": {
+    "enableImprovedTooltips": true,
+    "enableRarityColors": true,
+    "showItemInfo": true,
+    "showArmorSetInfo": true,
+    "showBlockNotices": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "agedaddition:damascus_steel_prospector_head"
+  },
+  "base": {
+    "item": "miningz:diamond_prospector_pick"
+  },
+  "result": {
+    "count": 1,
+    "id": "agedaddition:damascus_steel_prospector_pick"
+  },
+  "template": {
+    "item": "agedaddition:damascus_steel_upgrade_smithing_template"
+  }
+}

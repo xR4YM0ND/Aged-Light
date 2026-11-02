@@ -1,0 +1,6 @@
+{
+  "replace": true,
+  "item": "minecraft:coal_block",
+  "max_temperature": 900,
+  "burn_time": 16000
+}

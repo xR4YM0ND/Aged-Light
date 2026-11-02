@@ -1,0 +1,40 @@
+{
+  "keys": {
+    "b": "lilis_pottery:white_bricks",
+    "s": "cupellation:white_brick_smelter[facing=south]",
+    "d": "cupellation:white_brick_drain",
+    "f": "cupellation:white_brick_faucet[facing=east]",
+    "l": "cupellation:white_brick_lever[facing=south]",
+    "t": "cupellation:white_brick_casting_table",
+    "x": "cupellation:white_brick_casting_basin"
+  },
+  "layers": [
+    [
+      "       ",
+      " bbbbb ",
+      " bbbbb ",
+      " bbbbbx",
+      " bbbbbt",
+      " bbbbb ",
+      "       "
+    ],
+    [
+      "       ",
+      " bbbbb ",
+      " b   b ",
+      " b   df",
+      " b   df",
+      " bbsbb ",
+      "    l  "
+    ],
+    [
+      "       ",
+      " bbbbb ",
+      " b   b ",
+      " b   b ",
+      " b   b ",
+      " bbbbb ",
+      "       "
+    ]
+  ]
+}

@@ -37,26 +37,6 @@
             {
                 "target": {
                     "predicate_type": "minecraft:random_block_match",
-                    "block": "natures_spirit:travertine",
-                    "probability": 0.7
-                },
-                "state": {
-                    "Name": "agedaddition:travertine_lapis_ore"
-                }
-            },
-            {
-                "target": {
-                    "predicate_type": "minecraft:random_block_match",
-                    "block": "alpinewhispers:alpine_gneiss",
-                    "probability": 0.7
-                },
-                "state": {
-                    "Name": "agedaddition:alpine_gneiss_lapis_ore"
-                }
-            },
-            {
-                "target": {
-                    "predicate_type": "minecraft:random_block_match",
                     "block": "hearth_and_timber:groutless_rubblestone",
                     "probability": 0.7
                 },

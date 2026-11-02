@@ -1,0 +1,16 @@
+{
+  "item": "agedaddition:coal_coke",
+  "from": {
+    "metal": "cupellation:iron",
+    "state": "metal"
+  },
+  "to": {
+    "metal": "cupellation:steel",
+    "state": "metal"
+  },
+  "amount_per_item": 36,
+  "min_temperature": 1150,
+  "smelter_types": [
+    "cupellation:deepslate_smelter"
+  ]
+}

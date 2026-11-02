@@ -1,0 +1,12 @@
+{
+  "item": "minecraft:prismarine_shard",
+  "from": {
+    "metal": "cupellation:diamond",
+    "state": "slag"
+  },
+  "to": {
+    "metal": "cupellation:diamond",
+    "state": "metal"
+  },
+  "amount_per_item": 50
+}

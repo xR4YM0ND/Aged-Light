@@ -1,0 +1,33 @@
+{
+  "id": "cupellation:damascus_base_melt",
+  "name": "metal.cupellation.damascus_base_melt",
+  "required_temp": 1700,
+  "color": "603E6A",
+  "cooled_color": "302E4D",
+  "texture": "cupellation:fluid/molten_debris",
+  "density": 145,
+  "alloy_from": [
+    {
+      "metal": "minecraft:steel",
+      "parts": 3
+    },
+    {
+      "metal": "minecraft:diamond",
+      "parts": 1
+    }
+  ],
+  "grades": {
+    "low": {
+      "min": 1700,
+      "max": 1850
+    },
+    "mid": {
+      "min": 1850,
+      "max": 2000
+    },
+    "high": {
+      "min": 2000,
+      "max": 2150
+    }
+  }
+}

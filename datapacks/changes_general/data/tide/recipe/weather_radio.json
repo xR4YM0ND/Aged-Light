@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "#": {
-      "item": "stal-alloys:bronze_ingot"
+      "item": "minecraft:copper_ingot"
     },
     "L": {
       "item": "minecraft:lightning_rod"

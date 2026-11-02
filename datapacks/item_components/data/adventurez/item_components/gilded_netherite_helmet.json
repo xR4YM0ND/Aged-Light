@@ -1,0 +1,29 @@
+{
+  "targets": "environmentz:gilded_netherite_helmet",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "amount": 4.0,
+        "id": "minecraft:gilded_netherite_helmet_armor",
+        "operation": "add_value",
+        "slot": "head"
+      },
+      {
+        "type": "minecraft:generic.armor_toughness",
+        "amount": 3.0,
+        "id": "minecraft:gilded_netherite_helmet_armor_toughness",
+        "operation": "add_value",
+        "slot": "head"
+      },
+      {
+        "type": "minecraft:generic.knockback_resistance",
+        "amount": 2.0,
+        "id": "minecraft:gilded_netherite_helmet_knockback_resistance",
+        "operation": "add_value",
+        "slot": "head"
+      }
+    ],
+    "minecraft:max_damage": 500
+  }
+}

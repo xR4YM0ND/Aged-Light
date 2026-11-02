@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "agedaddition:damascus_steel_hoe_head"
+  },
+  "base": {
+    "item": "minecraft:diamond_hoe"
+  },
+  "result": {
+    "count": 1,
+    "id": "earlystage:damascus_steel_hoe"
+  },
+  "template": {
+    "item": "agedaddition:damascus_steel_upgrade_smithing_template"
+  }
+}

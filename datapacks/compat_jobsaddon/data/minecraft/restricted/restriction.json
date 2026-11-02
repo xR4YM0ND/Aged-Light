@@ -1,9 +1,0 @@
-{
-  "restriction": {
-    "replace": false,
-    "recipes": [
-      "minecraft:wheat",
-      "minecraft:hay_block"
-    ]
-  }
-}

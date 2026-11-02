@@ -4,14 +4,14 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:generic.armor",
-        "amount": 20.0,
+        "amount": 17.0,
         "id": "minecraft:diamond_horse_armor_armor",
         "operation": "add_value",
         "slot": "armor"
       },
       {
         "type": "minecraft:generic.armor_toughness",
-        "amount": 1.0,
+        "amount": 2.0,
         "id": "minecraft:diamond_horse_armor_armor_toughness",
         "operation": "add_value",
         "slot": "armor"

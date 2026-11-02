@@ -1,0 +1,24 @@
+{
+  "id": "cupellation:redstone",
+  "name": "metal.cupellation.redstone",
+  "required_temp": 850,
+  "color": "FF0000",
+  "cooled_color": "AA0F01",
+  "texture": "cupellation:fluid/molten_debris",
+  "block": "minecraft:redstone_block",
+  "density": 25,
+  "grades": {
+    "low": {
+      "min": 850,
+      "max": 1000
+    },
+    "mid": {
+      "min": 1000,
+      "max": 1150
+    },
+    "high": {
+      "min": 1150,
+      "max": 1300
+    }
+  }
+}

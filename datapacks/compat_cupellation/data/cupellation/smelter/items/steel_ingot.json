@@ -1,0 +1,6 @@
+{
+  "item": "earlystage:steel_ingot",
+  "metal_type": "cupellation:steel",
+  "smelt_time": 200,
+  "yield": 144
+}

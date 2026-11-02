@@ -1,0 +1,25 @@
+{
+  "id": "cupellation:steel",
+  "name": "metal.cupellation.steel",
+  "required_temp": 1150,
+  "color": "B7CBCA",
+  "cooled_color": "626E76",
+  "texture": "cupellation:fluid/molten_gold",
+  "ingot": "earlystage:steel_ingot",
+  "block": "earlystage:steel_block",
+  "density": 100,
+  "grades": {
+    "low": {
+      "min": 1150,
+      "max": 1300
+    },
+    "mid": {
+      "min": 1300,
+      "max": 1450
+    },
+    "high": {
+      "min": 1450,
+      "max": 1600
+    }
+  }
+}

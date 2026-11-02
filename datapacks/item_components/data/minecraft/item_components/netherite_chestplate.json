@@ -4,7 +4,7 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:generic.armor",
-        "amount": 6.0,
+        "amount": 10.0,
         "id": "minecraft:netherite_chestplate_armor",
         "operation": "add_value",
         "slot": "chest"
@@ -18,12 +18,12 @@
       },
       {
         "type": "minecraft:generic.knockback_resistance",
-        "amount": 0.6,
+        "amount": 1.0,
         "id": "minecraft:netherite_chestplate_knockback_resistance",
         "operation": "add_value",
         "slot": "chest"
       }
     ],
-    "minecraft:max_damage": 1800
+    "minecraft:max_damage": 760
   }
 }

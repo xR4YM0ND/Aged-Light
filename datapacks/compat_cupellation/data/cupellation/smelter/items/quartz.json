@@ -1,0 +1,6 @@
+{
+  "item": "minecraft:quartz",
+  "metal_type": "cupellation:quartz",
+  "smelt_time": 200,
+  "yield": 144
+}

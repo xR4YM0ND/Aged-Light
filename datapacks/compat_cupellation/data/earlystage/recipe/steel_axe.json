@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "H": {
+      "item": "agedaddition:steel_axe_head"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " H",
+    "| "
+  ],
+  "result": {
+    "count": 1,
+    "id": "earlystage:steel_axe"
+  }
+}

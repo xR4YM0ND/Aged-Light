@@ -8,7 +8,7 @@
       "item": "minecraft:rotten_flesh"
     },
     "B": {
-      "tag": "aged:rotten_leather_ingredients"
+      "tag": "aged:ingredients/rotten_leather"
     }
   },
   "pattern": [

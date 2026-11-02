@@ -1,0 +1,49 @@
+{
+	// Count for how many jobs can a player have at a time
+	"employedJobs": 2,
+	// Delay to employ new job
+	"jobChangeTime": 12000,
+	// Reset current job lvl xp when died
+	"resetCurrentJobXP": true,
+	// Percentage of job levels kept on death, 100 keeps all, 0 resets all, -1 uses the LevelZ levelRetainPercentage
+	"jobLevelRetainPercentage": 95.0,
+	// Quit all jobs on death and start the job change cooldown
+	"quitJobsOnDeath": false,
+	"defaultJobs": true,
+	// Blocks placed by players grant no xp when broken and placing them at the same spot again grants no xp
+	"trackPlacedBlocks": true,
+	// XP equation: lvl^exponent * multiplicator + base
+	"jobXPBaseCost": 100,
+	"jobXPCostMultiplicator": 0.5,
+	"jobXPExponent": 2,
+	"jobXPMaxCost": 0,
+	// Repeating the same xp source in a short time grants less xp
+	"diminishingReturns": true,
+	// Recent repeats of the same source before the xp gets reduced
+	"diminishingReturnsThreshold": 32,
+	// Ticks until half of the repeats are forgotten
+	"diminishingReturnsHalfLife": 1200,
+	// Lowest xp multiplier
+	"diminishingReturnsMinMultiplier": 0.10000000149011612,
+	// Affected xp types: blockbreak, blockplace, itemdrop, crafting, enchanting, brewing, entitykill, smithing, stonecutting, breeding, taming, trading, harvest
+	"diminishingReturnsTypes": [
+		"entitykill",
+		"itemdrop",
+		"breeding",
+		"taming",
+		"trading",
+		"harvest",
+		"entitykill",
+		"itemdrop",
+		"breeding",
+		"taming",
+		"trading",
+		"harvest"
+	],
+	"xpMultiplicator": 3,
+	"levelZXPMultiplicator": 3,
+	// Numismatic Overhaul compat lvl * multiplicator
+	"moneyMultiplicator": 20,
+	// Max level jobs keep gaining xp and grant the level rewards again on every full xp bar
+	"allowMaxLvlProgress": false
+}

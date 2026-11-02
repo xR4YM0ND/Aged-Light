@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "agedaddition:damascus_steel_axe_head"
+  },
+  "base": {
+    "item": "minecraft:diamond_axe"
+  },
+  "result": {
+    "count": 1,
+    "id": "earlystage:damascus_steel_axe"
+  },
+  "template": {
+    "item": "agedaddition:damascus_steel_upgrade_smithing_template"
+  }
+}

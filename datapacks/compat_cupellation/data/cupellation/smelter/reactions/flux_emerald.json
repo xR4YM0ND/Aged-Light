@@ -1,0 +1,12 @@
+{
+  "item": "natures_spirit:chalk_powder",
+  "from": {
+    "metal": "cupellation:emerald",
+    "state": "slag"
+  },
+  "to": {
+    "metal": "cupellation:emerald",
+    "state": "metal"
+  },
+  "amount_per_item": 50
+}

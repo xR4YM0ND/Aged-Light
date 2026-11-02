@@ -1,0 +1,16 @@
+{
+  "replace": true,
+  "values": [
+    "smallships:oak_dhow",
+    "smallships:spruce_dhow",
+    "smallships:birch_dhow",
+    "smallships:jungle_dhow",
+    "smallships:acacia_dhow",
+    "smallships:cherry_dhow",
+    "smallships:dark_oak_dhow",
+    "smallships:mangrove_dhow",
+    "smallships:bamboo_dhow",
+    "smallships:warped_dhow",
+    "smallships:crimson_dhow"
+  ]
+}

@@ -4,7 +4,7 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:generic.armor",
-        "amount": 4.0,
+        "amount": 1.0,
         "id": "minecraft:golden_chestplate_armor",
         "operation": "add_value",
         "slot": "chest"
@@ -17,6 +17,6 @@
         "slot": "chest"
       }
     ],
-    "minecraft:max_damage": 340
+    "minecraft:max_damage": 100
   }
 }

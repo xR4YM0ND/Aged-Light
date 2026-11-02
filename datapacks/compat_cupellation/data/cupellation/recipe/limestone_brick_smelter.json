@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "d": {
+      "item": "meadow:limestone_bricks"
+    },
+    "e": {
+      "item": "minecraft:blast_furnace"
+    }
+  },
+  "pattern": [
+    "ddd",
+    "ded",
+    "ddd"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cupellation:limestone_brick_smelter"
+  }
+}

@@ -4,7 +4,7 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:generic.armor",
-        "amount": 3.0,
+        "amount": 5.0,
         "id": "minecraft:chainmail_chestplate_armor",
         "operation": "add_value",
         "slot": "chest"
@@ -17,6 +17,6 @@
         "slot": "chest"
       }
     ],
-    "minecraft:max_damage": 650
+    "minecraft:max_damage": 560
   }
 }

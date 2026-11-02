@@ -1,0 +1,40 @@
+{
+  "keys": {
+    "b": "minecraft:red_nether_bricks",
+    "s": "cupellation:red_nether_brick_smelter[facing=south]",
+    "d": "cupellation:red_nether_brick_drain",
+    "f": "cupellation:red_nether_brick_faucet[facing=east]",
+    "l": "cupellation:red_nether_brick_lever[facing=south]",
+    "t": "cupellation:red_nether_brick_casting_table",
+    "x": "cupellation:red_nether_brick_casting_basin"
+  },
+  "layers": [
+    [
+      "       ",
+      " bbbbb ",
+      " bbbbb ",
+      " bbbbbx",
+      " bbbbbt",
+      " bbbbb ",
+      "       "
+    ],
+    [
+      "       ",
+      " bbbbb ",
+      " b   b ",
+      " b   df",
+      " b   df",
+      " bbsbb ",
+      "    l  "
+    ],
+    [
+      "       ",
+      " bbbbb ",
+      " b   b ",
+      " b   b ",
+      " b   b ",
+      " bbbbb ",
+      "       "
+    ]
+  ]
+}

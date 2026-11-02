@@ -5,13 +5,13 @@
       {
         "type": "minecraft:player.mining_efficiency",
         "id": "minecraft:golden_pickaxe_mining_efficiency",
-        "amount": 25.0,
+        "amount": 1.0,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
         "type": "minecraft:generic.attack_damage",
-        "amount": 6.5,
+        "amount": 1.0,
         "id": "minecraft:golden_pickaxe_attack_damage",
         "operation": "add_value",
         "slot": "mainhand"
@@ -24,6 +24,6 @@
         "slot": "mainhand"
       }
     ],
-    "minecraft:max_damage": 300
+    "minecraft:max_damage": 100
   }
 }

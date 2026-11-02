@@ -1,0 +1,8828 @@
+{
+  "line_style": "orthogonal",
+  "quests": [
+    {
+      "tasks": [
+        {
+          "id": "516370dd",
+          "criterion": {
+            "trigger": "minecraft:tick"
+          },
+          "type": "questz:criterion"
+        }
+      ],
+      "x": -3.5,
+      "y": 1.0,
+      "id": "091167fb",
+      "title": "Start"
+    },
+    {
+      "dependencies": [
+        "091167fb"
+      ],
+      "tasks": [
+        {
+          "count": 2,
+          "id": "0ac7e9c8",
+          "item": {
+            "id": "earlystage:rock"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -2.0,
+      "y": -0.5,
+      "id": "6db07bbe",
+      "title": "Pick rocks",
+      "description": [
+        "Gather rocks from the ground"
+      ],
+      "icon": {
+        "id": "earlystage:rock"
+      }
+    },
+    {
+      "dependencies": [
+        "091167fb"
+      ],
+      "tasks": [
+        {
+          "id": "dbc4777b",
+          "item": {
+            "id": "minecraft:flint"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -2.0,
+      "y": 1.0,
+      "id": "9062e328",
+      "title": "Pick flint",
+      "description": [
+        "Gather flint from the ground"
+      ],
+      "icon": {
+        "id": "earlystage:flint"
+      }
+    },
+    {
+      "dependencies": [
+        "6db07bbe"
+      ],
+      "tasks": [
+        {
+          "id": "86a9d078",
+          "item": "earlystage:crafting_rock",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -0.5,
+      "y": -0.5,
+      "id": "78a44165",
+      "title": "First Crafting",
+      "description": [
+        "Craft a crafting rock"
+      ],
+      "icon": {
+        "id": "earlystage:crafting_rock"
+      }
+    },
+    {
+      "dependencies": [
+        "091167fb"
+      ],
+      "tasks": [
+        {
+          "count": 2,
+          "id": "177fbf70",
+          "item": {
+            "id": "minecraft:stick"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -2.0,
+      "y": 2.5,
+      "id": "54f2bba9",
+      "title": "Break Leaves",
+      "description": [
+        "Gather sticks which drop from leaves"
+      ],
+      "icon": {
+        "id": "minecraft:stick"
+      }
+    },
+    {
+      "dependencies": [
+        "78a44165",
+        "9062e328",
+        "54f2bba9"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "5a0c6149",
+          "item": {
+            "id": "earlystage:flint_axe"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 4.0,
+      "y": 3.0,
+      "id": "970c3c04",
+      "title": "First Axe",
+      "description": [
+        "Get yourself a primitive axe to chop wood and aquier bark"
+      ],
+      "icon": {
+        "id": "earlystage:flint_axe"
+      }
+    },
+    {
+      "dependencies": [
+        "78a44165",
+        "9062e328",
+        "54f2bba9"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "6b729df2",
+          "item": {
+            "id": "earlystage:flint_pickaxe"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 1.0,
+      "y": -9.0,
+      "id": "382db789",
+      "title": "First Pickaxe",
+      "description": [
+        "Get yourself a primitive pickaxe and mine your first stone type"
+      ],
+      "icon": {
+        "id": "earlystage:flint_pickaxe"
+      }
+    },
+    {
+      "dependencies": [
+        "970c3c04"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "tag": "#earlystage:bark_items",
+          "id": "f5c67df8",
+          "type": "questz:item"
+        }
+      ],
+      "x": 5.5,
+      "y": 3.0,
+      "id": "c60f1265",
+      "title": "Strip a Log",
+      "description": [
+        "Stip logs to get bark"
+      ]
+    },
+    {
+      "dependencies": [
+        "970c3c04"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "3dbc81fe",
+          "block": "#minecraft:logs_that_burn",
+          "type": "questz:mine"
+        }
+      ],
+      "x": 4.0,
+      "y": 4.5,
+      "id": "e86183f3",
+      "title": "Chop Tree",
+      "description": [
+        "Chop your first tree"
+      ]
+    },
+    {
+      "dependencies": [
+        "382db789"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "c7b4f814",
+          "block": "minecraft:stone",
+          "type": "questz:mine"
+        }
+      ],
+      "x": 3.0,
+      "y": -9.0,
+      "id": "f3dcb008",
+      "title": "Rock and Stones",
+      "description": [
+        "The base rock for a ton of crafting recipes"
+      ],
+      "icon": {
+        "id": "minecraft:stone"
+      }
+    },
+    {
+      "dependencies": [
+        "f3dcb008"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "f87bee4e",
+          "block": "minecraft:andesite",
+          "type": "questz:mine"
+        }
+      ],
+      "x": 3.0,
+      "y": -10.5,
+      "id": "a8cf0e85",
+      "title": "New rock layer",
+      "description": [
+        "If only Create was in this pack"
+      ],
+      "icon": {
+        "id": "minecraft:andesite"
+      }
+    },
+    {
+      "dependencies": [
+        "a8cf0e85"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "72f83e2a",
+          "block": "minecraft:calcite",
+          "type": "questz:mine"
+        },
+        {
+          "id": "7aeb22be",
+          "block": "minecraft:diorite",
+          "type": "questz:mine"
+        }
+      ],
+      "x": 3.0,
+      "y": -12.0,
+      "id": "15095654",
+      "title": "Rock variations encountered",
+      "description": [
+        "This should be easy to mine"
+      ],
+      "icon": {
+        "id": "minecraft:diorite"
+      }
+    },
+    {
+      "dependencies": [
+        "15095654"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "579a22e9",
+          "block": "meadow:limestone",
+          "type": "questz:mine"
+        }
+      ],
+      "x": 3.0,
+      "y": -13.5,
+      "id": "23733b09",
+      "title": "Different rock layer",
+      "description": [
+        "This looks and feels different to mine"
+      ],
+      "icon": {
+        "id": "meadow:limestone"
+      }
+    },
+    {
+      "dependencies": [
+        "23733b09"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "d027905d",
+          "block": "alpinewhispers:alpine_gneiss",
+          "type": "questz:mine"
+        },
+        {
+          "id": "f774d41b",
+          "block": "natures_spirit:travertine",
+          "type": "questz:mine"
+        }
+      ],
+      "x": 3.0,
+      "y": -15.0,
+      "id": "b7d57ee6",
+      "title": "Downwards we go",
+      "description": [
+        "I'm starting to feel it"
+      ],
+      "icon": {
+        "id": "alpinewhispers:alpine_gneiss"
+      }
+    },
+    {
+      "dependencies": [
+        "b7d57ee6"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "d426ae2a",
+          "block": "minecraft:granite",
+          "type": "questz:mine"
+        }
+      ],
+      "x": 3.0,
+      "y": -16.5,
+      "id": "a824d9c5",
+      "title": "Harder layer reached",
+      "description": [
+        "That's where it gets harder"
+      ]
+    },
+    {
+      "dependencies": [
+        "a824d9c5"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "a20e5685",
+          "block": "minecraft:tuff",
+          "type": "questz:mine"
+        }
+      ],
+      "x": 3.0,
+      "y": -18.0,
+      "id": "4ae5da10",
+      "title": "Another layer down",
+      "description": [
+        "Thought that rock was smooth as butter"
+      ],
+      "icon": {
+        "id": "minecraft:tuff"
+      }
+    },
+    {
+      "dependencies": [
+        "4ae5da10"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "22f495a2",
+          "block": "minecraft:smooth_basalt",
+          "type": "questz:mine"
+        },
+        {
+          "id": "5c72de3e",
+          "block": "hearth_and_timber:groutless_rubblestone",
+          "type": "questz:mine"
+        }
+      ],
+      "x": 3.0,
+      "y": -19.5,
+      "id": "828a38de",
+      "title": "Dig deeper",
+      "description": [
+        "I'm feeling the heat already"
+      ],
+      "icon": {
+        "id": "minecraft:smooth_basalt"
+      }
+    },
+    {
+      "dependencies": [
+        "828a38de"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "4d61343c",
+          "block": "minecraft:deepslate",
+          "type": "questz:mine"
+        }
+      ],
+      "x": 3.0,
+      "y": -21.0,
+      "id": "830a767d",
+      "title": "Just one more layer",
+      "description": [
+        "Rich deposits in this depth"
+      ],
+      "icon": {
+        "id": "minecraft:deepslate"
+      }
+    },
+    {
+      "dependencies": [
+        "830a767d"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "c62b1b87",
+          "block": "minecraft:blackstone",
+          "type": "questz:mine"
+        }
+      ],
+      "x": 3.0,
+      "y": -22.5,
+      "id": "ddc9d154",
+      "title": "As deep as it gets",
+      "description": [
+        "Seen some shiny blue material down there"
+      ],
+      "icon": {
+        "id": "minecraft:blackstone"
+      }
+    },
+    {
+      "dependencies": [
+        "f3dcb008"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "2621024f",
+          "item": "minecraft:furnace",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 3.0,
+      "y": -4.0,
+      "id": "13b8dfca",
+      "title": "Hot Stuff",
+      "icon": {
+        "id": "minecraft:furnace"
+      }
+    },
+    {
+      "dependencies": [
+        "13b8dfca",
+        "3842d5c3"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "a1fa942c",
+          "item": {
+            "id": "minecraft:glass"
+          },
+          "type": "questz:item"
+        },
+        {
+          "id": "c0b88fa8",
+          "item": "minecraft:glass_bottle",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 5.5,
+      "y": 1.5,
+      "id": "447a3ccc",
+      "title": "Start bottling",
+      "description": [
+        "Fill your water in it"
+      ],
+      "icon": {
+        "id": "minecraft:glass_bottle"
+      }
+    },
+    {
+      "dependencies": [
+        "447a3ccc",
+        "a88074e4"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "1c52ed34",
+          "item": {
+            "id": "minecraft:potion",
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:water"
+              }
+            }
+          },
+          "type": "questz:item"
+        },
+        {
+          "id": "f4343ca8",
+          "item": {
+            "id": "minecraft:potion",
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:purified_water"
+              }
+            }
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 7.0,
+      "y": 1.5,
+      "id": "b7932773",
+      "title": "Purified Water Bottle",
+      "description": [
+        "Heat a Water bottle in a furnace or over a campfire"
+      ],
+      "icon": {
+        "id": "minecraft:potion",
+        "components": {
+          "minecraft:potion_contents": {
+            "potion": "minecraft:purified_water"
+          }
+        }
+      }
+    },
+    {
+      "dependencies": [
+        "c60f1265",
+        "e86183f3"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "edab9da4",
+          "item": "minecraft:campfire",
+          "type": "questz:craft"
+        },
+        {
+          "id": "e3e92790",
+          "item": "earlystage:oak_bark",
+          "type": "questz:use"
+        }
+      ],
+      "x": 7.0,
+      "y": 3.5,
+      "id": "a88074e4",
+      "title": "Lit Campfire",
+      "description": [
+        "Craft your first campfire and ignite it with bark"
+      ],
+      "icon": {
+        "id": "minecraft:campfire"
+      }
+    },
+    {
+      "dependencies": [
+        "e86183f3"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "a8dc4cb6",
+          "item": "fleshz:oak_wood_rack",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 7.0,
+      "y": 4.5,
+      "id": "81c871ac",
+      "title": "Hanging Rack",
+      "description": [
+        "Craft the base to hang rotten leather, prepared hide and other things"
+      ],
+      "icon": {
+        "id": "fleshz:oak_wood_rack"
+      }
+    },
+    {
+      "dependencies": [
+        "81c871ac"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "34fd0e81",
+          "item": "fleshz:rotten_leather",
+          "type": "questz:craft"
+        },
+        {
+          "id": "089b55b8",
+          "item": {
+            "id": "fleshz:hide"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 8.5,
+      "y": 4.5,
+      "id": "8307e006",
+      "title": "Cure Rotten Flesh",
+      "description": [
+        "prepare your fleshz and hang it on a rack"
+      ],
+      "icon": {
+        "id": "fleshz:hide"
+      }
+    },
+    {
+      "dependencies": [
+        "8307e006"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "61f95a7f",
+          "item": "fleshz:prepared_hide",
+          "type": "questz:craft"
+        },
+        {
+          "id": "3fe7e6e0",
+          "item": {
+            "id": "minecraft:leather"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 10.0,
+      "y": 4.5,
+      "id": "9eea8af8",
+      "title": "Aquier Leather",
+      "description": [
+        "Prepare Hide and hang it on a rack"
+      ],
+      "icon": {
+        "id": "minecraft:leather"
+      }
+    },
+    {
+      "dependencies": [
+        "b7932773",
+        "9eea8af8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "c2963ceb",
+          "item": "dehydration:leather_flask",
+          "type": "questz:craft"
+        },
+        {
+          "id": "744fe3cc",
+          "item": "dehydration:leather_flask",
+          "type": "questz:use"
+        }
+      ],
+      "x": 8.5,
+      "y": 1.5,
+      "id": "0246d8dd",
+      "title": "Leather Flask",
+      "icon": {
+        "id": "dehydration:leather_flask"
+      }
+    },
+    {
+      "dependencies": [
+        "9eea8af8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "41988ace",
+          "item": "inmis:baby_backpack",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 11.5,
+      "y": 4.5,
+      "id": "a9f59519",
+      "title": "Small space",
+      "description": [
+        "Your first expansion"
+      ],
+      "icon": {
+        "id": "inmis:baby_backpack"
+      }
+    },
+    {
+      "dependencies": [
+        "f3dcb008",
+        "13b8dfca"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "9b8456f8",
+          "item": "minecraft:stonecutter",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 5.0,
+      "y": -5.0,
+      "id": "e9a05953",
+      "title": "Stonecutter",
+      "description": [
+        "Greater Tools incoming"
+      ],
+      "icon": {
+        "id": "minecraft:stonecutter"
+      }
+    },
+    {
+      "dependencies": [
+        "9bffe3e8"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "96545b40",
+          "item": {
+            "id": "cupellation:stone_sword_blade"
+          },
+          "type": "questz:item"
+        },
+        {
+          "id": "3507b245",
+          "item": "minecraft:stone_sword",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 7.0,
+      "y": -6.5,
+      "id": "e5daf593",
+      "title": "Stone Sword",
+      "icon": {
+        "id": "minecraft:stone_sword"
+      }
+    },
+    {
+      "dependencies": [
+        "322cb897"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "b0104563",
+          "item": "minecraft:stone_pickaxe",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 20.0,
+      "y": -6.5,
+      "id": "aa93b117",
+      "title": "Stone Pickaxe",
+      "icon": {
+        "id": "minecraft:stone_pickaxe"
+      }
+    },
+    {
+      "dependencies": [
+        "e9a05953"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "b0b851ce",
+          "item": {
+            "id": "cupellation:stone_pickaxe_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 21.0,
+      "y": -5.0,
+      "id": "322cb897",
+      "title": "Stone Pickaxe Head",
+      "icon": {
+        "id": "cupellation:stone_pickaxe_head"
+      }
+    },
+    {
+      "dependencies": [
+        "e9a05953"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "a25ab45c",
+          "item": {
+            "id": "cupellation:stone_sword_blade"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 8.0,
+      "y": -5.0,
+      "id": "9bffe3e8",
+      "title": "Stone Sword Blade",
+      "icon": {
+        "id": "cupellation:stone_sword_blade"
+      }
+    },
+    {
+      "dependencies": [
+        "e9a05953"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "3e0460a9",
+          "item": {
+            "id": "cupellation:stone_axe_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 14.5,
+      "y": -5.0,
+      "id": "9da9c76b",
+      "title": "Stone Axe Head",
+      "icon": {
+        "id": "cupellation:stone_axe_head"
+      }
+    },
+    {
+      "dependencies": [
+        "e9a05953"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "00f7ac31",
+          "item": {
+            "id": "cupellation:stone_hoe_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 40.5,
+      "y": -5.0,
+      "id": "2e6c3696",
+      "title": "Stone Hoe Head",
+      "icon": {
+        "id": "cupellation:stone_hoe_head"
+      }
+    },
+    {
+      "dependencies": [
+        "e9a05953"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "5d0cdece",
+          "item": {
+            "id": "cupellation:stone_shovel_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 34.0,
+      "y": -5.0,
+      "id": "56f6e835",
+      "title": "Stone Shovel Head",
+      "icon": {
+        "id": "cupellation:stone_shovel_head"
+      }
+    },
+    {
+      "dependencies": [
+        "e9a05953"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "5be60ac0",
+          "item": {
+            "id": "agedaddition:stone_prospector_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 27.5,
+      "y": -5.0,
+      "id": "fcb0afbb",
+      "title": "Stone Prospector Head",
+      "icon": {
+        "id": "agedaddition:stone_prospector_head"
+      }
+    },
+    {
+      "dependencies": [
+        "e9a05953"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "9d66da35",
+          "item": {
+            "id": "agedaddition:stone_hook_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 46.0,
+      "y": -5.0,
+      "id": "1f960b2c",
+      "title": "Stone Hook Head",
+      "icon": {
+        "id": "agedaddition:stone_hook_head"
+      }
+    },
+    {
+      "dependencies": [
+        "9bffe3e8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "031daa30",
+          "item": {
+            "id": "cupellation:clay_sword_blade_mold"
+          },
+          "type": "questz:item"
+        },
+        {
+          "id": "8bc89c4f",
+          "item": {
+            "id": "cupellation:brick_sword_blade_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 8.0,
+      "y": -6.5,
+      "id": "0b5b07f6",
+      "title": "Brick Sword Blade Mold",
+      "description": [
+        "Press a sword blade into a clay mold, then smelt it"
+      ],
+      "icon": {
+        "id": "cupellation:brick_sword_blade_mold"
+      }
+    },
+    {
+      "dependencies": [
+        "78a44165",
+        "9062e328",
+        "54f2bba9"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "797cd112",
+          "item": "earlystage:flint_shovel",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 2.0,
+      "y": -1.0,
+      "id": "798b784f",
+      "title": "Flint Shovel",
+      "icon": {
+        "id": "earlystage:flint_shovel"
+      }
+    },
+    {
+      "dependencies": [
+        "798b784f"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "a0898e41",
+          "block": "minecraft:clay",
+          "type": "questz:mine"
+        }
+      ],
+      "x": 5.5,
+      "y": -1.0,
+      "id": "8e39bfcd",
+      "title": "Mine Clay",
+      "icon": {
+        "id": "minecraft:clay_ball"
+      }
+    },
+    {
+      "dependencies": [
+        "798b784f"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "0f75f2b0",
+          "block": "minecraft:sand",
+          "type": "questz:mine"
+        }
+      ],
+      "x": 5.5,
+      "id": "3842d5c3",
+      "title": "Mine Sand",
+      "icon": {
+        "id": "minecraft:sand"
+      }
+    },
+    {
+      "dependencies": [
+        "8e39bfcd"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "35b80e9a",
+          "item": "cupellation:clay_mold",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 6.5,
+      "y": -1.0,
+      "id": "d18b1f2c",
+      "title": "Clay Mold",
+      "icon": {
+        "id": "cupellation:clay_mold"
+      }
+    },
+    {
+      "dependencies": [
+        "798b784f"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "370f233e",
+          "block": "lilis_pottery:white_clay",
+          "type": "questz:mine"
+        }
+      ],
+      "x": 5.5,
+      "y": -2.0,
+      "id": "ae7e9abf",
+      "title": "White Clay",
+      "icon": {
+        "id": "lilis_pottery:white_clay_ball"
+      }
+    },
+    {
+      "dependencies": [
+        "ae7e9abf"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "6b3fec83",
+          "item": "cupellation:white_brick_smelter",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 5.5,
+      "y": -3.5,
+      "id": "090d9f42",
+      "title": "White Brick Smelter",
+      "icon": {
+        "id": "cupellation:white_brick_smelter"
+      }
+    },
+    {
+      "dependencies": [
+        "9da9c76b"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "c01ecafe",
+          "item": "minecraft:stone_axe",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 13.5,
+      "y": -6.5,
+      "id": "edce868b",
+      "title": "Stone Axe",
+      "icon": {
+        "id": "minecraft:stone_axe"
+      }
+    },
+    {
+      "dependencies": [
+        "9bffe3e8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "76519181",
+          "item": {
+            "id": "cupellation:sword_blade_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 9.0,
+      "y": -6.5,
+      "id": "05ed11dd",
+      "title": "Sword Blade Mold",
+      "icon": {
+        "id": "cupellation:sword_blade_mold"
+      }
+    },
+    {
+      "dependencies": [
+        "9da9c76b"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "a9823a25",
+          "item": {
+            "id": "cupellation:clay_axe_head_mold"
+          },
+          "type": "questz:item"
+        },
+        {
+          "id": "cde79e63",
+          "item": {
+            "id": "cupellation:brick_axe_head_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 14.5,
+      "y": -6.5,
+      "id": "4d365cd6",
+      "title": "Brick Axe Head Mold",
+      "icon": {
+        "id": "cupellation:brick_axe_head_mold"
+      }
+    },
+    {
+      "dependencies": [
+        "9da9c76b"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "d699304d",
+          "item": {
+            "id": "cupellation:axe_head_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 15.5,
+      "y": -6.5,
+      "id": "9309a0c8",
+      "title": "Axe Head Mold",
+      "icon": {
+        "id": "cupellation:axe_head_mold"
+      }
+    },
+    {
+      "dependencies": [
+        "322cb897"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "baf8c9de",
+          "item": {
+            "id": "cupellation:clay_pickaxe_head_mold"
+          },
+          "type": "questz:item"
+        },
+        {
+          "id": "aa639ffb",
+          "item": {
+            "id": "cupellation:brick_pickaxe_head_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 21.0,
+      "y": -6.5,
+      "id": "0acfba60",
+      "title": "Brick Pickaxe Head Mold",
+      "icon": {
+        "id": "cupellation:brick_pickaxe_head_mold"
+      }
+    },
+    {
+      "dependencies": [
+        "322cb897"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "88d07540",
+          "item": {
+            "id": "cupellation:pickaxe_head_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 22.0,
+      "y": -6.5,
+      "id": "a8c5f24e",
+      "title": "Pickaxe Head Mold",
+      "icon": {
+        "id": "cupellation:pickaxe_head_mold"
+      }
+    },
+    {
+      "dependencies": [
+        "ae7e9abf"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "996d543e",
+          "item": {
+            "id": "cupellation:white_brick_casting_table"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 8.5,
+      "y": -3.5,
+      "id": "04eab009",
+      "title": "White Brick Casting Table",
+      "icon": {
+        "id": "cupellation:white_brick_casting_table"
+      }
+    },
+    {
+      "dependencies": [
+        "ae7e9abf"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "e940278c",
+          "item": {
+            "id": "cupellation:white_brick_drain"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 6.5,
+      "y": -3.5,
+      "id": "a2ec598c",
+      "title": "White Brick Drain",
+      "icon": {
+        "id": "cupellation:white_brick_drain"
+      }
+    },
+    {
+      "dependencies": [
+        "ae7e9abf"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "7f9b06c5",
+          "item": {
+            "id": "cupellation:white_brick_faucet"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 7.5,
+      "y": -3.5,
+      "id": "258cc782",
+      "title": "White Brick Faucet",
+      "icon": {
+        "id": "cupellation:white_brick_faucet"
+      }
+    },
+    {
+      "dependencies": [
+        "23733b09"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "cdfd547e",
+          "item": {
+            "id": "cupellation:limestone_brick_smelter"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 5.0,
+      "y": -15.5,
+      "id": "38e47f58",
+      "title": "Limestone Brick Smelter",
+      "icon": {
+        "id": "cupellation:limestone_brick_smelter"
+      }
+    },
+    {
+      "dependencies": [
+        "23733b09"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "61346c54",
+          "item": {
+            "id": "cupellation:limestone_brick_faucet"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 5.0,
+      "y": -13.5,
+      "id": "360354a9",
+      "title": "Limestone Brick Faucet",
+      "icon": {
+        "id": "cupellation:limestone_brick_faucet"
+      }
+    },
+    {
+      "dependencies": [
+        "23733b09"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "cc6c27b5",
+          "item": {
+            "id": "cupellation:limestone_brick_drain"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 5.0,
+      "y": -14.5,
+      "id": "01a2c91c",
+      "title": "Limstone Brick Drain",
+      "icon": {
+        "id": "cupellation:limestone_brick_drain"
+      }
+    },
+    {
+      "dependencies": [
+        "23733b09"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "82d53246",
+          "item": {
+            "id": "cupellation:limestone_brick_casting_table"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 5.0,
+      "y": -12.5,
+      "id": "438c8561",
+      "title": "Limestone Brick Casting Table",
+      "icon": {
+        "id": "cupellation:limestone_brick_casting_table"
+      }
+    },
+    {
+      "dependencies": [
+        "23733b09"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "a249020c",
+          "item": {
+            "id": "cupellation:limestone_brick_casting_basin"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 5.0,
+      "y": -11.5,
+      "id": "6975b467",
+      "title": "Limestone Brick Casting Basin",
+      "icon": {
+        "id": "cupellation:limestone_brick_casting_basin"
+      }
+    },
+    {
+      "dependencies": [
+        "ae7e9abf"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "18a6b164",
+          "item": {
+            "id": "cupellation:white_brick_casting_basin"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 9.5,
+      "y": -3.5,
+      "id": "3e632872",
+      "title": "White Brick Casting Basin",
+      "icon": {
+        "id": "cupellation:white_brick_casting_basin"
+      }
+    },
+    {
+      "dependencies": [
+        "830a767d"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "6b69b1ed",
+          "item": {
+            "id": "cupellation:deepslate_brick_smelter"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 5.0,
+      "y": -23.0,
+      "id": "6c03fe86",
+      "title": "Deepslate Brick Smelter",
+      "icon": {
+        "id": "cupellation:deepslate_brick_smelter"
+      }
+    },
+    {
+      "dependencies": [
+        "830a767d"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "f8703706",
+          "item": {
+            "id": "cupellation:deepslate_brick_drain"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 5.0,
+      "y": -22.0,
+      "id": "62313144",
+      "title": "Deepslate Brick Drain",
+      "icon": {
+        "id": "cupellation:deepslate_brick_drain"
+      }
+    },
+    {
+      "dependencies": [
+        "830a767d"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "7a0f2a93",
+          "item": {
+            "id": "cupellation:deepslate_brick_faucet"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 5.0,
+      "y": -21.0,
+      "id": "8f5489d2",
+      "title": "Deepslate Brick Faucet",
+      "icon": {
+        "id": "cupellation:deepslate_brick_faucet"
+      }
+    },
+    {
+      "dependencies": [
+        "830a767d"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "642e9f23",
+          "item": {
+            "id": "cupellation:deepslate_brick_casting_table"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 5.0,
+      "y": -20.0,
+      "id": "b15be81a",
+      "title": "Deepslate Brick Casting Table",
+      "icon": {
+        "id": "cupellation:deepslate_brick_casting_table"
+      }
+    },
+    {
+      "dependencies": [
+        "830a767d"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "33500418",
+          "item": {
+            "id": "cupellation:deepslate_brick_casting_basin"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 5.0,
+      "y": -19.0,
+      "id": "efc419f1",
+      "title": "Deepslate Brick Casting Basin",
+      "icon": {
+        "id": "cupellation:deepslate_brick_casting_basin"
+      }
+    },
+    {
+      "dependencies": [
+        "78a44165",
+        "9062e328",
+        "54f2bba9"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "7148e3bd",
+          "item": "earlystage:flint_sword",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -2.5,
+      "y": -2.0,
+      "id": "c4b36ff8",
+      "title": "Flint Sword",
+      "icon": {
+        "id": "earlystage:flint_sword"
+      }
+    },
+    {
+      "dependencies": [
+        "54f2bba9",
+        "9062e328",
+        "78a44165"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "e3da7035",
+          "item": "earlystage:flint_hoe",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -6.0,
+      "y": 4.5,
+      "id": "a14c597d",
+      "title": "Flint Hoe",
+      "icon": {
+        "id": "earlystage:flint_hoe"
+      }
+    },
+    {
+      "dependencies": [
+        "c4b36ff8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "e1a18ceb",
+          "item": "earlystage:wooden_shield",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -1.5,
+      "y": -3.0,
+      "id": "e643c29c",
+      "title": "Wooden Shield",
+      "description": [
+        "Your first major protection against incoming arrows"
+      ],
+      "icon": {
+        "id": "earlystage:wooden_shield"
+      }
+    },
+    {
+      "dependencies": [
+        "fcb0afbb"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "1077433e",
+          "item": {
+            "id": "agedaddition:stone_prospector_pick"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 26.5,
+      "y": -6.5,
+      "id": "851d0f51",
+      "title": "Stone Prospector Pick",
+      "icon": {
+        "id": "agedaddition:stone_prospector_pick"
+      }
+    },
+    {
+      "dependencies": [
+        "fcb0afbb"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "8d7a31b7",
+          "item": {
+            "id": "cupellation:clay_prospector_head_mold"
+          },
+          "type": "questz:item"
+        },
+        {
+          "id": "ae959af7",
+          "item": {
+            "id": "cupellation:brick_prospector_head_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 27.5,
+      "y": -6.5,
+      "id": "c81d7f2e",
+      "title": "Brick Prospector Head Mold",
+      "icon": {
+        "id": "cupellation:brick_prospector_head_mold"
+      }
+    },
+    {
+      "dependencies": [
+        "fcb0afbb"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "ecb9e010",
+          "item": {
+            "id": "cupellation:prospector_head_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 28.5,
+      "y": -6.5,
+      "id": "8a0a969f",
+      "title": "New Quest",
+      "icon": {
+        "id": "cupellation:prospector_head_mold"
+      }
+    },
+    {
+      "dependencies": [
+        "56f6e835"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "c0a6ecae",
+          "item": "minecraft:stone_shovel",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 33.0,
+      "y": -6.5,
+      "id": "02851722",
+      "title": "Stone Shovel",
+      "icon": {
+        "id": "minecraft:stone_shovel"
+      }
+    },
+    {
+      "dependencies": [
+        "56f6e835"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "e5ebbe5a",
+          "item": {
+            "id": "cupellation:clay_shovel_head_mold"
+          },
+          "type": "questz:item"
+        },
+        {
+          "id": "5a34074b",
+          "item": {
+            "id": "cupellation:brick_shovel_head_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 34.0,
+      "y": -6.5,
+      "id": "c408eff5",
+      "title": "Brick Shovel Head Mold",
+      "icon": {
+        "id": "cupellation:brick_shovel_head_mold"
+      }
+    },
+    {
+      "dependencies": [
+        "56f6e835"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "fea65a48",
+          "item": {
+            "id": "cupellation:shovel_head_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 35.0,
+      "y": -6.5,
+      "id": "9d0ef80b",
+      "title": "Shovel Head Mold",
+      "icon": {
+        "id": "cupellation:shovel_head_mold"
+      }
+    },
+    {
+      "dependencies": [
+        "2e6c3696"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "7d5a0124",
+          "item": "minecraft:stone_hoe",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 39.5,
+      "y": -6.5,
+      "id": "6e9be3c9",
+      "title": "Stone Hoe",
+      "icon": {
+        "id": "minecraft:stone_hoe"
+      }
+    },
+    {
+      "dependencies": [
+        "2e6c3696"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "3a2419dc",
+          "item": {
+            "id": "cupellation:clay_hoe_head_mold"
+          },
+          "type": "questz:item"
+        },
+        {
+          "id": "92c5938b",
+          "item": {
+            "id": "cupellation:brick_hoe_head_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 40.5,
+      "y": -6.5,
+      "id": "7de40e80",
+      "title": "New Quest",
+      "icon": {
+        "id": "cupellation:brick_hoe_head_mold"
+      }
+    },
+    {
+      "dependencies": [
+        "2e6c3696"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "10b68ddb",
+          "item": {
+            "id": "cupellation:hoe_head_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 41.5,
+      "y": -6.5,
+      "id": "73f943fb",
+      "title": "Hoe Head Mold",
+      "icon": {
+        "id": "cupellation:hoe_head_mold"
+      }
+    },
+    {
+      "dependencies": [
+        "1f960b2c"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "214ac4e6",
+          "item": {
+            "id": "cupellation:clay_hook_mold"
+          },
+          "type": "questz:item"
+        },
+        {
+          "id": "dc868758",
+          "item": {
+            "id": "cupellation:brick_hook_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 45.5,
+      "y": -6.5,
+      "id": "daf6ef8e",
+      "title": "Brick Hook Mold",
+      "icon": {
+        "id": "cupellation:brick_hook_mold"
+      }
+    },
+    {
+      "dependencies": [
+        "1f960b2c"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "e1c741f5",
+          "item": {
+            "id": "cupellation:hook_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 46.5,
+      "y": -6.5,
+      "id": "c65a7a08",
+      "title": "Hook Mold",
+      "icon": {
+        "id": "cupellation:hook_mold"
+      }
+    },
+    {
+      "dependencies": [
+        "a9f59519"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "76a60e9c",
+          "item": "inmis:frayed_backpack",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 13.0,
+      "y": 4.5,
+      "id": "bd16c95f",
+      "title": "Frayed Backpack",
+      "icon": {
+        "id": "inmis:frayed_backpack"
+      }
+    },
+    {
+      "dependencies": [
+        "bd16c95f"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "6402f8f8",
+          "item": "inmis:plated_backpack",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 14.5,
+      "y": 4.5,
+      "id": "d320a2ec",
+      "title": "Plated Backpack",
+      "icon": {
+        "id": "inmis:plated_backpack"
+      }
+    },
+    {
+      "dependencies": [
+        "d320a2ec"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "cd2e0fad",
+          "item": "inmis:gilded_backpack",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 16.0,
+      "y": 4.5,
+      "id": "6c3c9121",
+      "title": "Gilded Backpack",
+      "icon": {
+        "id": "inmis:gilded_backpack"
+      }
+    },
+    {
+      "dependencies": [
+        "6c3c9121"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "213eff1f",
+          "item": "inmis:bejeweled_backpack",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 17.5,
+      "y": 4.5,
+      "id": "01fe77ee",
+      "title": "Bejeweled Backpack",
+      "icon": {
+        "id": "inmis:bejeweled_backpack"
+      }
+    },
+    {
+      "dependencies": [
+        "01fe77ee"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "0eb3ef8b",
+          "item": "inmis:blazing_backpack",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 19.0,
+      "y": 4.5,
+      "id": "576e18c3",
+      "title": "Blazing Backpack",
+      "icon": {
+        "id": "inmis:blazing_backpack"
+      }
+    },
+    {
+      "dependencies": [
+        "576e18c3"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "16d9d601",
+          "item": "inmis:withered_backpack",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 20.5,
+      "y": 4.5,
+      "id": "416beedf",
+      "title": "Withered Backpack",
+      "icon": {
+        "id": "inmis:withered_backpack"
+      }
+    },
+    {
+      "dependencies": [
+        "416beedf"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "dd070220",
+          "item": "inmis:endless_backpack",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 22.0,
+      "y": 4.5,
+      "id": "cbb5e5dd",
+      "title": "Endless Backpack",
+      "icon": {
+        "id": "inmis:endless_backpack"
+      }
+    },
+    {
+      "dependencies": [
+        "0246d8dd"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "1207c2bf",
+          "item": "dehydration:iron_leather_flask",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 10.0,
+      "y": 1.5,
+      "id": "8b377faa",
+      "title": "Iron Leather Flask",
+      "icon": {
+        "id": "dehydration:iron_leather_flask"
+      }
+    },
+    {
+      "dependencies": [
+        "8b377faa"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "cc1de146",
+          "item": "dehydration:golden_leather_flask",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 11.5,
+      "y": 1.5,
+      "id": "17faa7ba",
+      "title": "Golden Leather Flask",
+      "icon": {
+        "id": "dehydration:golden_leather_flask"
+      }
+    },
+    {
+      "dependencies": [
+        "17faa7ba"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "2f3e65b6",
+          "item": "dehydration:diamond_leather_flask",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 13.0,
+      "y": 1.5,
+      "id": "63307e78",
+      "title": "Diamond Leather Flask",
+      "icon": {
+        "id": "dehydration:diamond_leather_flask"
+      }
+    },
+    {
+      "dependencies": [
+        "63307e78"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "1b6a9d0c",
+          "item": "dehydration:netherite_leather_flask",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 14.5,
+      "y": 1.5,
+      "id": "9c907ce4",
+      "title": "Netherite Leather Flask",
+      "icon": {
+        "id": "dehydration:netherite_leather_flask"
+      }
+    },
+    {
+      "dependencies": [
+        "e86183f3"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "ea1d7a13",
+          "item": {
+            "id": "minecraft:crafting_table"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 2.5,
+      "y": 13.5,
+      "id": "a4e0cb64",
+      "title": "Crafting Table",
+      "icon": {
+        "id": "minecraft:crafting_table"
+      }
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "80aba902",
+          "item": "minecraft:brush",
+          "type": "questz:craft"
+        },
+        {
+          "id": "30ded92e",
+          "item": "minecraft:brush",
+          "type": "questz:use"
+        }
+      ],
+      "y": 15.0,
+      "id": "c5fb5f17",
+      "title": "Brush",
+      "icon": {
+        "id": "minecraft:brush"
+      }
+    },
+    {
+      "dependencies": [
+        "c5fb5f17"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "137869c4",
+          "item": "betterarcheology:iron_brush",
+          "type": "questz:craft"
+        },
+        {
+          "id": "36cc1b14",
+          "item": "betterarcheology:iron_brush",
+          "type": "questz:use"
+        }
+      ],
+      "y": 16.0,
+      "id": "6982e840",
+      "title": "Iron Brush",
+      "icon": {
+        "id": "betterarcheology:iron_brush"
+      }
+    },
+    {
+      "dependencies": [
+        "6982e840"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "c5700582",
+          "item": "betterarcheology:diamond_brush",
+          "type": "questz:craft"
+        },
+        {
+          "id": "dbc5f2e4",
+          "item": "betterarcheology:diamond_brush",
+          "type": "questz:use"
+        }
+      ],
+      "y": 17.0,
+      "id": "873a1837",
+      "title": "Diamond Brush",
+      "icon": {
+        "id": "betterarcheology:diamond_brush"
+      }
+    },
+    {
+      "dependencies": [
+        "873a1837"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "83594884",
+          "item": "betterarcheology:netherite_brush",
+          "type": "questz:craft"
+        },
+        {
+          "id": "1ab41068",
+          "item": "betterarcheology:netherite_brush",
+          "type": "questz:use"
+        }
+      ],
+      "y": 18.0,
+      "id": "cdc4094c",
+      "title": "Netherite Brush",
+      "icon": {
+        "id": "betterarcheology:netherite_brush"
+      }
+    },
+    {
+      "dependencies": [
+        "bbc6672c"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "fbe4348b",
+          "item": "yo_hooks:iron_grappling_hook",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 44.5,
+      "y": -9.0,
+      "id": "99cdd434",
+      "title": "Iron Grappling Hook",
+      "icon": {
+        "id": "yo_hooks:iron_grappling_hook"
+      }
+    },
+    {
+      "dependencies": [
+        "daf6ef8e",
+        "c65a7a08"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "4f1313c4",
+          "item": {
+            "id": "yo_hooks:iron_hook_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 44.5,
+      "y": -8.0,
+      "id": "bbc6672c",
+      "title": "Iron Hook Head",
+      "icon": {
+        "id": "yo_hooks:iron_hook_head"
+      }
+    },
+    {
+      "dependencies": [
+        "daf6ef8e",
+        "c65a7a08"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "27bf89aa",
+          "item": {
+            "id": "yo_hooks:gold_hook_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 45.5,
+      "y": -8.0,
+      "id": "5b88aebf",
+      "title": "Gold Hook Head",
+      "icon": {
+        "id": "yo_hooks:gold_hook_head"
+      }
+    },
+    {
+      "dependencies": [
+        "5b88aebf"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "71fbeff6",
+          "item": "yo_hooks:gold_grappling_hook",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 45.5,
+      "y": -9.0,
+      "id": "df05ce45",
+      "title": "Gold Grappling Hook",
+      "icon": {
+        "id": "yo_hooks:gold_grappling_hook"
+      }
+    },
+    {
+      "dependencies": [
+        "daf6ef8e",
+        "c65a7a08"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "fc524932",
+          "item": {
+            "id": "yo_hooks:diamond_hook_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 46.5,
+      "y": -8.0,
+      "id": "1014dc65",
+      "title": "Diamond Hook Head",
+      "icon": {
+        "id": "yo_hooks:diamond_hook_head"
+      }
+    },
+    {
+      "dependencies": [
+        "1014dc65"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "21ec7045",
+          "item": "yo_hooks:diamond_grappling_hook",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 46.5,
+      "y": -9.0,
+      "id": "2d560304",
+      "title": "Diamond Grappling Hook",
+      "icon": {
+        "id": "yo_hooks:diamond_grappling_hook"
+      }
+    },
+    {
+      "dependencies": [
+        "daf6ef8e",
+        "c65a7a08"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "8555daf3",
+          "item": {
+            "id": "yo_hooks:netherite_hook_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 47.5,
+      "y": -8.0,
+      "id": "c48c9eb7",
+      "title": "Netherite Hook Head",
+      "icon": {
+        "id": "yo_hooks:netherite_hook_head"
+      }
+    },
+    {
+      "dependencies": [
+        "c48c9eb7"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "0e7d9b8c",
+          "item": "yo_hooks:netherite_grappling_hook",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 47.5,
+      "y": -9.0,
+      "id": "bd6ad303",
+      "title": "Netherite Grappling Hook",
+      "icon": {
+        "id": "yo_hooks:netherite_grappling_hook"
+      }
+    },
+    {
+      "dependencies": [
+        "0ab6eb79"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "b37e000d",
+          "item": "agedaddition:copper_hoe",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 38.0,
+      "y": -9.0,
+      "id": "9284f132",
+      "title": "Copper Hoe",
+      "icon": {
+        "id": "agedaddition:copper_hoe"
+      }
+    },
+    {
+      "dependencies": [
+        "7de40e80",
+        "73f943fb"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "7ba76ad1",
+          "item": {
+            "id": "agedaddition:copper_hoe_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 38.0,
+      "y": -8.0,
+      "id": "0ab6eb79",
+      "title": "Copper Hoe Head",
+      "icon": {
+        "id": "agedaddition:copper_hoe_head"
+      }
+    },
+    {
+      "dependencies": [
+        "bcd8dd9e"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "e748de23",
+          "item": {
+            "id": "minecraft:iron_hoe"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 39.0,
+      "y": -9.0,
+      "id": "9c845288",
+      "title": "Iron Hoe",
+      "icon": {
+        "id": "minecraft:iron_hoe"
+      }
+    },
+    {
+      "dependencies": [
+        "7de40e80",
+        "73f943fb"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "d6400f73",
+          "item": {
+            "id": "cupellation:iron_hoe_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 39.0,
+      "y": -8.0,
+      "id": "bcd8dd9e",
+      "title": "Iron Hoe Head",
+      "icon": {
+        "id": "cupellation:iron_hoe_head"
+      }
+    },
+    {
+      "dependencies": [
+        "7de40e80",
+        "73f943fb"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "8121810c",
+          "item": {
+            "id": "agedaddition:steel_hoe_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 40.0,
+      "y": -8.0,
+      "id": "c1d28cb9",
+      "title": "Steel Hoe Head",
+      "icon": {
+        "id": "agedaddition:steel_hoe_head"
+      }
+    },
+    {
+      "dependencies": [
+        "c1d28cb9"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "ba7461d6",
+          "item": "earlystage:steel_hoe",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 40.0,
+      "y": -9.0,
+      "id": "0561e97d",
+      "title": "Steel Hoe",
+      "icon": {
+        "id": "earlystage:steel_hoe"
+      }
+    },
+    {
+      "dependencies": [
+        "75901d47"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "3705442e",
+          "item": "minecraft:diamond_hoe",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 41.0,
+      "y": -9.0,
+      "id": "2df1b887",
+      "title": "Diamond Hoe",
+      "icon": {
+        "id": "minecraft:diamond_hoe"
+      }
+    },
+    {
+      "dependencies": [
+        "7de40e80",
+        "73f943fb"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "381e1328",
+          "item": {
+            "id": "cupellation:diamond_hoe_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 41.0,
+      "y": -8.0,
+      "id": "75901d47",
+      "title": "Diamond Hoe Head",
+      "icon": {
+        "id": "cupellation:diamond_hoe_head"
+      }
+    },
+    {
+      "dependencies": [
+        "7de40e80",
+        "73f943fb"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "e8a1e61f",
+          "item": {
+            "id": "agedaddition:damascus_steel_hoe_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 42.0,
+      "y": -8.0,
+      "id": "0a6b80bc",
+      "title": "Damascus Steel Hoe Head",
+      "icon": {
+        "id": "agedaddition:damascus_steel_hoe_head"
+      }
+    },
+    {
+      "dependencies": [
+        "0a6b80bc"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "a905c064",
+          "item": "earlystage:damascus_steel_hoe",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 42.0,
+      "y": -9.0,
+      "id": "5ce65ca9",
+      "title": "Damascus Steel Hoe",
+      "icon": {
+        "id": "earlystage:damascus_steel_hoe"
+      }
+    },
+    {
+      "dependencies": [
+        "7de40e80",
+        "73f943fb"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "1ad66109",
+          "item": {
+            "id": "cupellation:netherite_hoe_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 43.0,
+      "y": -8.0,
+      "id": "8bb37415",
+      "title": "Netherite Hoe Head",
+      "icon": {
+        "id": "cupellation:netherite_hoe_head"
+      }
+    },
+    {
+      "dependencies": [
+        "8bb37415"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "a27f0326",
+          "item": "minecraft:netherite_hoe",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 43.0,
+      "y": -9.0,
+      "id": "c8efca8d",
+      "title": "Netherite Hoe",
+      "icon": {
+        "id": "minecraft:netherite_hoe"
+      }
+    },
+    {
+      "dependencies": [
+        "c408eff5",
+        "9d0ef80b"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "70c86daf",
+          "item": {
+            "id": "agedaddition:copper_shovel_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 31.5,
+      "y": -8.0,
+      "id": "cec31ea2",
+      "title": "Copper Shovel Head",
+      "icon": {
+        "id": "agedaddition:copper_shovel_head"
+      }
+    },
+    {
+      "dependencies": [
+        "cec31ea2"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "a3af2745",
+          "item": "agedaddition:copper_shovel",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 31.5,
+      "y": -9.0,
+      "id": "7c56026f",
+      "title": "Copper Shovel",
+      "icon": {
+        "id": "agedaddition:copper_shovel"
+      }
+    },
+    {
+      "dependencies": [
+        "9d0ef80b",
+        "c408eff5"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "076df738",
+          "item": {
+            "id": "cupellation:iron_shovel_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 32.5,
+      "y": -8.0,
+      "id": "62fa591f",
+      "title": "Iron Shovel Head",
+      "icon": {
+        "id": "cupellation:iron_shovel_head"
+      }
+    },
+    {
+      "dependencies": [
+        "62fa591f"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "bb66a7d3",
+          "item": "minecraft:iron_shovel",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 32.5,
+      "y": -9.0,
+      "id": "73905b3c",
+      "title": "Iron Shovel",
+      "icon": {
+        "id": "minecraft:iron_shovel"
+      }
+    },
+    {
+      "dependencies": [
+        "c408eff5",
+        "9d0ef80b"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "1e35a937",
+          "item": {
+            "id": "agedaddition:steel_shovel_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 33.5,
+      "y": -8.0,
+      "id": "37daa8c3",
+      "title": "Steel Shovel Head",
+      "icon": {
+        "id": "agedaddition:steel_shovel_head"
+      }
+    },
+    {
+      "dependencies": [
+        "37daa8c3"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "ee9acb72",
+          "item": {
+            "id": "earlystage:steel_shovel"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 33.5,
+      "y": -9.0,
+      "id": "e5fbdbbc",
+      "title": "Steel Shovel",
+      "icon": {
+        "id": "earlystage:steel_shovel"
+      }
+    },
+    {
+      "dependencies": [
+        "c408eff5",
+        "9d0ef80b"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "7212301a",
+          "item": {
+            "id": "cupellation:diamond_shovel_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 34.5,
+      "y": -8.0,
+      "id": "5689ce01",
+      "title": "Diamond Shovel Head",
+      "icon": {
+        "id": "cupellation:diamond_shovel_head"
+      }
+    },
+    {
+      "dependencies": [
+        "5689ce01"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "d975e397",
+          "item": "minecraft:diamond_shovel",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 34.5,
+      "y": -9.0,
+      "id": "122fa64b",
+      "title": "Diamond Shovel",
+      "icon": {
+        "id": "minecraft:diamond_shovel"
+      }
+    },
+    {
+      "dependencies": [
+        "c408eff5",
+        "9d0ef80b"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "237fe9cd",
+          "item": {
+            "id": "agedaddition:damascus_steel_shovel_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 35.5,
+      "y": -8.0,
+      "id": "ab3edc64",
+      "title": "Damascus Steel Shovel Head",
+      "icon": {
+        "id": "agedaddition:damascus_steel_shovel_head"
+      }
+    },
+    {
+      "dependencies": [
+        "ab3edc64"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "c9c4ff9e",
+          "item": "earlystage:damascus_steel_shovel",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 35.5,
+      "y": -9.0,
+      "id": "916ce927",
+      "title": "Damascus Steel Shovel",
+      "icon": {
+        "id": "earlystage:damascus_steel_shovel"
+      }
+    },
+    {
+      "dependencies": [
+        "c408eff5",
+        "9d0ef80b"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "2152714b",
+          "item": {
+            "id": "cupellation:netherite_shovel_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 36.5,
+      "y": -8.0,
+      "id": "4df8096d",
+      "title": "Netherite Shovel Head",
+      "icon": {
+        "id": "cupellation:netherite_shovel_head"
+      }
+    },
+    {
+      "dependencies": [
+        "4df8096d"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "b8d59ed5",
+          "item": "minecraft:netherite_shovel",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 36.5,
+      "y": -9.0,
+      "id": "610b1c75",
+      "title": "Netherite Shovel",
+      "icon": {
+        "id": "minecraft:netherite_shovel"
+      }
+    },
+    {
+      "dependencies": [
+        "c81d7f2e",
+        "8a0a969f"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "2727a015",
+          "item": {
+            "id": "agedaddition:copper_prospector_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 25.0,
+      "y": -8.0,
+      "id": "4c5b4648",
+      "title": "Copper Prospector Head",
+      "icon": {
+        "id": "agedaddition:copper_prospector_head"
+      }
+    },
+    {
+      "dependencies": [
+        "4c5b4648"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "fedc9c74",
+          "item": "miningz:copper_prospector_pick",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 25.0,
+      "y": -9.0,
+      "id": "bcd7ecb9",
+      "title": "Copper Prospector Pick",
+      "icon": {
+        "id": "miningz:copper_prospector_pick"
+      }
+    },
+    {
+      "dependencies": [
+        "c81d7f2e",
+        "8a0a969f"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "dad1c452",
+          "item": {
+            "id": "agedaddition:iron_prospector_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 26.0,
+      "y": -8.0,
+      "id": "d8eb2141",
+      "title": "Iron Prospector Head",
+      "icon": {
+        "id": "agedaddition:iron_prospector_head"
+      }
+    },
+    {
+      "dependencies": [
+        "d8eb2141"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "7d79d04f",
+          "item": "miningz:iron_prospector_pick",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 26.0,
+      "y": -9.0,
+      "id": "5c7a48de",
+      "title": "Iron Prospector Pick",
+      "icon": {
+        "id": "miningz:iron_prospector_pick"
+      }
+    },
+    {
+      "dependencies": [
+        "8a0a969f",
+        "c81d7f2e"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "24a5ec86",
+          "item": {
+            "id": "agedaddition:steel_prospector_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 27.0,
+      "y": -8.0,
+      "id": "880d6859",
+      "title": "Steel Prospector Head",
+      "icon": {
+        "id": "agedaddition:steel_prospector_head"
+      }
+    },
+    {
+      "dependencies": [
+        "880d6859"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "770fe503",
+          "item": "agedaddition:steel_prospector_pick",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 27.0,
+      "y": -9.0,
+      "id": "9bfa6ee7",
+      "title": "Steel Prospector Pick",
+      "icon": {
+        "id": "agedaddition:steel_prospector_pick"
+      }
+    },
+    {
+      "dependencies": [
+        "320a0db6"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "6031ff3a",
+          "item": "miningz:diamond_prospector_pick",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 28.0,
+      "y": -9.0,
+      "id": "189e50e6",
+      "title": "Diamond Prospector Pick",
+      "icon": {
+        "id": "miningz:diamond_prospector_pick"
+      }
+    },
+    {
+      "dependencies": [
+        "c81d7f2e",
+        "8a0a969f"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "45b0b82b",
+          "item": {
+            "id": "agedaddition:damascus_steel_prospector_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 29.0,
+      "y": -8.0,
+      "id": "d74ba6f8",
+      "title": "Damascus Steel Prospector Head",
+      "icon": {
+        "id": "agedaddition:damascus_steel_prospector_head"
+      }
+    },
+    {
+      "dependencies": [
+        "d74ba6f8"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "30bddfc7",
+          "item": "agedaddition:damascus_steel_prospector_pick",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 29.0,
+      "y": -9.0,
+      "id": "90193f0f",
+      "title": "Damascus Steel Prospector Pick",
+      "icon": {
+        "id": "agedaddition:damascus_steel_prospector_pick"
+      }
+    },
+    {
+      "dependencies": [
+        "c81d7f2e",
+        "8a0a969f"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "71c12e4d",
+          "item": {
+            "id": "agedaddition:netherite_prospector_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 30.0,
+      "y": -8.0,
+      "id": "3e720e0c",
+      "title": "Netherite Prospector Head",
+      "icon": {
+        "id": "agedaddition:netherite_prospector_head"
+      }
+    },
+    {
+      "dependencies": [
+        "3e720e0c"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "8deb0cbc",
+          "item": "miningz:netherite_prospector_pick",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 30.0,
+      "y": -9.0,
+      "id": "da716cba",
+      "title": "Netherite Prospector Pick",
+      "icon": {
+        "id": "miningz:netherite_prospector_pick"
+      }
+    },
+    {
+      "dependencies": [
+        "0acfba60",
+        "a8c5f24e"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "b23414ff",
+          "item": {
+            "id": "agedaddition:copper_pickaxe_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 18.5,
+      "y": -8.0,
+      "id": "27e857c1",
+      "title": "Copper Pickaxe Head"
+    },
+    {
+      "dependencies": [
+        "0acfba60",
+        "a8c5f24e"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "f54c0241",
+          "item": {
+            "id": "cupellation:iron_pickaxe_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 19.5,
+      "y": -8.0,
+      "id": "50cc55e0",
+      "title": "Iron Pickaxe Head"
+    },
+    {
+      "dependencies": [
+        "0acfba60",
+        "a8c5f24e"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "b229a91c",
+          "item": {
+            "id": "agedaddition:steel_pickaxe_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 20.5,
+      "y": -8.0,
+      "id": "a1bb9607",
+      "title": "Steel Pickaxe Head"
+    },
+    {
+      "dependencies": [
+        "0acfba60",
+        "a8c5f24e"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "f3ee03c4",
+          "item": {
+            "id": "cupellation:diamond_pickaxe_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 21.5,
+      "y": -8.0,
+      "id": "1a207b69",
+      "title": "Diamond Pickaxe Head"
+    },
+    {
+      "dependencies": [
+        "0acfba60",
+        "a8c5f24e"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "ad8c7507",
+          "item": {
+            "id": "agedaddition:damascus_steel_pickaxe_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 22.5,
+      "y": -8.0,
+      "id": "5330c0e0",
+      "title": "Damascus Steel Pickaxe Head"
+    },
+    {
+      "dependencies": [
+        "0acfba60",
+        "a8c5f24e"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "a70944c3",
+          "item": {
+            "id": "cupellation:netherite_pickaxe_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 23.5,
+      "y": -8.0,
+      "id": "e982098a",
+      "title": "Netherite Pickaxe Head"
+    },
+    {
+      "dependencies": [
+        "27e857c1"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "ec79145c",
+          "item": "agedaddition:copper_pickaxe",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 18.5,
+      "y": -9.0,
+      "id": "0b562603",
+      "title": "Copper Pickaxe"
+    },
+    {
+      "dependencies": [
+        "50cc55e0"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "6c7cde88",
+          "item": "minecraft:iron_pickaxe",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 19.5,
+      "y": -9.0,
+      "id": "41593f6c",
+      "title": "Iron Pickaxe"
+    },
+    {
+      "dependencies": [
+        "a1bb9607"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "2725015a",
+          "item": "earlystage:steel_pickaxe",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 20.5,
+      "y": -9.0,
+      "id": "97d2bc37",
+      "title": "Steel Pickaxe"
+    },
+    {
+      "dependencies": [
+        "1a207b69"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "56dd4738",
+          "item": "minecraft:diamond_pickaxe",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 21.5,
+      "y": -9.0,
+      "id": "cfdc31b0",
+      "title": "Diamond Pickaxe"
+    },
+    {
+      "dependencies": [
+        "5330c0e0"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "56460a28",
+          "item": "earlystage:damascus_steel_pickaxe",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 22.5,
+      "y": -9.0,
+      "id": "53fa2f93",
+      "title": "Damascus Steel Pickaxe"
+    },
+    {
+      "dependencies": [
+        "e982098a"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "a154e1e5",
+          "item": "minecraft:netherite_pickaxe",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 23.5,
+      "y": -9.0,
+      "id": "882560c0",
+      "title": "Netherite Pickaxe"
+    },
+    {
+      "dependencies": [
+        "4d365cd6",
+        "9309a0c8"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "f512c37a",
+          "item": {
+            "id": "agedaddition:copper_axe_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 12.0,
+      "y": -8.0,
+      "id": "c28f8e68",
+      "title": "Copper Axe Head"
+    },
+    {
+      "dependencies": [
+        "4d365cd6",
+        "9309a0c8"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "2e083407",
+          "item": {
+            "id": "cupellation:iron_axe_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 13.0,
+      "y": -8.0,
+      "id": "4b44e0f3",
+      "title": "Iron Axe Head"
+    },
+    {
+      "dependencies": [
+        "4d365cd6",
+        "9309a0c8"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "6450382e",
+          "item": {
+            "id": "agedaddition:steel_axe_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 14.0,
+      "y": -8.0,
+      "id": "738f3dd2",
+      "title": "Steel Axe Head"
+    },
+    {
+      "dependencies": [
+        "4d365cd6",
+        "9309a0c8"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "ac914c1d",
+          "item": {
+            "id": "cupellation:diamond_axe_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 15.0,
+      "y": -8.0,
+      "id": "4a656fbf",
+      "title": "Diamond Axe Head"
+    },
+    {
+      "dependencies": [
+        "4d365cd6",
+        "9309a0c8"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "e42771c9",
+          "item": {
+            "id": "agedaddition:damascus_steel_axe_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 16.0,
+      "y": -8.0,
+      "id": "49c54e4e",
+      "title": "Damascus Steel Axe Head"
+    },
+    {
+      "dependencies": [
+        "4d365cd6",
+        "9309a0c8"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "3388299c",
+          "item": {
+            "id": "cupellation:netherite_axe_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 17.0,
+      "y": -8.0,
+      "id": "2dea351a",
+      "title": "Netherite Axe Head"
+    },
+    {
+      "dependencies": [
+        "c28f8e68"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "6e3cd2e0",
+          "item": "agedaddition:copper_axe",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 12.0,
+      "y": -9.0,
+      "id": "6f83856f",
+      "title": "Copper Axe"
+    },
+    {
+      "dependencies": [
+        "4b44e0f3"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "7140a513",
+          "item": "minecraft:iron_axe",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 13.0,
+      "y": -9.0,
+      "id": "ee69cbe4",
+      "title": "Iron Axe"
+    },
+    {
+      "dependencies": [
+        "738f3dd2"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "cb5e78e6",
+          "item": "earlystage:steel_axe",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 14.0,
+      "y": -9.0,
+      "id": "31c16fcc",
+      "title": "Steel Axe"
+    },
+    {
+      "dependencies": [
+        "4a656fbf"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "24ffa854",
+          "item": "minecraft:diamond_axe",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 15.0,
+      "y": -9.0,
+      "id": "02c53ffe",
+      "title": "Diamond Axe"
+    },
+    {
+      "dependencies": [
+        "49c54e4e"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "7237679a",
+          "item": "earlystage:damascus_steel_axe",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 16.0,
+      "y": -9.0,
+      "id": "a20b0d4a",
+      "title": "Damascus Steel Axe"
+    },
+    {
+      "dependencies": [
+        "2dea351a"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "685bff66",
+          "item": "minecraft:netherite_axe",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 17.0,
+      "y": -9.0,
+      "id": "b1f250ee",
+      "title": "Netherite Axe"
+    },
+    {
+      "dependencies": [
+        "0b5b07f6",
+        "05ed11dd"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "8af508bb",
+          "item": {
+            "id": "agedaddition:copper_sword_blade"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 5.5,
+      "y": -8.0,
+      "id": "4a7de399",
+      "title": "Copper Sword Blade"
+    },
+    {
+      "dependencies": [
+        "0b5b07f6",
+        "05ed11dd"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "89c7122a",
+          "item": {
+            "id": "cupellation:iron_sword_blade"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 6.5,
+      "y": -8.0,
+      "id": "ad9016a1",
+      "title": "Iron Sword Blade"
+    },
+    {
+      "dependencies": [
+        "0b5b07f6",
+        "05ed11dd"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "988af856",
+          "item": {
+            "id": "agedaddition:steel_sword_blade"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 7.5,
+      "y": -8.0,
+      "id": "e42a5ca9",
+      "title": "Steel Sword Blade"
+    },
+    {
+      "dependencies": [
+        "0b5b07f6",
+        "05ed11dd"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "9098e0d6",
+          "item": {
+            "id": "cupellation:diamond_sword_blade"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 8.5,
+      "y": -8.0,
+      "id": "de03ba1b",
+      "title": "Diamond Sword Blade"
+    },
+    {
+      "dependencies": [
+        "0b5b07f6",
+        "05ed11dd"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "21adf769",
+          "item": {
+            "id": "agedaddition:damascus_steel_sword_blade"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 9.5,
+      "y": -8.0,
+      "id": "3d9a2972",
+      "title": "Damascus Steel Sword Blade"
+    },
+    {
+      "dependencies": [
+        "0b5b07f6",
+        "05ed11dd"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "b037f3a4",
+          "item": {
+            "id": "cupellation:netherite_sword_blade"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 10.5,
+      "y": -8.0,
+      "id": "07e763d2",
+      "title": "Netherite Sword Blade"
+    },
+    {
+      "dependencies": [
+        "4a7de399"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "8bd0062f",
+          "item": "agedaddition:copper_sword",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 5.5,
+      "y": -9.0,
+      "id": "c46a0142",
+      "title": "Copper Sword"
+    },
+    {
+      "dependencies": [
+        "ad9016a1"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "104ba2a7",
+          "item": "minecraft:iron_sword",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 6.5,
+      "y": -9.0,
+      "id": "69957a81",
+      "title": "Iron Sword"
+    },
+    {
+      "dependencies": [
+        "e42a5ca9"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "81b49cab",
+          "item": "earlystage:steel_sword",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 7.5,
+      "y": -9.0,
+      "id": "5e1477d7",
+      "title": "Steel Sword"
+    },
+    {
+      "dependencies": [
+        "de03ba1b"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "147b4e3c",
+          "item": "minecraft:diamond_sword",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 8.5,
+      "y": -9.0,
+      "id": "1da35645",
+      "title": "Diamond Sword"
+    },
+    {
+      "dependencies": [
+        "3d9a2972"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "baf3744b",
+          "item": "earlystage:damascus_steel_sword",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 9.5,
+      "y": -9.0,
+      "id": "d3004905",
+      "title": "Damascus Steel Sword"
+    },
+    {
+      "dependencies": [
+        "07e763d2"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "512d12b2",
+          "item": "minecraft:netherite_sword",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 10.5,
+      "y": -9.0,
+      "id": "9074f0bb",
+      "title": "Netherite Sword"
+    },
+    {
+      "dependencies": [
+        "9eea8af8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "d0106383",
+          "item": "tide:fish_satchel",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 9.5,
+      "y": 3.0,
+      "id": "b127f505",
+      "title": "Fish Satchel"
+    },
+    {
+      "dependencies": [
+        "c4b36ff8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "68d83c1b",
+          "item": "minecraft:bow",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -4.0,
+      "y": -2.0,
+      "id": "9cfe8332",
+      "title": "Bow"
+    },
+    {
+      "dependencies": [
+        "c4b36ff8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "d3eb8eae",
+          "item": "minecraft:crossbow",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -4.0,
+      "y": -3.0,
+      "id": "266ea926",
+      "title": "Crossbow"
+    },
+    {
+      "dependencies": [
+        "266ea926"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "1a2dd596",
+          "item": "immersive_aircraft:heavy_crossbow",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -5.0,
+      "y": -3.0,
+      "id": "c12f80c0",
+      "title": "Heavy Crossbow"
+    },
+    {
+      "dependencies": [
+        "c4b36ff8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "bd1ad0b9",
+          "item": "lilis_lucky_lures:spear",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -1.5,
+      "y": -2.0,
+      "id": "5f6bcc31",
+      "title": "Spear"
+    },
+    {
+      "dependencies": [
+        "9cfe8332"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "31172d47",
+          "item": "tide:starlight_bow",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -5.0,
+      "y": -2.0,
+      "id": "3020e6f5",
+      "title": "Starlight Bow"
+    },
+    {
+      "dependencies": [
+        "e643c29c"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "bd15654f",
+          "item": "minecraft:shield",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -0.5,
+      "y": -3.0,
+      "id": "7c5b855b",
+      "title": "Shield"
+    },
+    {
+      "dependencies": [
+        "7c5b855b"
+      ],
+      "visibility": "secret",
+      "tasks": [
+        {
+          "id": "470ae440",
+          "item": {
+            "id": "earth-and-water:spiked_shield"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -0.5,
+      "y": -2.0,
+      "id": "30041878",
+      "title": "Spiked Shield"
+    },
+    {
+      "dependencies": [
+        "9eea8af8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "baa49277",
+          "item": "minecraft:leather_helmet",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 10.5,
+      "y": 6.5,
+      "id": "d3067268",
+      "title": "Leather Cap"
+    },
+    {
+      "dependencies": [
+        "9eea8af8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "b5b95e5e",
+          "item": "minecraft:leather_chestplate",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 18.0,
+      "y": 6.5,
+      "id": "c219a916",
+      "title": "Leather Tunic"
+    },
+    {
+      "dependencies": [
+        "9eea8af8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "7d9652b3",
+          "item": "minecraft:leather_leggings",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 25.5,
+      "y": 6.5,
+      "id": "cf672463",
+      "title": "Leather Pants"
+    },
+    {
+      "dependencies": [
+        "9eea8af8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "0038699a",
+          "item": "minecraft:leather_boots",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 33.0,
+      "y": 6.5,
+      "id": "24b5fd7e",
+      "title": "Leather Boots"
+    },
+    {
+      "dependencies": [
+        "d3067268"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "465f63a1",
+          "item": {
+            "id": "cupellation:clay_helmet_mold"
+          },
+          "type": "questz:item"
+        },
+        {
+          "id": "c80b05bf",
+          "item": {
+            "id": "cupellation:brick_helmet_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 10.0,
+      "y": 8.0,
+      "id": "b9912df6",
+      "title": "Brick Helmet Mold",
+      "icon": {
+        "id": "cupellation:brick_helmet_mold"
+      }
+    },
+    {
+      "dependencies": [
+        "d3067268"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "d631c728",
+          "item": {
+            "id": "cupellation:helmet_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 11.0,
+      "y": 8.0,
+      "id": "b66a2606",
+      "title": "Helmet Mold"
+    },
+    {
+      "dependencies": [
+        "c219a916"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "65057bd0",
+          "item": {
+            "id": "cupellation:clay_chestplate_mold"
+          },
+          "type": "questz:item"
+        },
+        {
+          "id": "567da9c2",
+          "item": {
+            "id": "cupellation:brick_chestplate_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 17.5,
+      "y": 8.0,
+      "id": "129374be",
+      "title": "Brick Chestplate Mold",
+      "icon": {
+        "id": "cupellation:brick_chestplate_mold"
+      }
+    },
+    {
+      "dependencies": [
+        "c219a916"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "a830db96",
+          "item": {
+            "id": "cupellation:chestplate_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 18.5,
+      "y": 8.0,
+      "id": "37c8d775",
+      "title": "Chestplate Mold"
+    },
+    {
+      "dependencies": [
+        "cf672463"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "cec23bff",
+          "item": {
+            "id": "cupellation:clay_leggings_mold"
+          },
+          "type": "questz:item"
+        },
+        {
+          "id": "931ae80b",
+          "item": {
+            "id": "cupellation:brick_leggings_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 25.0,
+      "y": 8.0,
+      "id": "ee7fa71b",
+      "title": "Brick Leggings Mold",
+      "icon": {
+        "id": "cupellation:brick_leggings_mold"
+      }
+    },
+    {
+      "dependencies": [
+        "cf672463"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "ff4b411a",
+          "item": {
+            "id": "cupellation:leggings_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 26.0,
+      "y": 8.0,
+      "id": "efe08250",
+      "title": "Leggings Mold"
+    },
+    {
+      "dependencies": [
+        "24b5fd7e"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "e3e37fe1",
+          "item": {
+            "id": "cupellation:clay_boots_mold"
+          },
+          "type": "questz:item"
+        },
+        {
+          "id": "d600ba99",
+          "item": {
+            "id": "cupellation:brick_boots_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 32.5,
+      "y": 8.0,
+      "id": "12a19948",
+      "title": "Brick Boots Mold",
+      "icon": {
+        "id": "cupellation:brick_boots_mold"
+      }
+    },
+    {
+      "dependencies": [
+        "24b5fd7e"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "5e0940f7",
+          "item": {
+            "id": "cupellation:boots_mold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 33.5,
+      "y": 8.0,
+      "id": "506f1fe1",
+      "title": "Boots Mold"
+    },
+    {
+      "dependencies": [
+        "b9912df6",
+        "b66a2606"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "706e6166",
+          "item": {
+            "id": "minecraft:iron_helmet"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 8.5,
+      "y": 9.5,
+      "id": "efc08ff7",
+      "title": "Iron Helmet"
+    },
+    {
+      "dependencies": [
+        "b9912df6",
+        "b66a2606"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "29fc9550",
+          "item": {
+            "id": "agedaddition:copper_helmet"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 7.5,
+      "y": 9.5,
+      "id": "a1159a2f",
+      "title": "Copper Helmet"
+    },
+    {
+      "dependencies": [
+        "b9912df6",
+        "b66a2606"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "275d92bf",
+          "item": {
+            "id": "earlystage:steel_helmet"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 9.5,
+      "y": 9.5,
+      "id": "a20f3cca",
+      "title": "Steel Helmet"
+    },
+    {
+      "dependencies": [
+        "b9912df6",
+        "b66a2606"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "f9cc46ab",
+          "item": {
+            "id": "minecraft:diamond_helmet"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 10.5,
+      "y": 9.5,
+      "id": "69d181bb",
+      "title": "Diamond Helmet"
+    },
+    {
+      "dependencies": [
+        "b9912df6",
+        "b66a2606"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "e38b2186",
+          "item": {
+            "id": "earlystage:damascus_steel_helmet"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 11.5,
+      "y": 9.5,
+      "id": "8dcc4c0e",
+      "title": "Damascus Steel Helmet"
+    },
+    {
+      "dependencies": [
+        "b9912df6",
+        "b66a2606"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "a5bec091",
+          "item": {
+            "id": "minecraft:netherite_helmet"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 12.5,
+      "y": 9.5,
+      "id": "7acb6f17",
+      "title": "Netherite Helmet"
+    },
+    {
+      "dependencies": [
+        "b9912df6",
+        "b66a2606"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "73bed3c3",
+          "item": {
+            "id": "adventurez:gilded_netherite_helmet"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 13.5,
+      "y": 9.5,
+      "id": "4de2ba6a",
+      "title": "Gilded Netherite Helmet"
+    },
+    {
+      "dependencies": [
+        "129374be",
+        "37c8d775"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "741d3bf0",
+          "item": {
+            "id": "agedaddition:copper_chestplate"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 15.0,
+      "y": 9.5,
+      "id": "ede00f77",
+      "title": "Copper Chestplate"
+    },
+    {
+      "dependencies": [
+        "129374be",
+        "37c8d775"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "13ae2fe4",
+          "item": {
+            "id": "minecraft:iron_chestplate"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 16.0,
+      "y": 9.5,
+      "id": "cf03a61b",
+      "title": "Iron Chestplate"
+    },
+    {
+      "dependencies": [
+        "129374be",
+        "37c8d775"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "ea9c2554",
+          "item": {
+            "id": "earlystage:steel_chestplate"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 17.0,
+      "y": 9.5,
+      "id": "747df9a7",
+      "title": "Steel Chestplate"
+    },
+    {
+      "dependencies": [
+        "129374be",
+        "37c8d775"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "8d512ef6",
+          "item": {
+            "id": "minecraft:diamond_chestplate"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 18.0,
+      "y": 9.5,
+      "id": "9449949a",
+      "title": "Diamond Chestplate"
+    },
+    {
+      "dependencies": [
+        "129374be",
+        "37c8d775"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "ca395996",
+          "item": {
+            "id": "earlystage:damascus_steel_chestplate"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 19.0,
+      "y": 9.5,
+      "id": "05ef3012",
+      "title": "Damascus Steel Chestplate"
+    },
+    {
+      "dependencies": [
+        "129374be",
+        "37c8d775"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "04e4f013",
+          "item": {
+            "id": "minecraft:netherite_chestplate"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 20.0,
+      "y": 9.5,
+      "id": "b1af117e",
+      "title": "Netherite Chestplate"
+    },
+    {
+      "dependencies": [
+        "129374be",
+        "37c8d775"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "8f09b2c6",
+          "item": {
+            "id": "adventurez:gilded_netherite_chestplate"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 21.0,
+      "y": 9.5,
+      "id": "4a083eac",
+      "title": "Gilded Netherite Chestplate"
+    },
+    {
+      "dependencies": [
+        "ee7fa71b",
+        "efe08250"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "44bf6d2b",
+          "item": {
+            "id": "agedaddition:copper_leggings"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 22.5,
+      "y": 9.5,
+      "id": "28a87c90",
+      "title": "Copper Leggings"
+    },
+    {
+      "dependencies": [
+        "ee7fa71b",
+        "efe08250"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "6c66e609",
+          "item": {
+            "id": "minecraft:iron_leggings"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 23.5,
+      "y": 9.5,
+      "id": "a5b6c9c6",
+      "title": "Iron Leggings"
+    },
+    {
+      "dependencies": [
+        "ee7fa71b",
+        "efe08250"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "242f00d5",
+          "item": {
+            "id": "earlystage:steel_leggings"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 24.5,
+      "y": 9.5,
+      "id": "39b1c90e",
+      "title": "Steel Leggings"
+    },
+    {
+      "dependencies": [
+        "ee7fa71b",
+        "efe08250"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "aa9b5a36",
+          "item": {
+            "id": "minecraft:diamond_leggings"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 25.5,
+      "y": 9.5,
+      "id": "ee406837",
+      "title": "Diamond Leggings"
+    },
+    {
+      "dependencies": [
+        "ee7fa71b",
+        "efe08250"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "a3e336a7",
+          "item": {
+            "id": "earlystage:damascus_steel_leggings"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 26.5,
+      "y": 9.5,
+      "id": "515d7155",
+      "title": "Damascus Steel Leggings"
+    },
+    {
+      "dependencies": [
+        "ee7fa71b",
+        "efe08250"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "5538dc83",
+          "item": {
+            "id": "minecraft:netherite_leggings"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 27.5,
+      "y": 9.5,
+      "id": "0238b27e",
+      "title": "Netherite Leggings"
+    },
+    {
+      "dependencies": [
+        "ee7fa71b",
+        "efe08250"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "c65ad541",
+          "item": {
+            "id": "adventurez:gilded_netherite_leggings"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 28.5,
+      "y": 9.5,
+      "id": "24454b4d",
+      "title": "Gilded Netherite Leggings"
+    },
+    {
+      "dependencies": [
+        "12a19948",
+        "506f1fe1"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "d3fcc586",
+          "item": {
+            "id": "agedaddition:copper_boots"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 30.0,
+      "y": 9.5,
+      "id": "6fe6cda4",
+      "title": "Copper Boots"
+    },
+    {
+      "dependencies": [
+        "12a19948",
+        "506f1fe1"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "01e03b1d",
+          "item": {
+            "id": "minecraft:iron_boots"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 31.0,
+      "y": 9.5,
+      "id": "4e4fab38",
+      "title": "Iron Boots"
+    },
+    {
+      "dependencies": [
+        "12a19948",
+        "506f1fe1"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "7bf54088",
+          "item": {
+            "id": "earlystage:steel_boots"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 32.0,
+      "y": 9.5,
+      "id": "9b5e3b5b",
+      "title": "Steel Boots"
+    },
+    {
+      "dependencies": [
+        "12a19948",
+        "506f1fe1"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "e2313f44",
+          "item": {
+            "id": "minecraft:diamond_boots"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 33.0,
+      "y": 9.5,
+      "id": "122aaae9",
+      "title": "Diamond Boots"
+    },
+    {
+      "dependencies": [
+        "12a19948",
+        "506f1fe1"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "fe55b839",
+          "item": {
+            "id": "earlystage:damascus_steel_boots"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 34.0,
+      "y": 9.5,
+      "id": "d5ff57bc",
+      "title": "Damascus Steel Boots"
+    },
+    {
+      "dependencies": [
+        "12a19948",
+        "506f1fe1"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "7591c4f1",
+          "item": {
+            "id": "minecraft:netherite_boots"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 35.0,
+      "y": 9.5,
+      "id": "9e686882",
+      "title": "Netherite Boots"
+    },
+    {
+      "dependencies": [
+        "12a19948",
+        "506f1fe1"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "cb46c9bf",
+          "item": {
+            "id": "adventurez:gilded_netherite_boots"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 36.0,
+      "y": 9.5,
+      "id": "dc929cef",
+      "title": "Gilded Netherite Boots"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "12e86041",
+          "item": "earlystage:sieve",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -1.0,
+      "y": 15.0,
+      "id": "597b76f5",
+      "title": "Sieve"
+    },
+    {
+      "dependencies": [
+        "597b76f5"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "359e4479",
+          "item": "earlystage:redstone_sieve",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -1.0,
+      "y": 16.0,
+      "id": "31f7d811",
+      "title": "New Quest"
+    },
+    {
+      "dependencies": [
+        "c5fb5f17"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "7850124e",
+          "item": "betterarcheology:archeology_table",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 1.0,
+      "y": 15.0,
+      "id": "f01aa664",
+      "title": "Archeology Table"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "9e192765",
+          "item": "wildernature:bounty_board",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -2.0,
+      "y": 15.0,
+      "id": "95b14a64",
+      "title": "Bounty Board"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "5dc3e7f3",
+          "item": "earlystage:wooden_bucket",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -3.0,
+      "y": 15.0,
+      "id": "7208c274",
+      "title": "Wooden Bucket"
+    },
+    {
+      "dependencies": [
+        "7208c274"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "3b4adb6e",
+          "item": "earlystage:clay_bucket",
+          "type": "questz:craft"
+        },
+        {
+          "id": "d9f68bfe",
+          "item": {
+            "id": "earlystage:brick_bucket"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -3.0,
+      "y": 16.0,
+      "id": "3be2ae9e",
+      "title": "Brick Bucket",
+      "icon": {
+        "id": "earlystage:brick_bucket"
+      }
+    },
+    {
+      "dependencies": [
+        "3be2ae9e"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "b97eca24",
+          "item": "minecraft:bucket",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -3.0,
+      "y": 17.0,
+      "id": "49fe17da",
+      "title": "Iron Bucket"
+    },
+    {
+      "dependencies": [
+        "78256493"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "43690c24",
+          "item": {
+            "id": "minecraft:coal"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.5,
+      "y": -8.0,
+      "id": "7bc8d446",
+      "title": "Coal"
+    },
+    {
+      "dependencies": [
+        "8a2aded3"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "2a53f9d3",
+          "item": {
+            "id": "minecraft:iron_ingot"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.5,
+      "y": -12.0,
+      "id": "294ef966",
+      "title": "Iron Ingot"
+    },
+    {
+      "dependencies": [
+        "8f02a01d"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "b8645347",
+          "item": {
+            "id": "minecraft:copper_ingot"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.5,
+      "y": -10.0,
+      "id": "289c3869",
+      "title": "Copper Ingot"
+    },
+    {
+      "dependencies": [
+        "781e6a64"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "b050fe68",
+          "item": {
+            "id": "earlystage:steel_ingot"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.5,
+      "y": -15.0,
+      "id": "7060a365",
+      "title": "Steel Ingot"
+    },
+    {
+      "dependencies": [
+        "92a55113"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "17781938",
+          "item": {
+            "id": "minecraft:diamond"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.5,
+      "y": -16.0,
+      "id": "61005f17",
+      "title": "Diamond"
+    },
+    {
+      "dependencies": [
+        "fa71282e"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "29d9df8d",
+          "item": {
+            "id": "earlystage:damascus_steel_ingot"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.5,
+      "y": -17.0,
+      "id": "f0a4407d",
+      "title": "Damascus Steel Ingot"
+    },
+    {
+      "dependencies": [
+        "9dc30879"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "440defea",
+          "item": {
+            "id": "minecraft:netherite_ingot"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -2.5,
+      "y": -18.0,
+      "id": "cff030ad",
+      "title": "Netherite Ingot"
+    },
+    {
+      "dependencies": [
+        "382db789"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "f855dd4e",
+          "item": {
+            "id": "adventurez:gilded_netherite_fragment"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -0.5,
+      "y": -19.0,
+      "id": "f05d9a28",
+      "title": "Gilded Netherite Fragment"
+    },
+    {
+      "dependencies": [
+        "382db789"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "1bf84206",
+          "item": {
+            "id": "minecraft:redstone"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -0.5,
+      "y": -4.0,
+      "id": "5ecbce8c",
+      "title": "Redstone"
+    },
+    {
+      "dependencies": [
+        "0c6bd421"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "e8f4180b",
+          "item": {
+            "id": "minecraft:lapis_lazuli"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.5,
+      "y": -6.0,
+      "id": "a1525628",
+      "title": "Lapis Lazuli"
+    },
+    {
+      "dependencies": [
+        "5397c3be"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "a57c09d5",
+          "item": {
+            "id": "minecraft:quartz"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.5,
+      "y": -7.0,
+      "id": "41bcdf52",
+      "title": "Quartz"
+    },
+    {
+      "dependencies": [
+        "382db789"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "75cba1fc",
+          "item": {
+            "id": "agedaddition:coal_piece"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -0.5,
+      "y": -8.0,
+      "id": "78256493",
+      "title": "Coal Piece"
+    },
+    {
+      "dependencies": [
+        "382db789"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "9280b931",
+          "item": {
+            "id": "minecraft:raw_copper"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -0.5,
+      "y": -10.0,
+      "id": "8f02a01d",
+      "title": "Raw Copper"
+    },
+    {
+      "dependencies": [
+        "382db789"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "c74b2366",
+          "item": {
+            "id": "agedaddition:raw_copper_nugget"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -0.5,
+      "y": -9.0,
+      "id": "e999aff1",
+      "title": "Raw Copper Nugget"
+    },
+    {
+      "dependencies": [
+        "e999aff1"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "21314c7c",
+          "item": {
+            "id": "agedaddition:copper_nugget"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.5,
+      "y": -9.0,
+      "id": "55f8e6c9",
+      "title": "Copper Nugget"
+    },
+    {
+      "dependencies": [
+        "382db789"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "017e08c8",
+          "item": {
+            "id": "agedaddition:raw_iron_nugget"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -0.5,
+      "y": -11.0,
+      "id": "622d456c",
+      "title": "Raw Iron Nugget"
+    },
+    {
+      "dependencies": [
+        "622d456c"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "142e6487",
+          "item": {
+            "id": "minecraft:iron_nugget"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.5,
+      "y": -11.0,
+      "id": "129da886",
+      "title": "Iron Nugget"
+    },
+    {
+      "dependencies": [
+        "382db789"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "d5637d2b",
+          "item": {
+            "id": "minecraft:raw_iron"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -0.5,
+      "y": -12.0,
+      "id": "8a2aded3",
+      "title": "Raw Iron"
+    },
+    {
+      "dependencies": [
+        "382db789"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "6031f173",
+          "item": {
+            "id": "earlystage:steel_nugget"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -0.5,
+      "y": -15.0,
+      "id": "781e6a64",
+      "title": "Steel Nugget"
+    },
+    {
+      "dependencies": [
+        "382db789"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "d8d7a07d",
+          "item": {
+            "id": "agedaddition:diamond_piece"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -0.5,
+      "y": -16.0,
+      "id": "92a55113",
+      "title": "Diamond Piece"
+    },
+    {
+      "dependencies": [
+        "382db789"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "e49b9e19",
+          "item": {
+            "id": "agedaddition:quartz_piece"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -0.5,
+      "y": -7.0,
+      "id": "5397c3be",
+      "title": "Quartz Piece"
+    },
+    {
+      "dependencies": [
+        "382db789"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "45667ee1",
+          "item": {
+            "id": "earlystage:damascus_steel_nugget"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -0.5,
+      "y": -17.0,
+      "id": "fa71282e",
+      "title": "Damascus Steel Nugget"
+    },
+    {
+      "dependencies": [
+        "382db789"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "2ceb9691",
+          "item": {
+            "id": "agedaddition:lapis_lazuli_piece"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -0.5,
+      "y": -6.0,
+      "id": "0c6bd421",
+      "title": "Lapis Lazuli Piece"
+    },
+    {
+      "dependencies": [
+        "382db789"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "37bdc985",
+          "item": {
+            "id": "agedaddition:netherite_scrap_piece"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -0.5,
+      "y": -18.0,
+      "id": "49cdddda",
+      "title": "Netherite Scrap Piece"
+    },
+    {
+      "dependencies": [
+        "49cdddda"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "56cabc09",
+          "item": {
+            "id": "minecraft:netherite_scrap"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.5,
+      "y": -18.0,
+      "id": "9dc30879",
+      "title": "Netherite Scrap"
+    },
+    {
+      "dependencies": [
+        "441f63d4"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "390d6442",
+          "item": {
+            "id": "minecraft:emerald"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.5,
+      "y": -5.0,
+      "id": "85110c4e",
+      "title": "Emerald"
+    },
+    {
+      "dependencies": [
+        "382db789"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "8811561f",
+          "item": {
+            "id": "agedaddition:emerald_piece"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -0.5,
+      "y": -5.0,
+      "id": "441f63d4",
+      "title": "Emerald Piece"
+    },
+    {
+      "dependencies": [
+        "6f31dff7"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "44320f4d",
+          "item": {
+            "id": "minecraft:gold_ingot"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.5,
+      "y": -14.0,
+      "id": "96fc8ee4",
+      "title": "Gold Ingot"
+    },
+    {
+      "dependencies": [
+        "382db789"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "260721e9",
+          "item": {
+            "id": "minecraft:raw_gold"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -0.5,
+      "y": -14.0,
+      "id": "6f31dff7",
+      "title": "Raw Gold"
+    },
+    {
+      "dependencies": [
+        "e88fff71"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "ea1efe7d",
+          "item": {
+            "id": "minecraft:gold_nugget"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.5,
+      "y": -13.0,
+      "id": "5f42fc7c",
+      "title": "Gold Nugget"
+    },
+    {
+      "dependencies": [
+        "382db789"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "0a8d8467",
+          "item": {
+            "id": "agedaddition:raw_gold_nugget"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -0.5,
+      "y": -13.0,
+      "id": "e88fff71",
+      "title": "Raw Gold Nugget"
+    },
+    {
+      "dependencies": [
+        "a14c597d"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "86aef20c",
+          "item": "farmz:sprinkler",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -5.5,
+      "y": 6.0,
+      "id": "756f812a",
+      "title": "Sprinkler"
+    },
+    {
+      "dependencies": [
+        "756f812a"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "9305a262",
+          "item": "farm_and_charm:water_sprinkler",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -5.5,
+      "y": 7.0,
+      "id": "96de583f",
+      "title": "Advanced Sprinkler"
+    },
+    {
+      "dependencies": [
+        "a14c597d"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "654f7c47",
+          "item": "brewery:wooden_brewingstation",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -8.5,
+      "y": 6.0,
+      "id": "aa7adbfc",
+      "title": "Wooden Brewingstation"
+    },
+    {
+      "dependencies": [
+        "aa7adbfc"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "fdfe9132",
+          "item": "brewery:copper_brewingstation",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -8.5,
+      "y": 7.0,
+      "id": "4cc1b74b",
+      "title": "Copper Brewingstation"
+    },
+    {
+      "dependencies": [
+        "4cc1b74b"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "a491cc72",
+          "item": "brewery:netherite_brewingstation",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -8.5,
+      "y": 8.0,
+      "id": "9daa33b2",
+      "title": "Netherite Brewingstation"
+    },
+    {
+      "dependencies": [
+        "a14c597d"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "03113b97",
+          "item": "farmz:copper_watering_can",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -4.5,
+      "y": 6.0,
+      "id": "b0b242d3",
+      "title": "Copper Watering Can"
+    },
+    {
+      "dependencies": [
+        "b0b242d3"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "114678d2",
+          "item": "farmz:iron_watering_can",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -4.5,
+      "y": 7.0,
+      "id": "ae24688e",
+      "title": "Iron Watering Can"
+    },
+    {
+      "dependencies": [
+        "ae24688e"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "f2ba94bd",
+          "item": "farmz:golden_watering_can",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -4.5,
+      "y": 8.0,
+      "id": "09fd5abc",
+      "title": "Golden Watering Can"
+    },
+    {
+      "dependencies": [
+        "09fd5abc"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "2ee6ec1c",
+          "item": "farmz:diamond_watering_can",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -4.5,
+      "y": 9.0,
+      "id": "67bf5db3",
+      "title": "Diamond Watering Can"
+    },
+    {
+      "dependencies": [
+        "67bf5db3"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "779a98f2",
+          "item": "farmz:netherite_watering_can",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -4.5,
+      "y": 10.0,
+      "id": "b9c26ada",
+      "title": "Netherite Watering Can"
+    },
+    {
+      "dependencies": [
+        "a14c597d"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "bd180833",
+          "item": "farm_and_charm:silo_wood",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -7.5,
+      "y": 6.0,
+      "id": "c491de46",
+      "title": "Wooden Silo"
+    },
+    {
+      "dependencies": [
+        "c491de46"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "a1827a86",
+          "item": "farm_and_charm:silo_copper",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -7.5,
+      "y": 7.0,
+      "id": "6e86ba4d",
+      "title": "Copper Silo"
+    },
+    {
+      "dependencies": [
+        "a14c597d"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "b08f1f61",
+          "item": "farm_and_charm:pitchfork",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -2.5,
+      "y": 6.0,
+      "id": "f844052e",
+      "title": "Pitchfork"
+    },
+    {
+      "dependencies": [
+        "a14c597d"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "7c26b691",
+          "item": "farm_and_charm:chicken_coop",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -0.5,
+      "y": 6.0,
+      "id": "aea20a8e",
+      "title": "Chicken Coop"
+    },
+    {
+      "dependencies": [
+        "a14c597d"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "a1dbcf80",
+          "item": "brewery:barrel_main",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -6.5,
+      "y": 9.0,
+      "id": "0742f71b",
+      "title": "Barrel"
+    },
+    {
+      "dependencies": [
+        "c4b36ff8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "0c3b5489",
+          "item": "lilis_lucky_lures:dynamite",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -4.0,
+      "y": -6.0,
+      "id": "ff9bb5f9",
+      "title": "Dynamite"
+    },
+    {
+      "dependencies": [
+        "ff9bb5f9"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "4a38d31c",
+          "item": "minecraft:tnt",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -5.0,
+      "y": -6.0,
+      "id": "d49a9baf",
+      "title": "TNT"
+    },
+    {
+      "dependencies": [
+        "a14c597d"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "4bde464c",
+          "item": "farm_and_charm:cattlegrid",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 0.5,
+      "y": 6.0,
+      "id": "9f3d0743",
+      "title": "Cattle Grid"
+    },
+    {
+      "dependencies": [
+        "a14c597d"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "1be54fcc",
+          "item": "farm_and_charm:supply_cart",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -3.5,
+      "y": 6.0,
+      "id": "5017bfff",
+      "title": "Supply Cart"
+    },
+    {
+      "dependencies": [
+        "5017bfff"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "fc8a7a02",
+          "item": "farm_and_charm:plow",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -3.5,
+      "y": 7.0,
+      "id": "ed820e4f",
+      "title": "Hand Plow"
+    },
+    {
+      "dependencies": [
+        "ed820e4f"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "de37c262",
+          "item": "farm_and_charm:seeder",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -3.5,
+      "y": 8.0,
+      "id": "be23742a",
+      "title": "Seeder"
+    },
+    {
+      "dependencies": [
+        "a14c597d"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "8fd5a51a",
+          "item": "farm_and_charm:feeding_trough",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -1.5,
+      "y": 6.0,
+      "id": "813ab50b",
+      "title": "Feeding Through"
+    },
+    {
+      "dependencies": [
+        "a14c597d"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "207dcb47",
+          "item": "meadow:cheese_form",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -9.5,
+      "y": 6.0,
+      "id": "99787024",
+      "title": "Cheese Form"
+    },
+    {
+      "dependencies": [
+        "78a44165"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "e1c33585",
+          "item": "minecraft:fishing_rod",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -7.0,
+      "y": 2.0,
+      "id": "c780b09d",
+      "title": "Fishing Rod"
+    },
+    {
+      "dependencies": [
+        "1eba5abc"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "2ebc38cf",
+          "item": "tide:iron_fishing_rod",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -10.0,
+      "y": 1.0,
+      "id": "84cfcb13",
+      "title": "Iron Fishing Rod"
+    },
+    {
+      "dependencies": [
+        "84cfcb13"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "4fd52dfa",
+          "item": "tide:golden_fishing_rod",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -11.0,
+      "y": 1.0,
+      "id": "5b22d81f",
+      "title": "Golden Fishing Rod"
+    },
+    {
+      "dependencies": [
+        "5b22d81f"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "216974f2",
+          "item": "tide:crystal_fishing_rod",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -12.0,
+      "y": 1.0,
+      "id": "88467367",
+      "title": "Crystal Fishing Rod"
+    },
+    {
+      "dependencies": [
+        "ec20d871"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "3b1e47ed",
+          "item": "tide:stone_fishing_rod",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -9.0,
+      "y": 1.0,
+      "id": "1eba5abc",
+      "title": "Stone Fishing Rod"
+    },
+    {
+      "dependencies": [
+        "88467367"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "fcc8c8e0",
+          "item": "tide:diamond_fishing_rod",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -13.0,
+      "y": 1.0,
+      "id": "d369130e",
+      "title": "Diamond Fishing Rod"
+    },
+    {
+      "dependencies": [
+        "d369130e"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "2179fdb3",
+          "item": "tide:netherite_fishing_rod",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -14.0,
+      "y": 1.0,
+      "id": "463bc6eb",
+      "title": "Netherite Fishing Rod"
+    },
+    {
+      "dependencies": [
+        "5b22d81f"
+      ],
+      "visibility": "secret",
+      "tasks": [
+        {
+          "id": "dce4a5d4",
+          "item": "tide:midas_fishing_rod",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -11.0,
+      "id": "df557b3f",
+      "title": "Midas Fishing Rod"
+    },
+    {
+      "dependencies": [
+        "c780b09d",
+        "eb4b50f6"
+      ],
+      "dependency_mode": "any",
+      "visibility": "secret",
+      "tasks": [
+        {
+          "id": "b5a20198",
+          "item": {
+            "id": "tide:village_fishing_rod"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -9.0,
+      "y": 4.0,
+      "id": "fb07c0b5",
+      "title": "Rod of the Hero"
+    },
+    {
+      "dependencies": [
+        "c780b09d",
+        "eb4b50f6"
+      ],
+      "dependency_mode": "any",
+      "visibility": "secret",
+      "tasks": [
+        {
+          "id": "753b01e1",
+          "item": {
+            "id": "tide:echo_fishing_rod"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -10.0,
+      "y": 4.0,
+      "id": "303466fb",
+      "title": "Rod of Resonance"
+    },
+    {
+      "dependencies": [
+        "c780b09d",
+        "eb4b50f6"
+      ],
+      "dependency_mode": "any",
+      "visibility": "secret",
+      "tasks": [
+        {
+          "id": "0f7e08a2",
+          "item": {
+            "id": "tide:prismarine_fishing_rod"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -8.0,
+      "y": 4.0,
+      "id": "a3a64c46",
+      "title": "Prismarine Fishing Rod"
+    },
+    {
+      "dependencies": [
+        "c780b09d",
+        "eb4b50f6"
+      ],
+      "dependency_mode": "any",
+      "visibility": "secret",
+      "tasks": [
+        {
+          "id": "f93860d2",
+          "item": {
+            "id": "tide:blazing_fishing_rod"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -11.0,
+      "y": 4.0,
+      "id": "831ae874",
+      "title": "Blazing Fishing Rod"
+    },
+    {
+      "dependencies": [
+        "ec20d871"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "41f2c0cb",
+          "item": {
+            "id": "tide:fishing_line"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -8.0,
+      "y": -0.5,
+      "id": "49cf0670",
+      "title": "Fishing Line"
+    },
+    {
+      "dependencies": [
+        "78a44165"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "774e2430",
+          "item": "lilis_lucky_lures:bamboo_fishing_rod",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -6.0,
+      "y": 2.0,
+      "id": "eb4b50f6",
+      "title": "Bamboo Fishing Rod"
+    },
+    {
+      "dependencies": [
+        "49cf0670"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "0a3e6dc0",
+          "item": {
+            "id": "tide:copper_line"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -9.5,
+      "y": -2.0,
+      "id": "cbe71cc0",
+      "title": "Copper Line"
+    },
+    {
+      "dependencies": [
+        "49cf0670"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "7d61c1e6",
+          "item": "tide:golden_line",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -7.5,
+      "y": -2.0,
+      "id": "be19d748",
+      "title": "Golden Line"
+    },
+    {
+      "dependencies": [
+        "49cf0670"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "4b8fb6d2",
+          "item": {
+            "id": "tide:diamond_line"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -6.5,
+      "y": -2.0,
+      "id": "e0dd2b81",
+      "title": "Diamond Line"
+    },
+    {
+      "dependencies": [
+        "49cf0670"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "94b00b8f",
+          "item": {
+            "id": "tide:iron_line"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -8.5,
+      "y": -2.0,
+      "id": "b6c915a9",
+      "title": "Iron Line"
+    },
+    {
+      "dependencies": [
+        "ec20d871"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "543a3a18",
+          "item": {
+            "id": "tide:lavaproof_hook"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -11.0,
+      "y": 2.5,
+      "id": "2eec885b",
+      "title": "Lavaproof Hook"
+    },
+    {
+      "dependencies": [
+        "ec20d871"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "9e61b80a",
+          "item": {
+            "id": "tide:fiery_hook"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -10.0,
+      "y": 2.5,
+      "id": "7da5bfcc",
+      "title": "Fiery Hook"
+    },
+    {
+      "dependencies": [
+        "ec20d871"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "ee08d0ff",
+          "item": {
+            "id": "tide:fishing_hook"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -8.0,
+      "y": 2.5,
+      "id": "5d16d30a",
+      "title": "Fishing Hook"
+    },
+    {
+      "dependencies": [
+        "ec20d871"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "aa6f85d4",
+          "item": {
+            "id": "tide:permafrost_hook"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -9.0,
+      "y": 2.5,
+      "id": "ebbf8125",
+      "title": "Permafrost Hook"
+    },
+    {
+      "dependencies": [
+        "ec20d871"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "71b0aa8a",
+          "item": {
+            "id": "tide:twilight_hook"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -12.0,
+      "y": 2.5,
+      "id": "eac1a953",
+      "title": "Twilight Hook"
+    },
+    {
+      "dependencies": [
+        "ec20d871"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "a14467b6",
+          "item": {
+            "id": "tide:void_hook"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -13.0,
+      "y": 2.5,
+      "id": "6e9ed857",
+      "title": "Hook of the Depths"
+    },
+    {
+      "dependencies": [
+        "eb4b50f6",
+        "c780b09d"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "5490cda2",
+          "item": "lilis_lucky_lures:fishing_net",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -7.0,
+      "y": 4.0,
+      "id": "a29b4e4b",
+      "title": "Fishing Net"
+    },
+    {
+      "dependencies": [
+        "c780b09d",
+        "eb4b50f6"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "e243796d",
+          "item": "tide:angling_table",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -8.0,
+      "y": 0.5,
+      "id": "ec20d871",
+      "title": "Angling Table"
+    },
+    {
+      "dependencies": [
+        "a14c597d"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "397ec4dc",
+          "item": "vinery:grapevine_pot",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -6.5,
+      "y": 6.0,
+      "id": "29a28a87",
+      "title": "Grapevine Pot"
+    },
+    {
+      "dependencies": [
+        "a14c597d"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "45d8f1d2",
+          "item": "vinery:apple_press",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -6.5,
+      "y": 7.0,
+      "id": "e7fe401c",
+      "title": "Apple Press"
+    },
+    {
+      "dependencies": [
+        "a14c597d"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "6d188fae",
+          "item": "vinery:fermentation_barrel",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -6.5,
+      "y": 8.0,
+      "id": "997c981c",
+      "title": "Fermentation Barrel"
+    },
+    {
+      "dependencies": [
+        "ec20d871"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "97049991",
+          "item": {
+            "id": "tide:bait"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -9.0,
+      "id": "fc9b2b00",
+      "title": "Bait"
+    },
+    {
+      "dependencies": [
+        "ec20d871"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "8e7492ea",
+          "item": {
+            "id": "tide:abyss_bait"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -6.5,
+      "y": 0.5,
+      "id": "f4272f01",
+      "title": "Abyss Bait"
+    },
+    {
+      "dependencies": [
+        "ec20d871"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "fc764ca8",
+          "item": {
+            "id": "tide:incandescent_bait"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -6.5,
+      "y": -0.5,
+      "id": "7410d29a",
+      "title": "Incandescent Bait"
+    },
+    {
+      "dependencies": [
+        "fc9b2b00"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "9efca05b",
+          "item": {
+            "id": "tide:lucky_bait"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -10.0,
+      "id": "f13a2bbc",
+      "title": "Lucky Bait"
+    },
+    {
+      "dependencies": [
+        "fc9b2b00"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "494831ce",
+          "item": {
+            "id": "tide:magnetic_bait"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -10.0,
+      "y": -1.0,
+      "id": "6ca45c1c",
+      "title": "Magnetic Bait"
+    },
+    {
+      "dependencies": [
+        "c4b36ff8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "43f983de",
+          "item": {
+            "id": "minecraft:trident"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -4.0,
+      "y": -1.0,
+      "id": "67396f51",
+      "title": "Trident"
+    },
+    {
+      "dependencies": [
+        "c4b36ff8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "b4757602",
+          "item": {
+            "id": "wildernature:blunderbuss"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -4.0,
+      "y": -4.0,
+      "id": "387a8a9b",
+      "title": "Blunderbuss"
+    },
+    {
+      "dependencies": [
+        "387a8a9b"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "f63f0af1",
+          "item": "wildernature:flint_ammunition",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -5.0,
+      "y": -4.0,
+      "id": "9ed38d6b",
+      "title": "Flint Ammunition"
+    },
+    {
+      "dependencies": [
+        "9ed38d6b"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "3486ee01",
+          "item": "wildernature:diamond_ammunition",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -6.0,
+      "y": -4.0,
+      "id": "8aedb8b1",
+      "title": "Diamond Ammunition"
+    },
+    {
+      "dependencies": [
+        "c4b36ff8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "13ab8dc5",
+          "item": {
+            "id": "minecraft:leather_horse_armor"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -4.0,
+      "y": -5.0,
+      "id": "2108abf7",
+      "title": "Leather Horse Armor"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "bfda9f36",
+          "item": {
+            "id": "minecraft:brewing_stand"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 2.0,
+      "y": 15.0,
+      "id": "28b3305a",
+      "title": "Brewing Stand"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "ae979f57",
+          "item": {
+            "id": "herbalbrews:cauldron"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 3.0,
+      "y": 15.0,
+      "id": "01a84988",
+      "title": "Brewing Cauldron"
+    },
+    {
+      "dependencies": [
+        "0136fd5b"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "6d964a9b",
+          "item": {
+            "id": "minecraft:iron_horse_armor"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -6.0,
+      "y": -5.0,
+      "id": "d90d5fb9",
+      "title": "Iron Horse Armor"
+    },
+    {
+      "dependencies": [
+        "2108abf7"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "cb847cd2",
+          "item": {
+            "id": "agedaddition:copper_horse_armor"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -5.0,
+      "y": -5.0,
+      "id": "0136fd5b",
+      "title": "Copper Horse Armor"
+    },
+    {
+      "dependencies": [
+        "d90d5fb9"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "23a0f338",
+          "item": {
+            "id": "minecraft:golden_horse_armor"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -7.0,
+      "y": -5.0,
+      "id": "453ae1fd",
+      "title": "Golden Horse Armor"
+    },
+    {
+      "dependencies": [
+        "453ae1fd"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "0d913d46",
+          "item": {
+            "id": "earlystage:steel_horse_armor"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -8.0,
+      "y": -5.0,
+      "id": "3c14abe9",
+      "title": "Steel Horse Armor"
+    },
+    {
+      "dependencies": [
+        "3c14abe9"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "2c0db938",
+          "item": {
+            "id": "minecraft:diamond_horse_armor"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -9.0,
+      "y": -5.0,
+      "id": "ea5c8399",
+      "title": "Diamond Horse Armor"
+    },
+    {
+      "dependencies": [
+        "ea5c8399"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "2b3eecf7",
+          "item": {
+            "id": "earlystage:damascus_steel_horse_armor"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -10.0,
+      "y": -5.0,
+      "id": "20a31d92",
+      "title": "Damascus Steel Horse Armor"
+    },
+    {
+      "dependencies": [
+        "13b8dfca"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "f4755aac",
+          "item": "minecraft:blast_furnace",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 3.0,
+      "y": -3.0,
+      "id": "e0487a40",
+      "title": "Blast Furnace"
+    },
+    {
+      "dependencies": [
+        "13b8dfca"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "8dd9f2b6",
+          "item": "minecraft:smoker",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 2.0,
+      "y": -4.0,
+      "id": "f8420295",
+      "title": "Smoker"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "7a88e947",
+          "item": "immersive_machinery:iron_drill",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -4.0,
+      "y": 15.0,
+      "id": "58f6e663",
+      "title": "Steel Drill"
+    },
+    {
+      "dependencies": [
+        "58f6e663"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "9e60672a",
+          "item": "immersive_machinery:diamond_drill",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -4.0,
+      "y": 16.0,
+      "id": "9a7eb607",
+      "title": "Diamond Drill"
+    },
+    {
+      "dependencies": [
+        "9a7eb607"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "8c95c04c",
+          "item": "immersive_machinery:netherite_drill",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -4.0,
+      "y": 17.0,
+      "id": "78953cfa",
+      "title": "Netherite Drill"
+    },
+    {
+      "dependencies": [
+        "51a56a28"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "87633f08",
+          "block": "minecraft:netherrack",
+          "type": "questz:mine"
+        }
+      ],
+      "x": 0.5,
+      "y": -22.0,
+      "id": "f3f6a673",
+      "title": "Netherrack"
+    },
+    {
+      "dependencies": [
+        "f3f6a673"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "58fc426c",
+          "block": "minecraft:nether_bricks",
+          "type": "questz:mine"
+        }
+      ],
+      "x": 0.5,
+      "y": -23.5,
+      "id": "20290b98",
+      "title": "Nether Bricks"
+    },
+    {
+      "dependencies": [
+        "20290b98"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "12042733",
+          "block": "minecraft:red_nether_bricks",
+          "type": "questz:mine"
+        }
+      ],
+      "x": 0.5,
+      "y": -25.0,
+      "id": "2d797d9c",
+      "title": "Red Nether Bricks"
+    },
+    {
+      "dependencies": [
+        "2d797d9c"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "981fc6c3",
+          "item": {
+            "id": "cupellation:red_nether_brick_smelter"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.0,
+      "y": -27.0,
+      "id": "39d76fea",
+      "title": "Red Nether Brick Smelter"
+    },
+    {
+      "dependencies": [
+        "2d797d9c"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "ba9d0975",
+          "item": {
+            "id": "cupellation:red_nether_brick_faucet"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.0,
+      "y": -25.0,
+      "id": "e7ab5ae0",
+      "title": "Red Nether Brick Faucet"
+    },
+    {
+      "dependencies": [
+        "2d797d9c"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "4f11327f",
+          "item": {
+            "id": "cupellation:red_nether_brick_drain"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.0,
+      "y": -26.0,
+      "id": "970ea481",
+      "title": "Red Nether Brick Drain"
+    },
+    {
+      "dependencies": [
+        "2d797d9c"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "973c77d5",
+          "item": {
+            "id": "cupellation:red_nether_brick_casting_basin"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.0,
+      "y": -23.0,
+      "id": "f9127ad1",
+      "title": "Red Nether Brick Casting Basin"
+    },
+    {
+      "dependencies": [
+        "2d797d9c"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "da7e4f01",
+          "item": {
+            "id": "cupellation:red_nether_brick_casting_table"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.0,
+      "y": -24.0,
+      "id": "58bd8650",
+      "title": "Red Nether Brick Casting Table"
+    },
+    {
+      "dependencies": [
+        "382db789"
+      ],
+      "visibility": "secret",
+      "tasks": [
+        {
+          "id": "36f58d1f",
+          "dimension": "minecraft:the_nether",
+          "type": "questz:dimension"
+        }
+      ],
+      "x": 0.5,
+      "y": -20.5,
+      "id": "51a56a28",
+      "title": "Enter The Nether",
+      "icon": {
+        "id": "minecraft:obsidian"
+      }
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "3e3fa3b5",
+          "item": "farm_and_charm:cutting_board",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 7.0,
+      "y": 15.0,
+      "id": "e5c7901c",
+      "title": "Cutting Board"
+    },
+    {
+      "dependencies": [
+        "e5c7901c"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "60dde17b",
+          "item": "farm_and_charm:crafting_bowl",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 7.0,
+      "y": 16.0,
+      "id": "0480078d",
+      "title": "Crafting Bowl"
+    },
+    {
+      "dependencies": [
+        "0480078d"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "89a83392",
+          "item": "farm_and_charm:mincer",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 7.0,
+      "y": 17.0,
+      "id": "57d2d389",
+      "title": "Mincer"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "5bc064fc",
+          "item": "farm_and_charm:iron_cleaver",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 8.0,
+      "y": 15.0,
+      "id": "5a22a64c",
+      "title": "Iron Cleaver"
+    },
+    {
+      "dependencies": [
+        "5a22a64c"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "8875092c",
+          "item": "farm_and_charm:diamond_cleaver",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 8.0,
+      "y": 16.0,
+      "id": "5e4986c7",
+      "title": "Diamond Cleaver"
+    },
+    {
+      "dependencies": [
+        "5e4986c7"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "a3482192",
+          "item": "farm_and_charm:netherite_cleaver",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 8.0,
+      "y": 17.0,
+      "id": "71733dd0",
+      "title": "Netherite Cleaver"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "a618863a",
+          "item": "#c:stoves",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 12.0,
+      "y": 15.0,
+      "id": "7f76cfb3",
+      "title": "Stoves"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "75704c22",
+          "item": "herbalbrews:copper_tea_kettle",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 5.0,
+      "y": 15.0,
+      "id": "526f629c",
+      "title": "Copper Tea Kettle"
+    },
+    {
+      "dependencies": [
+        "526f629c"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "deddc15f",
+          "item": "herbalbrews:tea_kettle",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 5.0,
+      "y": 16.0,
+      "id": "2950a0a2",
+      "title": "Tea Kettle"
+    },
+    {
+      "dependencies": [
+        "7f76cfb3"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "3bc17cbb",
+          "item": "candlelight:cooking_pan",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 9.0,
+      "y": 16.5,
+      "id": "a6dc2f8c",
+      "title": "Cooking Pan"
+    },
+    {
+      "dependencies": [
+        "7f76cfb3"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "bfabe511",
+          "item": "candlelight:cooking_pot",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 10.0,
+      "y": 16.5,
+      "id": "22e7fbc7",
+      "title": "Cooking Pot"
+    },
+    {
+      "dependencies": [
+        "7f76cfb3"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "8805ccab",
+          "item": "farm_and_charm:cooking_pot",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 11.0,
+      "y": 16.5,
+      "id": "687ec902",
+      "title": "Cooking Pot",
+      "description": [
+        "fsdfsdfds dfsd fds df s"
+      ]
+    },
+    {
+      "dependencies": [
+        "7f76cfb3"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "58c7fb16",
+          "item": "bakery:small_cooking_pot",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 12.0,
+      "y": 16.5,
+      "id": "bc055440",
+      "title": "Jam Pot"
+    },
+    {
+      "dependencies": [
+        "7f76cfb3"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "f067dcba",
+          "item": "farm_and_charm:roaster",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 13.0,
+      "y": 16.5,
+      "id": "a6645388",
+      "title": "Roaster"
+    },
+    {
+      "dependencies": [
+        "78a44165"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "d01922c5",
+          "item": [
+            {
+              "id": "environmentz:wanderer_helmet"
+            },
+            {
+              "id": "environmentz:wanderer_chestplate"
+            },
+            {
+              "id": "environmentz:wanderer_leggings"
+            },
+            {
+              "id": "environmentz:wanderer_boots"
+            }
+          ],
+          "type": "questz:item"
+        }
+      ],
+      "x": -0.5,
+      "y": 4.5,
+      "id": "9e2012ab",
+      "title": "Wanderer Armor"
+    },
+    {
+      "dependencies": [
+        "78a44165"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "c2d834cf",
+          "item": [
+            {
+              "id": "environmentz:wool_helmet"
+            },
+            {
+              "id": "environmentz:wool_chestplate"
+            },
+            {
+              "id": "environmentz:wool_leggings"
+            },
+            {
+              "id": "environmentz:wool_boots"
+            }
+          ],
+          "type": "questz:item"
+        }
+      ],
+      "x": 0.5,
+      "y": 4.5,
+      "id": "7fe1cd0a",
+      "title": "Wool Armor"
+    },
+    {
+      "dependencies": [
+        "9eea8af8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "21b4616d",
+          "item": [
+            {
+              "id": "environmentz:wolf_helmet"
+            },
+            {
+              "id": "environmentz:wolf_chestplate"
+            },
+            {
+              "id": "environmentz:wolf_leggings"
+            },
+            {
+              "id": "environmentz:wolf_boots"
+            }
+          ],
+          "type": "questz:item"
+        }
+      ],
+      "x": 9.0,
+      "y": 6.0,
+      "id": "85d4f898",
+      "title": "Wolf Pelt Armor"
+    },
+    {
+      "dependencies": [
+        "78a44165"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "848f9e59",
+          "item": {
+            "id": "environmentz:heating_stones"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 3.0,
+      "y": 1.0,
+      "id": "8c14daee",
+      "title": "Heating Stones"
+    },
+    {
+      "dependencies": [
+        "9eea8af8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "00c896ae",
+          "item": {
+            "id": "environmentz:ice_pack"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 10.5,
+      "y": 3.0,
+      "id": "839e7b81",
+      "title": "Ice Pack"
+    },
+    {
+      "dependencies": [
+        "e0487a40"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "51cecd4d",
+          "item": "environmentz:copper_heater",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 2.0,
+      "y": -3.0,
+      "id": "9ad48d67",
+      "title": "Copper Heater"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "2061c75c",
+          "item": "dehydration:copper_cauldron",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 4.0,
+      "y": 15.0,
+      "id": "5bf0c357",
+      "title": "Copper Cauldron"
+    },
+    {
+      "dependencies": [
+        "5bf0c357"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "8090f07b",
+          "item": "dehydration:campfire_cauldron",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 4.0,
+      "y": 16.0,
+      "id": "12e55256",
+      "title": "Campfire Cauldron"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "fd4d5c64",
+          "item": "bakery:bread_knife",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 9.0,
+      "y": 15.0,
+      "id": "8a5b0e09",
+      "title": "Bread Knife"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "7b0c09ea",
+          "item": "bakery:rolling_pin",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 6.0,
+      "y": 15.0,
+      "id": "4f40b81a",
+      "title": "Rolling Pin"
+    },
+    {
+      "dependencies": [
+        "7f76cfb3"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "64bbdfae",
+          "item": "meadow:cookpot",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 14.0,
+      "y": 16.5,
+      "id": "f5f79500",
+      "title": "Cookpot"
+    },
+    {
+      "dependencies": [
+        "7f76cfb3"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "84db0a4d",
+          "item": "meadow:fondue_pot",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 15.0,
+      "y": 16.5,
+      "id": "d05e911a",
+      "title": "Fondue Pot"
+    },
+    {
+      "dependencies": [
+        "f5f79500"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "95f6df22",
+          "item": "meadow:cooking_frame",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 14.0,
+      "y": 17.5,
+      "id": "cd6ee7e9",
+      "title": "Cooking Frame"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "d8a99b45",
+          "item": "build_tools:trowel",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 1.0,
+      "y": 13.5,
+      "id": "2c0a4d5c",
+      "title": "Trowel"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "f3ddbbe3",
+          "item": "build_tools:wrench",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 1.0,
+      "y": 12.5,
+      "id": "d74df501",
+      "title": "Wrench"
+    },
+    {
+      "dependencies": [
+        "5ecbce8c"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "9ac04125",
+          "item": "minecraft:repeater",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -1.5,
+      "y": -4.0,
+      "id": "977ac97c",
+      "title": "Redstone Repeater"
+    },
+    {
+      "dependencies": [
+        "977ac97c"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "d3af89a5",
+          "item": "minecraft:comparator",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -2.5,
+      "y": -4.0,
+      "id": "340569fd",
+      "title": "Redstone Comparator"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "84c977d5",
+          "item": "immersive_machinery:redstone_mechanism",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 4.0,
+      "y": 11.0,
+      "id": "a863e7b8",
+      "title": "Redstone Mechanism"
+    },
+    {
+      "dependencies": [
+        "a863e7b8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "c3b0eb86",
+          "item": "minecraft:piston",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 5.5,
+      "y": 12.5,
+      "id": "25ba4c5a",
+      "title": "Piston"
+    },
+    {
+      "dependencies": [
+        "25ba4c5a"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "5fad0723",
+          "item": "minecraft:sticky_piston",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 6.5,
+      "y": 12.5,
+      "id": "9c82c50a",
+      "title": "Sticky Piston"
+    },
+    {
+      "dependencies": [
+        "a863e7b8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "b1f0ce18",
+          "item": "minecraft:dropper",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 5.5,
+      "y": 11.5,
+      "id": "c69d97b5",
+      "title": "Dropper"
+    },
+    {
+      "dependencies": [
+        "a863e7b8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "4062088b",
+          "item": "minecraft:dispenser",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 5.5,
+      "y": 10.5,
+      "id": "cbbc46b6",
+      "title": "Dispenser"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "tag": "#minecraft:rails",
+          "id": "c3d7fe04",
+          "type": "questz:item"
+        }
+      ],
+      "x": -5.0,
+      "y": 15.0,
+      "id": "0e9db0ee",
+      "title": "Rails"
+    },
+    {
+      "dependencies": [
+        "0e9db0ee"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "1242a325",
+          "item": "minecraft:minecart",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -5.0,
+      "y": 16.0,
+      "id": "24f4b97c",
+      "title": "Minecart"
+    },
+    {
+      "dependencies": [
+        "24f4b97c"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "3dc6cb90",
+          "item": {
+            "id": "minecraft:chest_minecart"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -5.0,
+      "y": 17.0,
+      "id": "bda2fd1a",
+      "title": "Minecart with Chest"
+    },
+    {
+      "dependencies": [
+        "a863e7b8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "7ba9c307",
+          "item": "minecraft:crafter",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 5.5,
+      "y": 9.5,
+      "id": "a4d8ffd0",
+      "title": "Crafter"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "a1097158",
+          "item": {
+            "id": "immersive_aircraft:gyrodyne"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 1.0,
+      "y": 10.5,
+      "id": "66bc316e",
+      "title": "Gyrodyne"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "cb913dd9",
+          "item": {
+            "id": "immersive_aircraft:quadrocopter"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 1.0,
+      "y": 9.5,
+      "id": "9c6e5ba9",
+      "title": "Quadrocopter"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "9c1bbc59",
+          "item": {
+            "id": "immersive_aircraft:airship"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 1.0,
+      "y": 11.5,
+      "id": "051112e4",
+      "title": "Airship"
+    },
+    {
+      "dependencies": [
+        "4b4e76f7"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "cae5eb65",
+          "item": {
+            "id": "immersive_aircraft:bamboo_hopper"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.0,
+      "y": 10.5,
+      "id": "1649b1f0",
+      "title": "Bamboo Hopper"
+    },
+    {
+      "dependencies": [
+        "66bc316e"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "2eed6ece",
+          "item": {
+            "id": "immersive_aircraft:biplane"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "y": 10.5,
+      "id": "4b4e76f7",
+      "title": "Biplane"
+    },
+    {
+      "dependencies": [
+        "051112e4"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "7e22a79d",
+          "item": {
+            "id": "immersive_aircraft:cargo_airship"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "y": 11.5,
+      "id": "3879b78e",
+      "title": "Cargo Airship"
+    },
+    {
+      "dependencies": [
+        "3879b78e"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "213472ac",
+          "item": {
+            "id": "immersive_aircraft:warship"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.0,
+      "y": 11.5,
+      "id": "4a45b99f",
+      "title": "Warship"
+    },
+    {
+      "dependencies": [
+        "9c6e5ba9"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "eb8f6a3e",
+          "item": {
+            "id": "immersive_machinery:bamboo_bee"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "y": 9.5,
+      "id": "a9fcdffa",
+      "title": "Bamboo Bee"
+    },
+    {
+      "dependencies": [
+        "1649b1f0"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "6f6a3034",
+          "item": {
+            "id": "man_of_many_planes:economy_plane"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -2.0,
+      "y": 10.5,
+      "id": "c80ee4d5",
+      "title": "Economy Plane"
+    },
+    {
+      "dependencies": [
+        "c80ee4d5"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "e5c643c6",
+          "item": {
+            "id": "man_of_many_planes:scarlet_biplane"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -3.0,
+      "y": 10.5,
+      "id": "71dcd3ae",
+      "title": "Scarlet Biplane"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "d4d9fabc",
+          "item": {
+            "id": "immersive_machinery:copperfin"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 1.0,
+      "y": 8.5,
+      "id": "218c4c44",
+      "title": "Copper Fin"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "ba9291b5",
+          "item": {
+            "id": "immersive_machinery:redstone_sheep"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 1.0,
+      "y": 7.5,
+      "id": "9e13719c",
+      "title": "Redstone Sheep"
+    },
+    {
+      "dependencies": [
+        "9e13719c"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "24cf14ca",
+          "item": {
+            "id": "immersive_machinery:tunnel_digger"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "y": 7.5,
+      "id": "e48fb52e",
+      "title": "Tunnel Digger"
+    },
+    {
+      "dependencies": [
+        "ec20d871"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "c0205e53",
+          "item": "tide:fish_finder",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -5.0,
+      "y": 1.0,
+      "id": "a0a78b1a",
+      "title": "Fish Finder"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "ffe27948",
+          "item": "smallships:dockyard",
+          "type": "questz:craft"
+        }
+      ],
+      "x": 4.0,
+      "y": 13.5,
+      "id": "6e01a0fb",
+      "title": "Dockyard"
+    },
+    {
+      "dependencies": [
+        "c4b36ff8"
+      ],
+      "visibility": "secret",
+      "tasks": [
+        {
+          "id": "76cfc0a3",
+          "item": "candlelight:gold_ring",
+          "type": "questz:craft"
+        }
+      ],
+      "x": -2.5,
+      "y": -3.0,
+      "id": "7d76066e",
+      "title": "Gold Ring"
+    },
+    {
+      "dependencies": [
+        "c4b36ff8"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "97ac3e17",
+          "item": {
+            "id": "minecraft:totem_of_undying"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -4.0,
+      "y": -7.0,
+      "id": "7817f792",
+      "title": "Totem of Undying"
+    },
+    {
+      "dependencies": [
+        "c4b36ff8"
+      ],
+      "visibility": "dependencies_visible",
+      "tasks": [
+        {
+          "id": "29c26e86",
+          "item": {
+            "id": "additionz:totem_of_non_breaking"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -5.0,
+      "y": -7.0,
+      "id": "ad2fa2eb",
+      "title": "Totem of Non Breaking"
+    },
+    {
+      "dependencies": [
+        "c4b36ff8"
+      ],
+      "visibility": "secret",
+      "tasks": [
+        {
+          "id": "f0643ba1",
+          "item": {
+            "id": "betterarcheology:growth_totem"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -6.0,
+      "y": -8.0,
+      "id": "819f5bf8",
+      "title": "Totem of Growth"
+    },
+    {
+      "dependencies": [
+        "c4b36ff8"
+      ],
+      "visibility": "secret",
+      "tasks": [
+        {
+          "id": "ef1db6d3",
+          "item": {
+            "id": "betterarcheology:radiance_totem"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -7.0,
+      "y": -8.0,
+      "id": "c9fd591b",
+      "title": "Totem of Radiance"
+    },
+    {
+      "dependencies": [
+        "c4b36ff8"
+      ],
+      "visibility": "secret",
+      "tasks": [
+        {
+          "id": "8ec765e2",
+          "item": {
+            "id": "betterarcheology:soul_totem"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -5.0,
+      "y": -8.0,
+      "id": "8d95c0bc",
+      "title": "Totem of Souls"
+    },
+    {
+      "dependencies": [
+        "c4b36ff8"
+      ],
+      "visibility": "secret",
+      "tasks": [
+        {
+          "id": "f7baebd6",
+          "item": {
+            "id": "betterarcheology:torrent_totem"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -4.0,
+      "y": -8.0,
+      "id": "76221232",
+      "title": "Totem of Torrents"
+    },
+    {
+      "dependencies": [
+        "78a44165"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "80c07bab",
+          "item": {
+            "id": "dehydration:rainwater_collector"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 3.0,
+      "y": 2.0,
+      "id": "997cec15",
+      "title": "Rainwater Collector"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "901f28ca",
+          "item": {
+            "id": "dehydration:bamboo_pump"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 10.0,
+      "y": 15.0,
+      "id": "d425a148",
+      "title": "Bamboo Pump"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "b4acb15c",
+          "item": {
+            "id": "minecraft:enchanting_table"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 4.0,
+      "y": 10.0,
+      "id": "3b028b0e",
+      "title": "Enchanting Table"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "4aeb8ffb",
+          "item": {
+            "id": "minecraft:conduit"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 4.0,
+      "y": 9.0,
+      "id": "707d9a2d",
+      "title": "Conduit"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "cb57b79d",
+          "item": {
+            "id": "minecraft:ender_chest"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 4.0,
+      "y": 8.0,
+      "id": "c66a0a19",
+      "title": "Ender Chest"
+    },
+    {
+      "dependencies": [
+        "c66a0a19"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "b3988b42",
+          "item": {
+            "id": "inmis:ender_pouch"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 5.0,
+      "y": 8.0,
+      "id": "d9de1a89",
+      "title": "Ender Pouch"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "ccca2e67",
+          "item": {
+            "id": "additionz:chunk_loader"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 4.0,
+      "y": 12.0,
+      "id": "08ba3536",
+      "title": "Chunk Loader"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "14a7f972",
+          "item": {
+            "id": "minecraft:lodestone"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 4.0,
+      "y": 7.0,
+      "id": "ecb02b68",
+      "title": "Lodestone"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "7292becc",
+          "item": {
+            "id": "minecraft:respawn_anchor"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 4.0,
+      "y": 6.0,
+      "id": "fd21f099",
+      "title": "Respawn Anchor"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "62f5b3f0",
+          "item": {
+            "id": "minecraft:end_crystal"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -6.0,
+      "y": 15.0,
+      "id": "255e14e7",
+      "title": "End Crystal"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "ad2b7e16",
+          "item": {
+            "id": "minecraft:beacon"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -7.0,
+      "y": 15.0,
+      "id": "b50fad3f",
+      "title": "Beacon"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "9cec6312",
+          "item": {
+            "id": "lilis_lucky_lures:redstone_coil"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -8.0,
+      "y": 15.0,
+      "id": "47d49d68",
+      "title": "Redstone Coil"
+    },
+    {
+      "dependencies": [
+        "a4e0cb64"
+      ],
+      "visibility": "secret",
+      "tasks": [
+        {
+          "id": "59556eb0",
+          "item": {
+            "id": "tide:enchanted_pocket_watch"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -9.0,
+      "y": 15.0,
+      "id": "a596dff8",
+      "title": "Enchanted Pocket Watch"
+    },
+    {
+      "dependencies": [
+        "9e686882"
+      ],
+      "visibility": "secret",
+      "tasks": [
+        {
+          "id": "6cd0786e",
+          "item": {
+            "id": "tide:dragonfin_boots"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 35.0,
+      "y": 10.5,
+      "id": "dd1939b9",
+      "title": "Dragonfin Boots"
+    },
+    {
+      "dependencies": [
+        "6e01a0fb"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "865f1a06",
+          "item": "#smallships:briggs",
+          "type": "questz:use"
+        }
+      ],
+      "x": 5.0,
+      "y": 13.5,
+      "id": "8c6584d8",
+      "title": "Briggs"
+    },
+    {
+      "dependencies": [
+        "6e01a0fb"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "d7b734f9",
+          "item": "#smallships:caravels",
+          "type": "questz:use"
+        }
+      ],
+      "x": 6.0,
+      "y": 13.5,
+      "id": "6130099d",
+      "title": "Caravels"
+    },
+    {
+      "dependencies": [
+        "6e01a0fb"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "b5749cf9",
+          "item": "#smallships:cogs",
+          "type": "questz:use"
+        }
+      ],
+      "x": 7.0,
+      "y": 13.5,
+      "id": "0f232af4",
+      "title": "Cogs"
+    },
+    {
+      "dependencies": [
+        "6e01a0fb"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "0784606c",
+          "item": "#smallships:dhows",
+          "type": "questz:use"
+        }
+      ],
+      "x": 8.0,
+      "y": 13.5,
+      "id": "ba0f0579",
+      "title": "Dhows"
+    },
+    {
+      "dependencies": [
+        "6e01a0fb"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "94e13a8f",
+          "item": "#smallships:drakkars",
+          "type": "questz:use"
+        }
+      ],
+      "x": 9.0,
+      "y": 13.5,
+      "id": "892fb5b2",
+      "title": "Drakkars"
+    },
+    {
+      "dependencies": [
+        "6e01a0fb"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "55cbb05d",
+          "item": "#smallships:galleons",
+          "type": "questz:use"
+        }
+      ],
+      "x": 10.0,
+      "y": 13.5,
+      "id": "063a8586",
+      "title": "Galleons"
+    },
+    {
+      "dependencies": [
+        "6e01a0fb"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "6a108904",
+          "item": "#smallships:galleys",
+          "type": "questz:use"
+        }
+      ],
+      "x": 11.0,
+      "y": 13.5,
+      "id": "6e39cc69",
+      "title": "Galleys"
+    },
+    {
+      "dependencies": [
+        "c81d7f2e",
+        "8a0a969f"
+      ],
+      "dependency_mode": "any",
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "8de82091",
+          "item": {
+            "id": "agedaddition:diamond_prospector_head"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 28.0,
+      "y": -8.0,
+      "id": "320a0db6",
+      "title": "Diamond Prospector Head"
+    },
+    {
+      "dependencies": [
+        "51a56a28"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "7b916c55",
+          "item": {
+            "id": "minecraft:blaze_rod"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -0.5,
+      "y": -22.0,
+      "id": "6df3f294",
+      "title": "Blaze Rod"
+    },
+    {
+      "dependencies": [
+        "d0aefc63"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "5a626b4a",
+          "item": {
+            "id": "minecraft:dragon_breath"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 3.5,
+      "y": -26.0,
+      "id": "fbd4daca",
+      "title": "Dragon's Breath"
+    },
+    {
+      "dependencies": [
+        "382db789"
+      ],
+      "visibility": "secret",
+      "tasks": [
+        {
+          "id": "89017c56",
+          "dimension": "minecraft:the_end",
+          "type": "questz:dimension"
+        }
+      ],
+      "x": 2.0,
+      "y": -25.0,
+      "id": "d0aefc63",
+      "title": "Enter The End"
+    },
+    {
+      "dependencies": [
+        "d0aefc63"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "818d91cd",
+          "item": {
+            "id": "minecraft:purpur_block"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 2.0,
+      "y": -27.0,
+      "id": "adf7ccf0",
+      "title": "Purpur"
+    },
+    {
+      "dependencies": [
+        "d0aefc63"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "fdf75d07",
+          "entity": "minecraft:ender_dragon",
+          "type": "questz:kill"
+        }
+      ],
+      "x": 3.5,
+      "y": -25.0,
+      "id": "12f6afa3",
+      "title": "Ender Dragon"
+    },
+    {
+      "dependencies": [
+        "51a56a28"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "50ac296c",
+          "entity": "minecraft:wither",
+          "type": "questz:kill"
+        }
+      ],
+      "x": -2.5,
+      "y": -22.0,
+      "id": "fe55dea6",
+      "title": "Wither"
+    },
+    {
+      "dependencies": [
+        "51a56a28"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "c9353f56",
+          "item": {
+            "id": "minecraft:nether_star"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -1.5,
+      "y": -22.0,
+      "id": "007c4c19",
+      "title": "Nether Star"
+    },
+    {
+      "dependencies": [
+        "51a56a28"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "80b0ab2d",
+          "entity": "adventurez:blackstone_golem",
+          "type": "questz:kill"
+        }
+      ],
+      "x": -3.5,
+      "y": -22.0,
+      "id": "07f81dbb",
+      "title": "Blackstone Golem"
+    },
+    {
+      "dependencies": [
+        "12f6afa3"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "f8d7a775",
+          "entity": "adventurez:void_shadow",
+          "type": "questz:kill"
+        }
+      ],
+      "x": 4.5,
+      "y": -25.0,
+      "id": "0fa5c90c",
+      "title": "Void Shadow"
+    },
+    {
+      "dependencies": [
+        "d0aefc63"
+      ],
+      "visibility": "dependencies_done",
+      "tasks": [
+        {
+          "id": "7f6c799f",
+          "item": {
+            "id": "minecraft:shulker_shell"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": 1.0,
+      "y": -26.5,
+      "id": "0fd23c54",
+      "title": "Shulker Shell"
+    },
+    {
+      "dependencies": [
+        "c780b09d",
+        "eb4b50f6"
+      ],
+      "dependency_mode": "any",
+      "visibility": "secret",
+      "tasks": [
+        {
+          "id": "15e98056",
+          "item": {
+            "id": "tide:honeycomb_fishing_rod"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -12.0,
+      "y": 4.0,
+      "id": "34244f4c",
+      "title": "Honeycomb Fishing Rod"
+    },
+    {
+      "dependencies": [
+        "c780b09d",
+        "eb4b50f6"
+      ],
+      "dependency_mode": "any",
+      "visibility": "secret",
+      "tasks": [
+        {
+          "id": "fc57a50d",
+          "item": {
+            "id": "tide:sunflower_fishing_rod"
+          },
+          "type": "questz:item"
+        }
+      ],
+      "x": -13.0,
+      "y": 4.0,
+      "id": "f503b5b3",
+      "title": "Suncatcher"
+    }
+  ],
+  "id": "76a9fc9e",
+  "title": "Start",
+  "icon": {
+    "id": "minecraft:book"
+  }
+}

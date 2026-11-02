@@ -1,0 +1,36 @@
+{
+  "replace": true,
+  "id": "cupellation:netherite",
+  "name": "metal.cupellation.netherite",
+  "required_temp": 2000,
+  "color": "8E8A8E",
+  "cooled_color": "484548",
+  "texture": "cupellation:fluid/molten_netherite",
+  "ingot": "minecraft:netherite_ingot",
+  "block": "minecraft:netherite_block",
+  "density": 250,
+  "alloy_from": [
+    {
+      "metal": "cupellation:gold",
+      "parts": 1
+    },
+    {
+      "metal": "cupellation:debris",
+      "parts": 1
+    }
+  ],
+  "grades": {
+    "low": {
+      "min": 2000,
+      "max": 2150
+    },
+    "mid": {
+      "min": 2150,
+      "max": 2300
+    },
+    "high": {
+      "min": 2300,
+      "max": 2450
+    }
+  }
+}

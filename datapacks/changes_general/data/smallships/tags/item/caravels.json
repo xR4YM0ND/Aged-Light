@@ -1,0 +1,16 @@
+{
+  "replace": true,
+  "values": [
+    "smallships:oak_caravel",
+    "smallships:spruce_caravel",
+    "smallships:birch_caravel",
+    "smallships:jungle_caravel",
+    "smallships:acacia_caravel",
+    "smallships:cherry_caravel",
+    "smallships:dark_oak_caravel",
+    "smallships:mangrove_caravel",
+    "smallships:bamboo_caravel",
+    "smallships:warped_caravel",
+    "smallships:crimson_caravel"
+  ]
+}

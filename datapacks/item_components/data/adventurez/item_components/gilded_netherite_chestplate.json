@@ -1,0 +1,29 @@
+{
+  "targets": "environmentz:gilded_netherite_chestplate",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "amount": 11.0,
+        "id": "minecraft:gilded_netherite_chestplate_armor",
+        "operation": "add_value",
+        "slot": "chest"
+      },
+      {
+        "type": "minecraft:generic.armor_toughness",
+        "amount": 4.0,
+        "id": "minecraft:gilded_netherite_chestplate_armor_toughness",
+        "operation": "add_value",
+        "slot": "chest"
+      },
+      {
+        "type": "minecraft:generic.knockback_resistance",
+        "amount": 2.0,
+        "id": "minecraft:gilded_netherite_chestplate_knockback_resistance",
+        "operation": "add_value",
+        "slot": "chest"
+      }
+    ],
+    "minecraft:max_damage": 800
+  }
+}

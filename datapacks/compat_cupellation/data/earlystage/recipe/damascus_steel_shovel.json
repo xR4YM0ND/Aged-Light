@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "agedaddition:damascus_steel_shovel_head"
+  },
+  "base": {
+    "item": "minecraft:diamond_shovel"
+  },
+  "result": {
+    "count": 1,
+    "id": "earlystage:damascus_steel_shovel"
+  },
+  "template": {
+    "item": "agedaddition:damascus_steel_upgrade_smithing_template"
+  }
+}

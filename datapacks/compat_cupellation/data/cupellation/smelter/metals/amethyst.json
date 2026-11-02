@@ -1,0 +1,24 @@
+{
+  "id": "cupellation:amethyst",
+  "name": "metal.cupellation.amethyst",
+  "required_temp": 1250,
+  "color": "8B69CA",
+  "cooled_color": "533888",
+  "texture": "cupellation:fluid/molten_copper",
+  "block": "minecraft:amethyst_block",
+  "density": 30,
+  "grades": {
+    "low": {
+      "min": 1250,
+      "max": 1400
+    },
+    "mid": {
+      "min": 1400,
+      "max": 1550
+    },
+    "high": {
+      "min": 1550,
+      "max": 1700
+    }
+  }
+}

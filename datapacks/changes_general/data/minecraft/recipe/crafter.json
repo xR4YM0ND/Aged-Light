@@ -3,7 +3,7 @@
   "category": "redstone",
   "key": {
     "#": {
-      "item": "stal-alloys:steel_ingot"
+      "item": "earlystage:steel_ingot"
     },
     "C": {
       "item": "minecraft:crafting_table"

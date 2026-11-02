@@ -1,0 +1,25 @@
+{
+  "id": "cupellation:damascus_steel",
+  "name": "metal.cupellation.damascus_steel",
+  "required_temp": 1700,
+  "color": "61404d",
+  "cooled_color": "41404d",
+  "texture": "cupellation:fluid/molten_netherite",
+  "ingot": "earlystage:damascus_steel_ingot",
+  "block": "earlystage:damascus_steel_block",
+  "density": 150,
+  "grades": {
+    "low": {
+      "min": 1700,
+      "max": 1850
+    },
+    "mid": {
+      "min": 1850,
+      "max": 2000
+    },
+    "high": {
+      "min": 2000,
+      "max": 2150
+    }
+  }
+}

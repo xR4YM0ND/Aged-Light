@@ -3,7 +3,7 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "agedaddition:basic_steel_rod"
+      "item": "earlystage:steel_ingot"
     },
     {
       "item": "minecraft:flint"

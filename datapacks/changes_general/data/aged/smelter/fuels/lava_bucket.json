@@ -1,6 +1,0 @@
-{
-  "replace": true,
-  "item": "minecraft:lava_bucket",
-  "max_temperature": 1200,
-  "burn_time": 20000
-}

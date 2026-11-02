@@ -1,0 +1,12 @@
+{
+  "item": "minecraft:blaze_powder",
+  "from": {
+    "metal": "cupellation:gilded_netherite",
+    "state": "slag"
+  },
+  "to": {
+    "metal": "cupellation:gilded_netherite",
+    "state": "metal"
+  },
+  "amount_per_item": 50
+}

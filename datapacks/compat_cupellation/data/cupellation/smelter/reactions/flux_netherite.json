@@ -1,0 +1,12 @@
+{
+  "item": "minecraft:glowstone_dust",
+  "from": {
+    "metal": "cupellation:netherite",
+    "state": "slag"
+  },
+  "to": {
+    "metal": "cupellation:netherite",
+    "state": "metal"
+  },
+  "amount_per_item": 50
+}

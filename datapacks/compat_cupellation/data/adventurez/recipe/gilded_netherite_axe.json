@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "agedaddition:gilded_netherite_axe_head"
+  },
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "result": {
+    "count": 1,
+    "id": "adventurez:gilded_netherite_axe"
+  },
+  "template": {
+    "item": "adventurez:gilded_upgrade_smithing_template"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "replace": true,
+  "id": "cupellation:copper",
+  "name": "metal.cupellation.copper",
+  "required_temp": 700,
+  "color": "4FAB90",
+  "cooled_color": "D67B5B",
+  "texture": "cupellation:fluid/molten_copper",
+  "ingot": "minecraft:copper_ingot",
+  "block": "minecraft:copper_block",
+  "density": 50,
+  "grades": {
+    "low": {
+      "min": 700,
+      "max": 850
+    },
+    "mid": {
+      "min": 850,
+      "max": 1000
+    },
+    "high": {
+      "min": 1000,
+      "max": 1150
+    }
+  }
+}

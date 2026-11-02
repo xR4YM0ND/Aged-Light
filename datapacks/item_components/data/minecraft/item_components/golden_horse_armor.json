@@ -4,7 +4,7 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:generic.armor",
-        "amount": 15.0,
+        "amount": 10.0,
         "id": "minecraft:golden_horse_armor_armor",
         "operation": "add_value",
         "slot": "armor"

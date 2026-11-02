@@ -4,7 +4,7 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:generic.armor",
-        "amount": 3.0,
+        "amount": 4.0,
         "id": "minecraft:chainmail_leggings_armor",
         "operation": "add_value",
         "slot": "legs"
@@ -17,6 +17,6 @@
         "slot": "legs"
       }
     ],
-    "minecraft:max_damage": 600
+    "minecraft:max_damage": 490
   }
 }

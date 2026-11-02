@@ -1,4 +1,4 @@
-{
+ {
   "pack": {
     "pack_format": 48,
     "supported_formats": {
@@ -6,7 +6,7 @@
       "max_inclusive": 999
       },
     "description": {
-        "text": "aged welcome screen"
+        "text": "aged welcomescreen datapack"
     }
   }
 }

@@ -1,0 +1,12 @@
+{
+  "item": "cupellation:calcite_powder",
+  "from": {
+    "metal": "cupellation:iron",
+    "state": "slag"
+  },
+  "to": {
+    "metal": "cupellation:iron",
+    "state": "metal"
+  },
+  "amount_per_item": 50
+}

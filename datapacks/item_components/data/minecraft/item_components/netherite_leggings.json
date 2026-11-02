@@ -4,7 +4,7 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:generic.armor",
-        "amount": 6.0,
+        "amount": 9.0,
         "id": "minecraft:netherite_leggings_armor",
         "operation": "add_value",
         "slot": "legs"
@@ -18,12 +18,12 @@
       },
       {
         "type": "minecraft:generic.knockback_resistance",
-        "amount": 0.6,
+        "amount": 1.0,
         "id": "minecraft:netherite_leggings_knockback_resistance",
         "operation": "add_value",
         "slot": "legs"
       }
     ],
-    "minecraft:max_damage": 1650
+    "minecraft:max_damage": 665
   }
 }
