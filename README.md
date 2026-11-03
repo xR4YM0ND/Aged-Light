@@ -62,9 +62,167 @@ In this repo you will only see files specific to aged-light (without client side
 
 </center>
 <details>
-<summary>Mods which are in Aged-Light</summary>
+<summary>Mods in Aged Light</summary>
 
-- List all mods here
+- [Let's Do] Alpine Whispers
+- [Let's Do] Bakery
+- [Let's Do] Beachparty
+- [Let's Do] Brewery
+- [Let's Do] Candlelight
+- [Let's Do] Farm & Charm
+- [Let's Do] Furniture
+- [Let's Do] Hearth & Timber
+- [Let's Do] HerbalBrews
+- [Let's Do] LilisPottery
+- [Let's Do] Meadow
+- [Let's Do] Vinery
+- [Let's Do] Wilder Nature
+- Accessories
+- Accessories Compatibility Layer
+- AdditionZ
+- AdventureZ
+- Aged-Addition
+- Antique Atlas
+- AppleSkin
+- Architectury
+- Async Locator Refined
+- BackSlot
+- BackSlot Addon
+- Balm
+- Barebones McQoy
+- Better Archeology
+- Better Combat
+- Birds Boids
+- Boids
+- Chai's Build Tools
+- Cloth Config v15
+- Combat Roll
+- Configurable
+- Cristel Lib
+- Cupellation
+- Default Options
+- Dehydration
+- Dungeons and Taverns Desert Temple Replacement
+- Dungeons and Taverns End Castle Standalone
+- Dungeons and Taverns Jungle Temple Replacement
+- Dungeons and Taverns Nether Fortress Overhaul
+- Dungeons and Taverns Ocean Monument Replacement
+- EarlyStage
+- Earth & Water
+- EMI
+- EMI Enchanting
+- EMI Loot
+- EMI Ores
+- EMI Professions
+- EMIffect
+- End Remastered
+- EntityCulling
+- EnvironmentZ
+- Fabric API
+- Fabric Language Kotlin
+- FarmZ
+- FerriteCore
+- FishingReal
+- FleshZ
+- Forge Config API Port
+- Formations
+- Formations Nether
+- Fzzy Config
+- Gardens of the Dead
+- GeckoLib 4
+- GlitchCore
+- Herds Panic
+- Hopo Better Ruined Portal
+- Hopo Better Underwater Ruins
+- HT's TreeChop
+- ImmediatelyFast
+- Immersive Aircraft
+- Immersive Machinery
+- Immersive Snow (Reloaded)
+- Inmis
+- InmisAddon
+- It Takes a Pillage Continuation
+- Item Components
+- JamLib
+- JobsAddon
+- Kiwi Library
+- Lavender
+- LevelZ
+- LibZ
+- Lilis' Lucky Lures
+- Load My F***ing Tags
+- Log Begone
+- Lootr
+- Luki's Ancient Cities
+- Luki's Crazy Chambers
+- Luki's Grand Capitals
+- Luki's Strongholds
+- Luki's Woodland Mansions
+- Man of Many Planes
+- Medieval Buildings
+- Medieval Buildings [End Edition]
+- Medieval Buildings [Nether Edition]
+- MiningZ
+- Mod Menu
+- ModernFix
+- Moog's Structure Lib
+- MoogsEndStructures
+- Nature's Spirit
+- Neruina - Ticking Entity Fixer
+- No Chat Reports
+- No Chat Restrictions
+- NutritionZ
+- Overflowing Bars
+- owo
+- PacketFixer
+- PartyAddon
+- Passable Foliage
+- Paxi
+- Phantasmic Flight
+- Placeholder API
+- Player Animator
+- Puzzles Lib
+- qrafty's Archeology Dig Sites
+- QuestZ
+- Realistic Farmland
+- Recipe Remover
+- Resourceful Lib
+- Resourcefulconfig
+- Revive
+- RpgDifficulty
+- Ruined Portals Only
+- Satin
+- Scholar
+- SereneSeasons
+- Shut Up GL Error
+- Small Ships
+- Sodium
+- SpoiledZ
+- Stamina
+- Storage Drawers
+- StreamsReflowing
+- Structurify
+- Superb Steeds
+- Surveyor Map Framework
+- TerraBlender
+- Tide
+- Trinkets
+- True Ending: Ender Dragon Overhaul
+- Untamed
+- Villager Trade Fix
+- VoidZ
+- WelcomeScreen
+- William Wythers' Overhauled Overworld
+- YetAnotherConfigLib
+- Yori3o's Grappling Hooks
+- YUNG's API
+- YUNG's Cave Biomes
+</details>
+
+<details>
+<summary>Resourcepacks in Aged Light</summary>
+
+- Antique Atlas 4 Compat
 </details>
 
 <center>
@@ -105,3 +263,15 @@ In this repo you will only see files specific to aged-light (without client side
 > **To be filled**
 >
 > New verison 4.0.0 -> waiting for your feedback ^^
+
+<center>
+
+![aged_wood_bar](https://raw.githubusercontent.com/xR4YM0ND/Aged-Light/refs/heads/1.21.1/GALLERY/wood_bar_v2_33h.png)
+
+## Links
+[![Modrinth Downloads Badge](https://img.shields.io/modrinth/dt/kaiSQ3iq?style=for-the-badge&logo=modrinth&logoColor=white&label=%20&labelColor=555555&color=1BD964)](https://modrinth.com/modpack/aged-light)
+[![Source Code Badge](https://img.shields.io/badge/source_code-lightgray?style=for-the-badge&logo=github&label=%20&labelColor=555555)](https://github.com/xR4YM0ND/Aged-Light/tree/1.21.1)
+[![GitHub License Badge](https://img.shields.io/github/license/xR4YM0ND/Aged-Light?style=for-the-badge&label=%C2%A7&labelColor=555555)](https://github.com/xR4YM0ND/Aged-Light/blob/1.21.1/LICENSE.md)
+[![Discord Badge](https://img.shields.io/discord/745451299713056791?style=for-the-badge&logo=discord&logoColor=white&label=%20&labelColor=555555&color=5865F2)](https://discord.gg/WXdSYn4yHB)
+
+</center>
