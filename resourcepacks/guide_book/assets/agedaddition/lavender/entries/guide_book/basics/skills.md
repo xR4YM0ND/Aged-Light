@@ -16,7 +16,7 @@ You will see 12 different skill which you can level up.
 Click on the skill icon to open up the sub skill screen.
 
 
-Press "{gold}E{}" to return to the main skill screen.
+Press {gold}E{} to return to the main skill screen.
 
 ;;;;;
 

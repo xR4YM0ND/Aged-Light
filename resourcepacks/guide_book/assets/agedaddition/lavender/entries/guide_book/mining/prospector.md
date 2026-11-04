@@ -81,3 +81,13 @@ Found ores are displayed in the lower right of your HUD.
 - Reach: 30
 
 <recipe;miningz:netherite_prospector_pick>
+
+;;;;;
+
+**Gilded Netherite Prospector Pick**
+
+---
+
+- Reach: 35
+
+<recipe;agedaddition:gilded_netherite_prospector_pick>

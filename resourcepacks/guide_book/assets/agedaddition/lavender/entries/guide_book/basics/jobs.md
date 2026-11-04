@@ -7,7 +7,10 @@
 }
 ```
 
-While in your inventory or skill screen, switch to the jobs tab.
+Press <keybind;key.jobsaddon.openjobsscreen> to open the skill screen.
+
+
+Or while in your inventory or skill screen, switch to the jobs tab.
 
 
 You can choose between 8 jobs and you can have up to 2 jobs at once.

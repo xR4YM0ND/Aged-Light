@@ -136,3 +136,19 @@ Stone Types:
 Matching Pickaxe:
 
 <item;minecraft:netherite_pickaxe>
+
+;;;;;
+
+**Harvest Level 9**
+
+---
+
+Stone Types:
+
+
+?
+
+
+Matching Pickaxe:
+
+<item;adventurez:gilded_netherite_pickaxe>
