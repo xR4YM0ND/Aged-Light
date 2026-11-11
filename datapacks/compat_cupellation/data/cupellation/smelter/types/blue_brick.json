@@ -1,0 +1,17 @@
+{
+  "id": "cupellation:blue_brick_smelter",
+  "max_temperature": 850,
+  "blocks": [
+    "lilis_pottery:blue_bricks",
+    "lilis_pottery:chiseled_blue_bricks",
+    "cupellation:blue_brick_smelter",
+    "cupellation:blue_brick_glass",
+    "cupellation:blue_brick_drain"
+  ],
+  "allowed_metals": [
+    "cupellation:gold",
+    "cupellation:copper",
+    "cupellation:lapis",
+    "cupellation:quartz"
+  ]
+}

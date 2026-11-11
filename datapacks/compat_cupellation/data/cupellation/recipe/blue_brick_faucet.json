@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "d": {
+      "item": "lilis_pottery:blue_brick_slab"
+    }
+  },
+  "pattern": [
+    "d d",
+    "ddd"
+  ],
+  "result": {
+    "count": 4,
+    "id": "cupellation:blue_brick_faucet"
+  }
+}

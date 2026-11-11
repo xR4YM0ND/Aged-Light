@@ -145,10 +145,5 @@
       "type": "button"
     }
   ],
-  "commands": [
-    "item replace entity @s hotbar.0 with minecraft:bread 4",
-    "item replace entity @s hotbar.1 with minecraft:apple 4",
-    "item replace entity @s hotbar.4 with agedaddition:guide_book",
-    "item replace entity @s hotbar.8 with minecraft:campfire"
-  ]
+  "commands": []
 }

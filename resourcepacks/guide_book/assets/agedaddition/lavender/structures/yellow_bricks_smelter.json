@@ -1,0 +1,40 @@
+{
+  "keys": {
+    "b": "lilis_pottery:yellow_bricks",
+    "s": "cupellation:yellow_brick_smelter[facing=south]",
+    "d": "cupellation:yellow_brick_drain",
+    "f": "cupellation:yellow_brick_faucet[facing=east]",
+    "l": "cupellation:yellow_brick_lever[facing=south]",
+    "t": "cupellation:yellow_brick_casting_table",
+    "x": "cupellation:yellow_brick_casting_basin"
+  },
+  "layers": [
+    [
+      "       ",
+      " bbbbb ",
+      " bbbbb ",
+      " bbbbbx",
+      " bbbbbt",
+      " bbbbb ",
+      "       "
+    ],
+    [
+      "       ",
+      " bbbbb ",
+      " b   b ",
+      " b   df",
+      " b   df",
+      " bbsbb ",
+      "    l  "
+    ],
+    [
+      "       ",
+      " bbbbb ",
+      " b   b ",
+      " b   b ",
+      " b   b ",
+      " bbbbb ",
+      "       "
+    ]
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "garb:warrior",
+  "display_name": "Warrior",
+  "icon": "garb:textures/class/warrior.png",
+  "description": "A tough melee fighter with high health, strong attacks, and heavy armor.",
+  "attributes": {
+    "minecraft:generic.max_health": 30.0,
+    "minecraft:generic.attack_damage": 4.0,
+    "minecraft:generic.armor": 6.0,
+    "minecraft:generic.armor_toughness": 2.0,
+    "minecraft:generic.knockback_resistance": 0.25
+  },
+  "starting_items": [
+    {
+      "item": "agedaddition:guide_book",
+      "count": 1
+    },
+    {
+      "item": "agedaddition:copper_sword",
+      "count": 1
+    },
+    {
+      "item": "earlystage:wooden_shield",
+      "count": 1
+    },
+    {
+      "item": "minecraft:leather_helmet",
+      "count": 1
+    },
+    {
+      "item": "minecraft:leather_chestplate",
+      "count": 1
+    },
+    {
+      "item": "minecraft:leather_leggings",
+      "count": 1
+    },
+    {
+      "item": "minecraft:leather_boots",
+      "count": 1
+    },
+    {
+      "item": "bakery:bread",
+      "count": 8
+    },
+    {
+      "item": "brewery:whiskey_maggoallan",
+      "count": 2
+    }
+  ],
+  "skills": {
+    "melee": 3,
+    "defense": 1
+  }
+}

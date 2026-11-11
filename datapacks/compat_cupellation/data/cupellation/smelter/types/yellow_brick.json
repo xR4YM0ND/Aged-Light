@@ -1,0 +1,17 @@
+{
+  "id": "cupellation:yellow_brick_smelter",
+  "max_temperature": 850,
+  "blocks": [
+    "lilis_pottery:yellow_bricks",
+    "lilis_pottery:chiseled_yellow_bricks",
+    "cupellation:yellow_brick_smelter",
+    "cupellation:yellow_brick_glass",
+    "cupellation:yellow_brick_drain"
+  ],
+  "allowed_metals": [
+    "cupellation:gold",
+    "cupellation:copper",
+    "cupellation:lapis",
+    "cupellation:quartz"
+  ]
+}

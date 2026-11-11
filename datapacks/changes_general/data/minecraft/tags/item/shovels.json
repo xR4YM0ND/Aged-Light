@@ -1,0 +1,16 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:diamond_shovel",
+    "minecraft:stone_shovel",
+    "minecraft:golden_shovel",
+    "minecraft:netherite_shovel",
+    "minecraft:wooden_shovel",
+    "minecraft:iron_shovel",
+    "agedaddition:copper_shovel",
+    "earlystage:steel_shovel",
+    "earlystage:damascus_steel_shovel",
+    "earlystage:flint_shovel",
+    "adventurez:gilded_netherite_shovel"
+  ]
+}

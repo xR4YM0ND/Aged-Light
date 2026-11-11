@@ -1,0 +1,51 @@
+{
+  "id": "garb:nomad",
+  "display_name": "Nomad",
+  "icon": "garb:textures/class/nomad.png",
+  "description": "A wandering survivor built for long journeys with speed, luck, and self-sufficiency.",
+  "attributes": {
+    "minecraft:generic.max_health": 22.0,
+    "minecraft:generic.attack_damage": 3.0,
+    "minecraft:generic.armor": 2.0,
+    "minecraft:generic.luck": 2.0,
+    "minecraft:generic.oxygen_bonus": 10.0
+  },
+  "starting_items": [
+    {
+      "item": "agedaddition:guide_book",
+      "count": 1
+    },
+    {
+      "item": "earlystage:flint_sword",
+      "count": 1
+    },
+    {
+      "item": "inmis:frayed_backpack",
+      "count": 1
+    },
+    {
+      "item": "earlystage:water_brick_bucket",
+      "count": 1
+    },
+    {
+      "item": "minecraft:torch",
+      "count": 16
+    },
+    {
+      "item": "farm_and_charm:barley_soup",
+      "count": 8
+    },
+    {
+      "item": "meadow:cheese_roll",
+      "count": 4
+    },
+    {
+      "item": "vinery:clark_wine",
+      "count": 1
+    }
+  ],
+  "skills": {
+    "constitution": 3,
+    "agility": 1
+  }
+}

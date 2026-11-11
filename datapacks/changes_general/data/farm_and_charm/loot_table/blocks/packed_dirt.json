@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "items": "#minecraft:shovels"
+              }
+            }
+          ],
+          "name": "farm_and_charm:packed_dirt"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "farm_and_charm:blocks/packed_dirt"
+}

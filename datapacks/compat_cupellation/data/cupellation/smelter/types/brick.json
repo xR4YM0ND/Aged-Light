@@ -1,0 +1,18 @@
+{
+  "id": "cupellation:brick_smelter",
+  "max_temperature": 850,
+  "blocks": [
+    "minecraft:bricks",
+    "lilis_pottery:chiseled_bricks",
+    "lilis_pottery:handmade_bricks",
+    "cupellation:brick_smelter",
+    "cupellation:brick_glass",
+    "cupellation:brick_drain"
+  ],
+  "allowed_metals": [
+    "cupellation:gold",
+    "cupellation:copper",
+    "cupellation:lapis",
+    "cupellation:quartz"
+  ]
+}

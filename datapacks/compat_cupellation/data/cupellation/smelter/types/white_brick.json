@@ -1,5 +1,5 @@
 {
-  "id": "cupellation:white_smelter",
+  "id": "cupellation:white_brick_smelter",
   "max_temperature": 850,
   "blocks": [
     "lilis_pottery:white_bricks",

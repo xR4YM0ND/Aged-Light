@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "lilis_pottery:red_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "cupellation:red_brick_drain"
+  }
+}

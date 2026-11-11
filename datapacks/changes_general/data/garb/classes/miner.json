@@ -1,0 +1,51 @@
+{
+  "id": "garb:miner",
+  "display_name": "Miner",
+  "icon": "garb:textures/class/miner.png",
+  "description": "A hardened underground explorer with powerful mining skills and extra durability.",
+  "attributes": {
+    "minecraft:generic.max_health": 24.0,
+    "minecraft:generic.attack_damage": 3.0,
+    "minecraft:generic.armor": 4.0,
+    "minecraft:generic.mining_efficiency": 0.25,
+    "minecraft:generic.oxygen_bonus": 5.0
+  },
+  "starting_items": [
+    {
+      "item": "agedaddition:guide_book",
+      "count": 1
+    },
+    {
+      "item": "agedaddition:copper_shovel",
+      "count": 1
+    },
+    {
+      "item": "agedaddition:copper_pickaxe",
+      "count": 1
+    },
+    {
+      "item": "miningz:copper_prospector_pick",
+      "count": 1
+    },
+    {
+      "item": "minecraft:torch",
+      "count": 32
+    },
+    {
+      "item": "minecraft:apple",
+      "count": 4
+    },
+    {
+      "item": "brewery:pork_knuckle",
+      "count": 4
+    },
+    {
+      "item": "brewery:beer_oat",
+      "count": 2
+    }
+  ],
+  "skills": {
+    "mining": 3,
+    "smithing": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "keys": {
+    "b": "lilis_pottery:black_bricks",
+    "s": "cupellation:black_brick_smelter[facing=south]",
+    "d": "cupellation:black_brick_drain",
+    "f": "cupellation:black_brick_faucet[facing=east]",
+    "l": "cupellation:black_brick_lever[facing=south]",
+    "t": "cupellation:black_brick_casting_table",
+    "x": "cupellation:black_brick_casting_basin"
+  },
+  "layers": [
+    [
+      "       ",
+      " bbbbb ",
+      " bbbbb ",
+      " bbbbbx",
+      " bbbbbt",
+      " bbbbb ",
+      "       "
+    ],
+    [
+      "       ",
+      " bbbbb ",
+      " b   b ",
+      " b   df",
+      " b   df",
+      " bbsbb ",
+      "    l  "
+    ],
+    [
+      "       ",
+      " bbbbb ",
+      " b   b ",
+      " b   b ",
+      " b   b ",
+      " bbbbb ",
+      "       "
+    ]
+  ]
+}

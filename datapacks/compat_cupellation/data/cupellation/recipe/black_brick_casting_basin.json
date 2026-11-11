@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "d": {
+      "item": "lilis_pottery:black_bricks"
+    }
+  },
+  "pattern": [
+    "d d",
+    "d d",
+    "ddd"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cupellation:black_brick_casting_basin"
+  }
+}

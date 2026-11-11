@@ -1,4 +1,21 @@
 {
+  "constitution_1": {
+    "replace": false,
+    "skills": {
+      "constitution": 1
+    },
+    "enchantments": {},
+    "blocks": [
+      "minecraft:crafting_table"
+    ],
+    "crafting": [
+      "minecraft:crafting_table"
+    ],
+    "entities": [],
+    "items": [],
+    "mining": [],
+    "components": {}
+  },
   "constitution_3": {
     "replace": false,
     "skills": {

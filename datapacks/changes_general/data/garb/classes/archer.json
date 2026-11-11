@@ -1,0 +1,38 @@
+{
+  "id": "garb:archer",
+  "display_name": "Archer",
+  "icon": "garb:textures/class/archer.png",
+  "description": "A skilled ranged fighter with increased movement speed and deadly precision.",
+  "attributes": {
+    "minecraft:generic.max_health": 20.0,
+    "minecraft:generic.attack_damage": 3.0,
+    "minecraft:generic.armor": 2.0,
+    "minecraft:generic.luck": 1.0
+  },
+  "starting_items": [
+    {
+      "item": "agedaddition:guide_book",
+      "count": 1
+    },
+    {
+      "item": "minecraft:bow",
+      "count": 1
+    },
+    {
+      "item": "minecraft:arrow",
+      "count": 32
+    },
+    {
+      "item": "minecraft:apple",
+      "count": 4
+    },
+    {
+      "item": "bakery:vegetable_sandwich",
+      "count": 1
+    }
+  ],
+  "skills": {
+    "archery": 3,
+    "agility": 1
+  }
+}

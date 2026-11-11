@@ -1,5 +1,10 @@
 {
+  "structure.agedaddition.black_bricks_smelter": "Black Bricks Smelter",
+  "structure.agedaddition.blue_bricks_smelter": "Blue Bricks Smelter",
+  "structure.agedaddition.bricks_smelter": "Bricks Smelter",
+  "structure.agedaddition.red_bricks_smelter": "Red Bricks Smelter",
   "structure.agedaddition.white_bricks_smelter": "White Bricks Smelter",
+  "structure.agedaddition.yellow_bricks_smelter": "Yellow Bricks Smelter",
   "structure.agedaddition.limestone_bricks_smelter": "Limestone Bricks Smelter",
   "structure.agedaddition.deepslate_bricks_smelter": "Deepslate Bricks Smelter",
   "structure.agedaddition.red_nether_bricks_smelter": "Red Nether Bricks Smelter",

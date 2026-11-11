@@ -995,17 +995,21 @@
       "tasks": [
         {
           "id": "a0898e41",
-          "block": "minecraft:clay",
+          "block": [
+            "lilis_pottery:black_clay",
+            "lilis_pottery:blue_clay",
+            "minecraft:clay",
+            "lilis_pottery:red_clay",
+            "lilis_pottery:white_clay",
+            "lilis_pottery:yellow_clay"
+          ],
           "type": "questz:mine"
         }
       ],
       "x": 5.5,
       "y": -1.0,
       "id": "8e39bfcd",
-      "title": "Mine Clay",
-      "icon": {
-        "id": "minecraft:clay_ball"
-      }
+      "title": "Mine Clay"
     },
     {
       "dependencies": [
@@ -1048,43 +1052,27 @@
     },
     {
       "dependencies": [
-        "798b784f"
-      ],
-      "visibility": "dependencies_done",
-      "tasks": [
-        {
-          "id": "370f233e",
-          "block": "lilis_pottery:white_clay",
-          "type": "questz:mine"
-        }
-      ],
-      "x": 5.5,
-      "y": -2.0,
-      "id": "ae7e9abf",
-      "title": "White Clay",
-      "icon": {
-        "id": "lilis_pottery:white_clay_ball"
-      }
-    },
-    {
-      "dependencies": [
-        "ae7e9abf"
+        "8e39bfcd"
       ],
       "visibility": "dependencies_visible",
       "tasks": [
         {
           "id": "6b3fec83",
-          "item": "cupellation:white_brick_smelter",
+          "item": [
+            "cupellation:black_brick_smelter",
+            "cupellation:blue_brick_smelter",
+            "cupellation:brick_smelter",
+            "cupellation:red_brick_smelter",
+            "cupellation:white_brick_smelter",
+            "cupellation:yellow_brick_smelter"
+          ],
           "type": "questz:craft"
         }
       ],
       "x": 5.5,
-      "y": -3.5,
+      "y": -2.5,
       "id": "090d9f42",
-      "title": "White Brick Smelter",
-      "icon": {
-        "id": "cupellation:white_brick_smelter"
-      }
+      "title": "Bricks Smelter"
     },
     {
       "dependencies": [
@@ -1232,69 +1220,111 @@
     },
     {
       "dependencies": [
-        "ae7e9abf"
+        "8e39bfcd"
       ],
       "visibility": "dependencies_visible",
       "tasks": [
         {
           "id": "996d543e",
-          "item": {
-            "id": "cupellation:white_brick_casting_table"
-          },
+          "item": [
+            {
+              "id": "cupellation:black_brick_casting_table"
+            },
+            {
+              "id": "cupellation:blue_brick_casting_table"
+            },
+            {
+              "id": "cupellation:brick_casting_table"
+            },
+            {
+              "id": "cupellation:red_brick_casting_table"
+            },
+            {
+              "id": "cupellation:white_brick_casting_table"
+            },
+            {
+              "id": "cupellation:yellow_brick_casting_table"
+            }
+          ],
           "type": "questz:item"
         }
       ],
       "x": 8.5,
-      "y": -3.5,
+      "y": -2.5,
       "id": "04eab009",
-      "title": "White Brick Casting Table",
-      "icon": {
-        "id": "cupellation:white_brick_casting_table"
-      }
+      "title": "Bricks Casting Table"
     },
     {
       "dependencies": [
-        "ae7e9abf"
+        "8e39bfcd"
       ],
       "visibility": "dependencies_visible",
       "tasks": [
         {
           "id": "e940278c",
-          "item": {
-            "id": "cupellation:white_brick_drain"
-          },
+          "item": [
+            {
+              "id": "cupellation:black_brick_drain"
+            },
+            {
+              "id": "cupellation:blue_brick_drain"
+            },
+            {
+              "id": "cupellation:brick_drain"
+            },
+            {
+              "id": "cupellation:red_brick_drain"
+            },
+            {
+              "id": "cupellation:white_brick_drain"
+            },
+            {
+              "id": "cupellation:yellow_brick_drain"
+            }
+          ],
           "type": "questz:item"
         }
       ],
       "x": 6.5,
-      "y": -3.5,
+      "y": -2.5,
       "id": "a2ec598c",
-      "title": "White Brick Drain",
-      "icon": {
-        "id": "cupellation:white_brick_drain"
-      }
+      "title": "Bricks Drain"
     },
     {
       "dependencies": [
-        "ae7e9abf"
+        "8e39bfcd"
       ],
       "visibility": "dependencies_visible",
       "tasks": [
         {
           "id": "7f9b06c5",
-          "item": {
-            "id": "cupellation:white_brick_faucet"
-          },
+          "item": [
+            {
+              "id": "cupellation:black_brick_faucet"
+            },
+            {
+              "id": "cupellation:blue_brick_faucet"
+            },
+            {
+              "id": "cupellation:brick_faucet"
+            },
+            {
+              "id": "cupellation:red_brick_faucet"
+            },
+            {
+              "id": "cupellation:white_brick_faucet"
+            },
+            {
+              "id": "cupellation:yellow_brick_faucet"
+            }
+          ],
           "type": "questz:item"
         }
       ],
       "x": 7.5,
-      "y": -3.5,
+      "y": -2.5,
       "id": "258cc782",
-      "title": "White Brick Faucet",
-      "icon": {
-        "id": "cupellation:white_brick_faucet"
-      }
+      "title": "Brick Faucet"
     },
     {
       "dependencies": [
@@ -1408,25 +1438,39 @@
     },
     {
       "dependencies": [
-        "ae7e9abf"
+        "8e39bfcd"
       ],
       "visibility": "dependencies_visible",
       "tasks": [
         {
           "id": "18a6b164",
-          "item": {
-            "id": "cupellation:white_brick_casting_basin"
-          },
+          "item": [
+            {
+              "id": "cupellation:black_brick_casting_basin"
+            },
+            {
+              "id": "cupellation:blue_brick_casting_basin"
+            },
+            {
+              "id": "cupellation:brick_casting_basin"
+            },
+            {
+              "id": "cupellation:red_brick_casting_basin"
+            },
+            {
+              "id": "cupellation:white_brick_casting_basin"
+            },
+            {
+              "id": "cupellation:yellow_brick_casting_basin"
+            }
+          ],
           "type": "questz:item"
         }
       ],
       "x": 9.5,
-      "y": -3.5,
+      "y": -2.5,
       "id": "3e632872",
-      "title": "White Brick Casting Basin",
-      "icon": {
-        "id": "cupellation:white_brick_casting_basin"
-      }
+      "title": "Bricks Casting Basin"
     },
     {
       "dependencies": [
@@ -1574,7 +1618,7 @@
           "type": "questz:craft"
         }
       ],
-      "x": -6.0,
+      "x": -5.5,
       "y": 4.5,
       "id": "a14c597d",
       "title": "Flint Hoe",

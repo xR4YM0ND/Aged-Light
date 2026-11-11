@@ -27,6 +27,82 @@ Besides that you get use brick glass and a brick lever to power the smelter with
 
 ;;;;;
 
+**Black Bricks Smelter**
+
+---
+
+Max Temp. 850°C
+
+
+Allowed Metals:
+- Copper
+- Gold
+- Lapis
+- Quartz
+
+;;;;;
+
+<structure;agedaddition:black_bricks_smelter>
+
+;;;;;
+
+**Blue Bricks Smelter**
+
+---
+
+Max Temp. 850°C
+
+
+Allowed Metals:
+- Copper
+- Gold
+- Lapis
+- Quartz
+
+;;;;;
+
+<structure;agedaddition:blue_bricks_smelter>
+
+;;;;;
+
+**Bricks Smelter**
+
+---
+
+Max Temp. 850°C
+
+
+Allowed Metals:
+- Copper
+- Gold
+- Lapis
+- Quartz
+
+;;;;;
+
+<structure;agedaddition:bricks_smelter>
+
+;;;;;
+
+**Red Bricks Smelter**
+
+---
+
+Max Temp. 850°C
+
+
+Allowed Metals:
+- Copper
+- Gold
+- Lapis
+- Quartz
+
+;;;;;
+
+<structure;agedaddition:red_bricks_smelter>
+
+;;;;;
+
 **White Bricks Smelter**
 
 ---
@@ -43,6 +119,25 @@ Allowed Metals:
 ;;;;;
 
 <structure;agedaddition:white_bricks_smelter>
+
+;;;;;
+
+**Yellow Bricks Smelter**
+
+---
+
+Max Temp. 850°C
+
+
+Allowed Metals:
+- Copper
+- Gold
+- Lapis
+- Quartz
+
+;;;;;
+
+<structure;agedaddition:yellow_bricks_smelter>
 
 ;;;;;
 

@@ -1,5 +1,28 @@
 # Aged Light Changelog
 
+## 4.0.2
+
+**Fixed**
+- Status Effects overlapping inventory tabs
+
+**Changed**
+- Now all brick smelter types are available
+- Dirt, Sand, Gravel, Clay and so on are now only obtainable via shovels
+- Disabled cold & overheating overlays `// for non disturbing visuals`
+- Restricted Crafting Table to Constitution 1
+
+**Added**
+- Garb `1.0.0` (adds starter classes)
+
+**Updated**
+- Quests
+- Guide Book
+- Agedaddition `1.1.4`
+- EMI Loot `0.7.10`
+- Fabric API `0.116.18`
+- LevelZ `2.0.13`
+- StreamsReflowing `2.17.1`
+
 ## 4.0.1
 
 **Fixed**
