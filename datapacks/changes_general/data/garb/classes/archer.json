@@ -4,10 +4,14 @@
   "icon": "garb:textures/class/archer.png",
   "description": "A skilled ranged fighter with increased movement speed and deadly precision.",
   "attributes": {
-    "minecraft:generic.max_health": 20.0,
-    "minecraft:generic.attack_damage": 3.0,
-    "minecraft:generic.armor": 2.0,
-    "minecraft:generic.luck": 1.0
+    "minecraft:generic.range_attack_damage": 3.0,
+    "minecraft:generic.attack_speed": 4.5,
+    "minecraft:player.sneaking_speed": 0.5,
+    "minecraft:generic.safe_fall_distance": 5.0,
+    "minecraft:player.block_interaction_range": 5.5,
+    "minecraft:player.entity_interaction_range": 4.0,
+    "minecraft:generic.max_stamina": 460.0,
+    "minecraft:generic.stamina_regen": 2.0
   },
   "starting_items": [
     {

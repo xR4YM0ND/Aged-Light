@@ -4,11 +4,12 @@
   "icon": "garb:textures/class/nomad.png",
   "description": "A wandering survivor built for long journeys with speed, luck, and self-sufficiency.",
   "attributes": {
-    "minecraft:generic.max_health": 22.0,
-    "minecraft:generic.attack_damage": 3.0,
-    "minecraft:generic.armor": 2.0,
-    "minecraft:generic.luck": 2.0,
-    "minecraft:generic.oxygen_bonus": 10.0
+    "minecraft:generic.max_health": 24.0,
+    "minecraft:generic.attack_knockback": 0.5,
+    "minecraft:generic.luck": 1.0,
+    "minecraft:generic.oxygen_bonus": 3.0,
+    "minecraft:generic.max_stamina": 600.0,
+    "minecraft:generic.stamina_regen": 3.0
   },
   "starting_items": [
     {

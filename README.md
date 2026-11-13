@@ -97,6 +97,7 @@ In this repo you will only see files specific to aged-light (without client side
 - Chai's Build Tools
 - Cloth Config v15
 - Combat Roll
+- Concurrent Chunk Management Engine
 - Configurable
 - Cristel Lib
 - Cupellation
@@ -128,6 +129,7 @@ In this repo you will only see files specific to aged-light (without client side
 - Formations
 - Formations Nether
 - Fzzy Config
+- Garb
 - Gardens of the Dead
 - GeckoLib 4
 - GlitchCore
@@ -191,7 +193,6 @@ In this repo you will only see files specific to aged-light (without client side
 - Revive
 - RpgDifficulty
 - Ruined Portals Only
-- Satin
 - Scholar
 - SereneSeasons
 - Shut Up GL Error

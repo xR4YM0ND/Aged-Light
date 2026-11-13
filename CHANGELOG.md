@@ -4,23 +4,34 @@
 
 **Fixed**
 - Status Effects overlapping inventory tabs
+- Armor Toughness Bar overlaps with hydration
 
 **Changed**
 - Now all brick smelter types are available
 - Dirt, Sand, Gravel, Clay and so on are now only obtainable via shovels
 - Disabled cold & overheating overlays `// for non disturbing visuals`
 - Restricted Crafting Table to Constitution 1
+- Boats can now slowly travel upstream
 
 **Added**
-- Garb `1.0.0` (adds starter classes)
+- C2ME `0.4.0 alpha 0.30`
+- Garb `1.0.1` (adds starter classes)
+
+**Removed**
+- Satin API `// no longer needed for environmentz`
 
 **Updated**
 - Quests
 - Guide Book
 - Agedaddition `1.1.4`
-- EMI Loot `0.7.10`
+- EarlyStage `1.2.5`
+- EntityCulling `1.12.1`
+- EnvironmentZ `2.3.0`
 - Fabric API `0.116.18`
 - LevelZ `2.0.13`
+- MiningZ `1.0.5`
+- QuestZ `1.2.0`
+- Stamina `1.0.3`
 - StreamsReflowing `2.17.1`
 
 ## 4.0.1

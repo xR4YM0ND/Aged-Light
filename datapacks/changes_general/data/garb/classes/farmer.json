@@ -5,9 +5,13 @@
   "description": "A self-sufficient farmer with useful supplies and a talent for gathering resources.",
   "attributes": {
     "minecraft:generic.max_health": 22.0,
-    "minecraft:generic.attack_damage": 2.0,
-    "minecraft:generic.armor": 3.0,
-    "minecraft:generic.luck": 1.0
+    "minecraft:generic.attack_knockback": 1.0,
+    "minecraft:generic.attack_speed": 4.8,
+    "minecraft:generic.oxygen_bonus": 4.0,
+    "minecraft:player.entity_interaction_range": 5.0,
+    "minecraft:player.sneaking_speed": 0.4,
+    "minecraft:generic.max_stamina": 520.0,
+    "minecraft:generic.stamina_regen": 2.5
   },
   "starting_items": [
     {

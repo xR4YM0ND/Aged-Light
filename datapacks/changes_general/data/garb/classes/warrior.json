@@ -4,11 +4,14 @@
   "icon": "garb:textures/class/warrior.png",
   "description": "A tough melee fighter with high health, strong attacks, and heavy armor.",
   "attributes": {
-    "minecraft:generic.max_health": 30.0,
-    "minecraft:generic.attack_damage": 4.0,
-    "minecraft:generic.armor": 6.0,
-    "minecraft:generic.armor_toughness": 2.0,
-    "minecraft:generic.knockback_resistance": 0.25
+    "minecraft:generic.max_health": 26.0,
+    "minecraft:generic.attack_damage": 3.0,
+    "minecraft:generic.armor": 2.0,
+    "minecraft:generic.armor_toughness": 1.0,
+    "minecraft:generic.knockback_resistance": 0.2,
+    "minecraft:player.sneaking_speed": 0.2,
+    "minecraft:generic.max_stamina": 300.0,
+    "minecraft:generic.stamina_regen": 0.9
   },
   "starting_items": [
     {
