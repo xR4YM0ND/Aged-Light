@@ -1,0 +1,11 @@
+{
+  // Farmland water source range check
+  "waterSourceRange": 0,
+  // Crops listed in crop_growth datapack files grow on a fixed timer instead of random ticks
+  "timedCropGrowth": false,
+  // Xp drop on breaking the plant
+  "goldenPlantMinXp": 0,
+  "goldenPlantMaxXp": 2,
+  // LevelZ compatibility
+  "goldenPlantXPMultiplier": 1.0
+}

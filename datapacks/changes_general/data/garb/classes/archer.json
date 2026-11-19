@@ -3,6 +3,7 @@
   "display_name": "Archer",
   "icon": "garb:textures/class/archer.png",
   "description": "A skilled ranged fighter with increased movement speed and deadly precision.",
+  "order": 4,
   "attributes": {
     "minecraft:generic.range_attack_damage": 3.0,
     "minecraft:generic.attack_speed": 4.5,

@@ -3,6 +3,7 @@
   "display_name": "Nomad",
   "icon": "garb:textures/class/nomad.png",
   "description": "A wandering survivor built for long journeys with speed, luck, and self-sufficiency.",
+  "order": 1,
   "attributes": {
     "minecraft:generic.max_health": 24.0,
     "minecraft:generic.attack_knockback": 0.5,

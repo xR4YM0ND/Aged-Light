@@ -160,7 +160,7 @@ Allowed Metals:
 
 ;;;;;
 
-**Deepslate Bricks Smelter**
+**Tuff Bricks Smelter**
 
 ---
 
@@ -171,6 +171,24 @@ Allowed Metals:
 - All of limestone bricks smelter
 - Diamond
 - Emerald
+
+;;;;;
+
+<structure;agedaddition:tuff_bricks_smelter>
+
+;;;;;
+
+**Deepslate Bricks Smelter**
+
+---
+
+Max Temp. 1700°C
+
+
+Allowed Metals:
+- All of tuff bricks smelter
+- Damascus Base Melt
+- Damascus Steel
 
 ;;;;;
 
@@ -187,8 +205,6 @@ Max Temp. 2500°C
 
 Allowed Metals:
 - All of deepslate bricks smelter
-- Damascus Base Melt
-- Damascus Steel
 - Debris
 - Netherite
 - Gilded Netherite

@@ -4,12 +4,22 @@
     {
       "item": "fleshz:hide"
     },
-    {
-      "item": "minecraft:sugar"
-    },
-    {
-      "item": "meadow:alpine_salt"
-    },
+    [
+      {
+        "item": "minecraft:sugar"
+      },
+      {
+        "item": "meadow:alpine_salt"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:sugar"
+      },
+      {
+        "item": "meadow:alpine_salt"
+      }
+    ],
     {
       "item": "minecraft:string"
     }

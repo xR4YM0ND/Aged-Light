@@ -35,7 +35,7 @@
 	// 1.0F = 100%, 0.5F = 50%, 0.0F = 0%
 	"water_sip_thirst_chance": 0.5,
 	// Counted in ticks, 20 ticks = 1 second
-	"water_sip_thirst_duration": 240,
+	"water_sip_thirst_duration": 160,
 	"allow_non_flowing_water_sip": false,
 	"sleep_thirst_consumption": 4,
 	"sleep_hunger_consumption": 2,

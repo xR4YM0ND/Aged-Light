@@ -1,7 +1,7 @@
 {
   "replace": true,
   "id": "cupellation:deepslate_smelter",
-  "max_temperature": 1600,
+  "max_temperature": 1700,
   "blocks": [
     "minecraft:deepslate_bricks",
     "minecraft:deepslate_tiles",
@@ -20,6 +20,8 @@
     "cupellation:steel",
     "cupellation:amethyst",
     "cupellation:diamond",
-    "cupellation:emerald"
+    "cupellation:emerald",
+    "cupellation:damascus",
+    "cupellation:damascus_base_melt"
   ]
 }

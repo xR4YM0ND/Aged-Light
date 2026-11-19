@@ -993,7 +993,12 @@
     },
     "enchantments": {},
     "blocks": [
-      "cupellation:white_brick_smelter"
+      "cupellation:brick_smelter",
+      "cupellation:red_brick_smelter",
+      "cupellation:white_brick_smelter",
+      "cupellation:yellow_brick_smelter",
+      "cupellation:blue_brick_smelter",
+      "cupellation:black_brick_smelter"
     ],
     "crafting": [
       "agedaddition:copper_sword",

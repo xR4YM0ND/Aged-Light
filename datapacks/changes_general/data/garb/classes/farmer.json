@@ -3,6 +3,7 @@
   "display_name": "Farmer",
   "icon": "garb:textures/class/farmer.png",
   "description": "A self-sufficient farmer with useful supplies and a talent for gathering resources.",
+  "order": 2,
   "attributes": {
     "minecraft:generic.max_health": 22.0,
     "minecraft:generic.attack_knockback": 1.0,

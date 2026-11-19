@@ -3,6 +3,7 @@
   "display_name": "Warrior",
   "icon": "garb:textures/class/warrior.png",
   "description": "A tough melee fighter with high health, strong attacks, and heavy armor.",
+  "order": 5,
   "attributes": {
     "minecraft:generic.max_health": 26.0,
     "minecraft:generic.attack_damage": 3.0,

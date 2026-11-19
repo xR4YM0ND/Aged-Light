@@ -1,0 +1,26 @@
+{
+  "replace": true,
+  "id": "cupellation:tuff_smelter",
+  "max_temperature": 1600,
+  "blocks": [
+    "minecraft:tuff_bricks",
+    "minecraft:chiseled_tuff_bricks",
+    "minecraft:chiseled_tuff",
+    "minecraft:polished_tuff",
+    "cupellation:tuff_brick_smelter",
+    "cupellation:tuff_brick_glass",
+    "cupellation:tuff_brick_drain"
+  ],
+  "block_tag": "minecraft:tuff_bricks",
+  "allowed_metals": [
+    "cupellation:gold",
+    "cupellation:copper",
+    "cupellation:lapis",
+    "cupellation:quartz",
+    "cupellation:iron",
+    "cupellation:steel",
+    "cupellation:amethyst",
+    "cupellation:diamond",
+    "cupellation:emerald"
+  ]
+}

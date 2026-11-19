@@ -36,6 +36,13 @@
     "lilis_pottery:chiseled_yellow_bricks",
     "cupellation:yellow_brick_smelter",
     "cupellation:yellow_brick_glass",
-    "cupellation:yellow_brick_drain"
+    "cupellation:yellow_brick_drain",
+    "minecraft:tuff_bricks",
+    "minecraft:chiseled_tuff_bricks",
+    "minecraft:chiseled_tuff",
+    "minecraft:polished_tuff",
+    "cupellation:tuff_brick_smelter",
+    "cupellation:tuff_brick_glass",
+    "cupellation:tuff_brick_drain"
   ]
 }

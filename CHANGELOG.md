@@ -1,5 +1,37 @@
 # Aged Light Changelog
 
+---
+
+## 4.0.3
+
+**Fixed**
+- Furnace recipe not possible to craft
+- Steel & Damascus Steel reactions now work for various smelter types
+- Brick Smelter types now drop when broken and are restricted to smithing 3
+- Added baby backpack upgrade recipe
+
+**Changed**
+- Crops should now grow in river & ocean biomes
+- Crops grow with randomness again
+- Golden crops, foods & alcoholic drinks don't spoil
+- Doubled the amount of ore clusters
+- Added Tuff smelter for getting diamond tools & tweaked deepslate smelter
+- Prepared hide now requires either sugar or salt
+- Classes order
+
+**Updated**
+- AdventureZ `1.5.3`
+- AgedAddition `1.1.5`
+- Architectury `13.0.12`
+- EarlyStage `1.2.6`
+- Garb `1.0.2`
+- LevelZ `2.0.14`
+- No Chat Restrictions `1.1.0`
+- Stamina `1.0.4`
+- StreamsReflowing `2.17.5`
+
+---
+
 ## 4.0.2
 
 **Fixed**
@@ -34,6 +66,8 @@
 - Stamina `1.0.3`
 - StreamsReflowing `2.17.1`
 
+---
+
 ## 4.0.1
 
 **Fixed**
@@ -43,6 +77,8 @@
 **Updated**
 - Guide Book
 - EMI Loot `0.7.10`
+
+---
 
 ## 4.0.0
 

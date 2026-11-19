@@ -11,6 +11,9 @@
   "amount_per_item": 36,
   "min_temperature": 1150,
   "smelter_types": [
-    "cupellation:deepslate_smelter"
+    "cupellation:limestone_smelter",
+    "cupellation:tuff_smelter",
+    "cupellation:deepslate_smelter",
+    "cupellation:nether_smelter"
   ]
 }
