@@ -171,8 +171,6 @@ In this repo you will only see files specific to aged-light (without client side
 - MoogsEndStructures
 - Nature's Spirit
 - Neruina - Ticking Entity Fixer
-- No Chat Reports
-- No Chat Restrictions
 - NutritionZ
 - Overflowing Bars
 - owo
@@ -210,7 +208,6 @@ In this repo you will only see files specific to aged-light (without client side
 - Trinkets
 - True Ending: Ender Dragon Overhaul
 - Untamed
-- Villager Trade Fix
 - VoidZ
 - WelcomeScreen
 - William Wythers' Overhauled Overworld
@@ -265,9 +262,9 @@ In this repo you will only see files specific to aged-light (without client side
 <p></p>
 </center>
 
-> **To be filled**
+> **Structure template from guide book not showing.**
 >
-> New verison 4.x.x -> waiting for your feedback ^^
+> Disable shaders then it should render a transparent layout.
 
 <center>
 

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "i",
+    "o",
+    "x"
+  ],
+  "key": {
+    "i": {
+      "item": "agedaddition:coal_coke"
+    },
+    "o": {
+      "item": "minecraft:dried_kelp"
+    },
+    "x": {
+      "item": "wildernature:fish_oil"
+    }
+  },
+  "result": {
+    "id": "agedaddition:marine_biofuel"
+  }
+}

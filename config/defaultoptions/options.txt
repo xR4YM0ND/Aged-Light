@@ -2,7 +2,7 @@ version:3955
 realmsNotifications:false
 darkMojangStudiosBackground:true
 hideSplashTexts:true
-resourcePacks:["vanilla","fabric","earlystage:natures_spirit_earlystage_compat","earlystage:dehydration_earlystage_compat","earlystage:meadow_earlystage_compat","scholar:colored_books","earlystage:beachparty_earlystage_compat","scholar:chiseled_bookshelf_colored_books","spoiledz:adventurez_spoiledz_compat","asset_changes","compat_levelz","fixes","moonlight:merged_pack","natures_spirit_ores","file/Antique_Atlas_4_Compat_v1.3.zip","accessorify:1_21_1/rp"]
-incompatibleResourcePacks:["appleskin","badoptimizations","distraction_free_recipes","emiffect","emiprofessions","entity_model_features","entity_sound_features","entity_texture_features","jade","kiwi","modernfix","passablefoliage","sereneseasons","terrablender","txnilib","yet_another_config_lib_v3"]
+resourcePacks:["vanilla","fabric","earlystage:meadow_earlystage_compat","earlystage:beachparty_earlystage_compat","earlystage:natures_spirit_earlystage_compat","scholar:colored_books","earlystage:dehydration_earlystage_compat","spoiledz:adventurez_spoiledz_compat","scholar:chiseled_bookshelf_colored_books","asset_changes","compat_levelz","fixes","guide_book","natures_spirit_ores","welcome_screen","farmz:farm_and_charm_farmz_compat","file/Antique_Atlas_4_Compat_v1.4.zip"]
+incompatibleResourcePacks:["appleskin","balm","configurable","defaultoptions","emiffect","emiprofessions","kiwi","mes","modernfix","moogs_structures","mr_dungeons_andtavernsdeserttemplereplacement","mr_dungeons_andtavernsendcastlestandalone","mr_dungeons_andtavernsjungletemplereplacement","mr_dungeons_andtavernsnetherfortressoverhaul","mr_dungeons_andtavernsoceanmonumentreplacement","neruina","passablefoliage","sereneseasons","streamsreflowing","terrablender","yet_another_config_lib_v3"]
 lang:en_us
 skipMultiplayerWarning:true

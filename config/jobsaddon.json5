@@ -24,7 +24,7 @@
 	// Ticks until half of the repeats are forgotten
 	"diminishingReturnsHalfLife": 1200,
 	// Lowest xp multiplier
-	"diminishingReturnsMinMultiplier": 0.10000000149011612,
+	"diminishingReturnsMinMultiplier": 0.1,
 	// Affected xp types: blockbreak, blockplace, itemdrop, crafting, enchanting, brewing, entitykill, smithing, stonecutting, breeding, taming, trading, harvest
 	"diminishingReturnsTypes": [
 		"entitykill",
@@ -33,12 +33,7 @@
 		"taming",
 		"trading",
 		"harvest",
-		"entitykill",
-		"itemdrop",
-		"breeding",
-		"taming",
-		"trading",
-		"harvest"
+		"casting"
 	],
 	"xpMultiplicator": 3,
 	"levelZXPMultiplicator": 3,

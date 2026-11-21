@@ -156,7 +156,14 @@
       "meadow:mossy_limestone_brick_wall",
       "meadow:cracked_limestone_bricks",
       "meadow:chiseled_limestone",
-      "meadow:polished_limestone"
+      "meadow:polished_limestone",
+      "cupellation:limestone_brick_smelter",
+      "cupellation:limestone_brick_glass",
+      "cupellation:limestone_brick_drain",
+      "cupellation:limestone_brick_faucet",
+      "cupellation:limestone_brick_casting_basin",
+      "cupellation:limestone_brick_casting_table",
+      "cupellation:limestone_brick_lever"
     ]
   },
   "4": {
@@ -282,6 +289,13 @@
       "minecraft:tuff_brick_slab",
       "minecraft:tuff_brick_wall",
       "minecraft:chiseled_tuff_bricks",
+      "cupellation:tuff_brick_smelter",
+      "cupellation:tuff_brick_glass",
+      "cupellation:tuff_brick_drain",
+      "cupellation:tuff_brick_faucet",
+      "cupellation:tuff_brick_casting_basin",
+      "cupellation:tuff_brick_casting_table",
+      "cupellation:tuff_brick_lever",
       "minecraft:dripstone_block",
       "earth-and-water:dripstone_stairs",
       "earth-and-water:dripstone_slab",

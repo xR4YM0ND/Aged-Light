@@ -16,6 +16,18 @@
 	"evoker_use_totem_chance": 0.25,
 	"not_look_at_invisible": true,
 	"chainmail_spike_protection": true,
+	// Wear chainmail armor below regular armor
+	"chainmail_lining": true,
+	// 0.5 = half of the chainmail armor
+	"chainmail_lining_armor_share": 0.5,
+	// 0.25 = 25% chance per durability point that the lining takes damage too
+	"chainmail_lining_durability_share": 0.25,
+	// Lined armor protects against spikes like chainmail
+	"chainmail_lining_spike_protection": true,
+	// 0.05 = 5% less projectile damage per lined armor piece
+	"chainmail_lining_projectile_reduction": 0.05,
+	// 0.025 = 2.5% chance per lined armor piece to block a projectile completely
+	"chainmail_lining_projectile_block_chance": 0.025,
 	"charged_creeper_spawn_chance": 0.005,
 	"creeper_on_fire": true,
 	"fast_oxidization": true,
@@ -83,6 +95,18 @@
 	"remove_vanilla_villager_trades": false,
 	// Vanilla = 5 trades
 	"wandering_trader_trade_count": 5,
+	// Hero Of The Villager Discount 0.2 = 20%
+	"baseVillagerOfTheHeroDiscount": 0.2,
+	"extraVillagerOfTheHeroDiscount": 0.05,
+	"maxReputationDiscount": 0.2,
+	"maxReputation": 25,
+	"emptyToChestsButton": true,
+	// client only
+	"emptyToChestsButtonX": 162,
+	// client only
+	"emptyToChestsButtonY": 70,
+	// Max 32
+	"emptyToChestsRange": 12,
 	// Mobs like animals get spawned with a higher chance in a group
 	"passive_entity_group_spawn": false,
 	// Exclude entities e.g.: minecraft:villager

@@ -1,0 +1,6 @@
+{
+  "replace": true,
+  "item": "agedaddition:marine_biofuel",
+  "max_temperature": 1600,
+  "burn_time": 18000
+}

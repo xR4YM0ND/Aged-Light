@@ -258,7 +258,7 @@
                     "rolls": 1
                 },
                 {
-                    "item_id": "meadow:dead_bush",
+                    "item_id": "minecraft:dead_bush",
                     "chance": 0.08,
                     "rolls": 1
                 },
@@ -299,7 +299,7 @@
                     "rolls": 1
                 },
                 {
-                    "item_id": "meadow:dead_bush",
+                    "item_id": "minecraft:dead_bush",
                     "chance": 0.08,
                     "rolls": 1
                 },
@@ -340,7 +340,7 @@
                     "rolls": 1
                 },
                 {
-                    "item_id": "meadow:dead_bush",
+                    "item_id": "minecraft:dead_bush",
                     "chance": 0.08,
                     "rolls": 1
                 },

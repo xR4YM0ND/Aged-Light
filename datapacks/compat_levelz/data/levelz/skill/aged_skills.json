@@ -273,7 +273,18 @@
     "id": 9,
     "key": "cooking",
     "level": 20,
-    "attributes": [],
+    "attributes": [
+      {
+        "type": "generic.max_stamina",
+        "operation": "ADD_VALUE",
+        "value": 10.0
+      },
+      {
+        "type": "generic.stamina_regen",
+        "operation": "ADD_VALUE",
+        "value": 0.1
+      }
+    ],
     "bonus": [
       {
         "level": 1,
